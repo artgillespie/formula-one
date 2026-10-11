@@ -1,0 +1,12 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "f1",
+  "compatibility_date": "2026-10-01",
+  // Static-assets-only Worker: the repo root is the site root.
+  // Each project lives at a sub-path, e.g. /walkthroughs/singapore/
+  "assets": {
+    "directory": ".",
+    "html_handling": "auto-trailing-slash",
+    "not_found_handling": "404-page"
+  }
+}

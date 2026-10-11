@@ -1,0 +1,411 @@
+{
+ "corners": {
+  "1": [
+   {
+    "file": "img/corners/t01-a.jpg",
+    "caption": "The start/finish straight looking towards Turn 1: the pit building runs down the left and the road disappears beneath the Benjamin Sheares Bridge/ECP flyovers, where drivers brake hard for the Sheares left-hander.",
+    "landmark": "Pit building / start-finish straight",
+    "author": "Andy Mitchell from Glasgow, UK",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Singapore_F1_Grand_Prix_Start_Grid_(4447892067).jpg"
+   },
+   {
+    "file": "img/corners/t01-b.jpg",
+    "caption": "Pit building along the main straight during 2023 set-up (\"Singapore, Home of F1 Night Racing\"). This is the wall-lined run drivers take into the Turn 1 braking zone.",
+    "landmark": "Pit building",
+    "author": "BugWarp",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Preparations_for_the_2023_Singapore_Grand_Prix_-_BugWarp_13.jpg"
+   },
+   {
+    "file": "img/corners/t01-c.jpg",
+    "caption": "Seen from the Singapore Flyer while the circuit was being built in 2008: the pit building and straight lead north under the East Coast Parkway/Sheares Bridge viaducts into the Turn 1–3 complex.",
+    "landmark": "Benjamin Sheares Bridge",
+    "author": "Christopher Ong",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Singapore_F1_-_T1.jpg"
+   }
+  ],
+  "2": [
+   {
+    "file": "img/corners/t02-a.jpg",
+    "caption": "Sebastian Vettel (Red Bull) rounding Turn 2 under the lights at the 2011 race. Turn 2 is the quick right-hander of the opening Sheares S.",
+    "landmark": "Turn 2 kerbs (night race)",
+    "author": "Michael Elleray from England, United Kingdom",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Vettel_Leads_the_Field_(6205969541).jpg"
+   },
+   {
+    "file": "img/corners/t02-b.jpg",
+    "caption": "Vitaly Petrov (Lotus Renault GP) at Turn 2 in 2011. The yellow sausage kerb on the inside punishes drivers who cut the apex in the S.",
+    "landmark": "Turn 2 kerbs (night race)",
+    "author": "Michael Elleray from England, United Kingdom",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Petrov_at_Turn_2_(6194969031).jpg"
+   }
+  ],
+  "3": [
+   {
+    "file": "img/corners/t03-a.jpg",
+    "caption": "Looking down from the Singapore Flyer onto the purpose-built Turn 1–3 section by the water, with the Singapore Airlines-painted run-off and red-and-white kerbs.",
+    "landmark": "Singapore Flyer view of the Sheares complex",
+    "author": "Zairon",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Singapore_Race_Course_viewed_from_Singapore_Flyer.jpg"
+   },
+   {
+    "file": "img/corners/t01-c.jpg",
+    "caption": "The Turn 1–3 section under construction in 2008, with the ECP/Sheares viaducts overhead. Turn 3 is the slow left that sends the cars back south onto Republic Boulevard.",
+    "landmark": "Benjamin Sheares Bridge",
+    "author": "Christopher Ong",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Singapore_F1_-_T1.jpg"
+   }
+  ],
+  "4": [
+   {
+    "file": "img/corners/t04-a.jpg",
+    "caption": "Catch fencing along Republic Boulevard under the East Coast Parkway viaduct during 2023 set-up. Marina Bay Sands is visible at right, in the same direction drivers are heading through the Turn 4 kink.",
+    "landmark": "Republic Boulevard / ECP viaduct",
+    "author": "BugWarp",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Preparations_for_the_2023_Singapore_Grand_Prix_-_BugWarp_01.jpg"
+   },
+   {
+    "file": "img/corners/t04-b.jpg",
+    "caption": "Republic Boulevard heading south towards Turn 5: the Singapore Flyer is to the left behind the flyover, Marina Bay Sands' SkyPark is ahead, and a gantry crosses the road.",
+    "landmark": "Republic Boulevard, Flyer and Marina Bay Sands",
+    "author": "Moheen Reeyad",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Raffles_Blvd_(182033).jpg"
+   }
+  ],
+  "5": [
+   {
+    "file": "img/corners/t05-a.jpg",
+    "caption": "Turn 5 at the Republic Boulevard/Raffles Boulevard junction, seen through the catch fence during 2010 practice as the safety car inspects the track. DHL boards line the outside of the right-hander.",
+    "landmark": "Republic Boulevard / Raffles Boulevard junction",
+    "author": "Strange Passerby",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Turn_5,_Marina_Bay_Street_Circuit,_first_practice_for_2010_Singapore_Grand_Prix.JPG"
+   },
+   {
+    "file": "img/corners/t05-b.jpg",
+    "caption": "Under the ECP viaduct on the exit of Turn 5, with the Pan Pacific hotel at right and Marina Square ahead. Drivers get on the power here for the run along Raffles Boulevard.",
+    "landmark": "Pan Pacific / Raffles Boulevard",
+    "author": "BugWarp",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Preparations_for_the_2023_Singapore_Grand_Prix_-_BugWarp_03.jpg"
+   }
+  ],
+  "6": [
+   {
+    "file": "img/corners/t06-a.jpg",
+    "caption": "Raffles Boulevard looking east (back down the track) towards Suntec City and Marina Square, with the Pan Pacific tower and the Singapore Flyer. Turn 6 is a flat-out kink on this wide boulevard, the fastest part of the lap.",
+    "landmark": "Suntec City / Raffles Boulevard",
+    "author": "Orderinchaos",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Raffles_Boulevard_looking_E_2016.jpg"
+   },
+   {
+    "file": "img/corners/t05-b.jpg",
+    "caption": "The start of the Raffles Boulevard blast, beneath the ECP viaduct with the Pan Pacific at right.",
+    "landmark": "Raffles Boulevard",
+    "author": "BugWarp",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Preparations_for_the_2023_Singapore_Grand_Prix_-_BugWarp_03.jpg"
+   }
+  ],
+  "7": [
+   {
+    "file": "img/corners/t07-a.jpg",
+    "caption": "Turn 7 (Memorial Corner) at night during the 2009 GP week, looking back up the Raffles Boulevard braking zone past the Marina Mandarin hotel; the lit Singapore Flyer rim is just visible at left. This is the circuit's prime overtaking spot.",
+    "landmark": "Raffles Boulevard / Marina Mandarin",
+    "author": "Kcdtsg",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Turn_7.JPG"
+   },
+   {
+    "file": "img/corners/t07-b.jpg",
+    "caption": "The Civilian War Memorial (\"the Chopsticks\") in War Memorial Park, which gives Memorial Corner its name. It rises beside the Nicoll Highway/Bras Basah junction at the apex.",
+    "landmark": "Civilian War Memorial",
+    "author": "yeowatzup",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:City_Skyline,_War_Memorial_Park,_Singapore_(3337588640).jpg"
+   }
+  ],
+  "8": [
+   {
+    "file": "img/corners/t08-a.jpg",
+    "caption": "The driver's view after Turn 7: looking south down Nicoll Highway from the Bras Basah junction towards the Financial District skyline, with 2023 race barriers and catch fencing already up. Turn 8 is the right-hander onto Stamford Road at the end of this stretch.",
+    "landmark": "Nicoll Highway / CBD skyline",
+    "author": "Daniel Case",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:View_south_down_Nicolls_Highway_to_Singapore_Financial_District_skyline_from_Bras_Barah_Road.jpg"
+   },
+   {
+    "file": "img/corners/t08-b.jpg",
+    "caption": "The Stamford grandstand at the 2009 Grand Prix, with the floodlit Civilian War Memorial behind it. It overlooks the Turn 7–8 section.",
+    "landmark": "Stamford grandstand / Civilian War Memorial",
+    "author": "Kcdtsg",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Stamford_Grandstand.JPG"
+   }
+  ],
+  "9": [
+   {
+    "file": "img/corners/t09-a.jpg",
+    "caption": "St Andrew's Road beside the Padang, with the Raffles Place towers beyond. Turn 9 (\"Padang\") is the left-hander that leads onto this tree-lined civic stretch.",
+    "landmark": "The Padang",
+    "author": "Orderinchaos",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:St_Andrew%27s_Road_in_2016.jpg"
+   },
+   {
+    "file": "img/corners/t09-b.jpg",
+    "caption": "The Padang grandstands and stage being set up along St Andrew's Road before the 2023 race. Behind them are the Esplanade theatres, the Flyer and Marina Bay. Cars run past this on the inside of Turn 9.",
+    "landmark": "Padang grandstand / Esplanade",
+    "author": "Choo Yut Shing from Singapore, Singapore",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Singapore_Grand_Prix_F1_Race_(53185941249).jpg"
+   }
+  ],
+  "10": [
+   {
+    "file": "img/corners/t10-a.jpg",
+    "caption": "The former City Hall (now the National Gallery Singapore) on St Andrew's Road at dusk, with track barriers and kerbs still in place after the 2025 race. Drivers pass its colonnade on the approach to the Singapore Sling.",
+    "landmark": "City Hall / National Gallery Singapore",
+    "author": "GoAheadFan95",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Former_City_Hall,_National_Gallery_Singapore,_October_2025.jpg"
+   },
+   {
+    "file": "img/corners/t10-b.jpg",
+    "caption": "Looking south down St Andrew's Road towards the CBD towers, the line drivers take towards Turn 10 (Singapore Sling), the flowing left-hander at the bottom of the Padang.",
+    "landmark": "St Andrew's Road",
+    "author": "Orderinchaos",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:St_Andrews_Road,_Singapore,_2004.jpg"
+   }
+  ],
+  "11": [
+   {
+    "file": "img/corners/t11-a.jpg",
+    "caption": "Fernando Alonso (Renault) exiting Turn 11 at the 2009 Grand Prix. The tight right-hander leads towards Anderson Bridge.",
+    "landmark": "Turn 11 (night race)",
+    "author": "eefeewahfah",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Alonso-Singapore.jpg"
+   },
+   {
+    "file": "img/corners/t11-b.jpg",
+    "caption": "The Singapore Cricket Club on Connaught Drive, with the old Supreme Court dome behind and a red-and-white kerb on the left. This is the backdrop through Turns 10–11.",
+    "landmark": "Singapore Cricket Club / Old Supreme Court",
+    "author": "Orderinchaos",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Singapore_Cricket_Club_building_2016.jpg"
+   }
+  ],
+  "12": [
+   {
+    "file": "img/corners/t12-a.jpg",
+    "caption": "Anderson Bridge, the 1910 steel-arched bridge whose roadway carries the circuit over the Singapore River at Turn 12. Seen here from its footway with floodlight gantries mounted for the 2023 race.",
+    "landmark": "Anderson Bridge",
+    "author": "BugWarp",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Preparations_for_the_2023_Singapore_Grand_Prix_-_BugWarp_22.jpg"
+   },
+   {
+    "file": "img/corners/t12-b.jpg",
+    "caption": "Lewis Hamilton (McLaren) at Turn 12 on Anderson Bridge during the 2009 Grand Prix.",
+    "landmark": "Anderson Bridge (night race)",
+    "author": "eeweewahfah",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hamilton-Singapore.jpg"
+   }
+  ],
+  "13": [
+   {
+    "file": "img/corners/t13-a.jpg",
+    "caption": "The Fullerton Hotel from Esplanade Drive, behind the Grand Prix catch fencing in 2023. Turn 13 is the tight left hairpin right in front of the hotel, the slowest corner on the lap.",
+    "landmark": "Fullerton Hotel",
+    "author": "BugWarp",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Preparations_for_the_2023_Singapore_Grand_Prix_-_BugWarp_19.jpg"
+   },
+   {
+    "file": "img/corners/t13-b.jpg",
+    "caption": "Esplanade Drive on the 2012 GP weekend looking back towards the Fullerton Hotel and Raffles Place skyline. This is the hairpin exit, where drivers fight for traction up onto Esplanade Bridge.",
+    "landmark": "Esplanade Drive / Fullerton / CBD skyline",
+    "author": "Ong Chi Hang",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Esplanade_Drive_with_Singapore_Skyline_-_panoramio.jpg"
+   }
+  ],
+  "14": [
+   {
+    "file": "img/corners/t14-a.jpg",
+    "caption": "Esplanade Bridge with the Esplanade theatres (\"the durians\") and the Flyer beyond. Drivers race north across this bridge from the Turn 13 hairpin towards the Turn 14 right-hander.",
+    "landmark": "Esplanade Bridge / Esplanade theatres",
+    "author": "Zairon",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Singapore_Esplanade_Drive_Bridge_1.jpg"
+   },
+   {
+    "file": "img/corners/t14-b.jpg",
+    "caption": "Raffles Avenue just after Turn 14, floodlit and fenced during the 2009 Grand Prix. The circuit runs alongside the Esplanade here.",
+    "landmark": "Raffles Avenue (night race)",
+    "author": "Kcdtsg",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:RafflesAvenue.JPG"
+   },
+   {
+    "file": "img/corners/t14-c.jpg",
+    "caption": "Esplanade Bridge on the Friday of the 2012 Grand Prix, its catch fencing and light gantries lit as Marina Bay Sands' laser show plays overhead. This is the run from Turn 13 to Turn 14.",
+    "landmark": "Esplanade Bridge / Marina Bay Sands",
+    "author": "Ong Chi Hang",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Esplanade_Drive_with_Marina_Bay_Sands_-_panoramio.jpg"
+   }
+  ],
+  "15": [
+   {
+    "file": "img/corners/t15-a.jpg",
+    "caption": "Raffles Avenue between the Esplanade (its spiky dome at left) and the stepped Mandarin Oriental (right), fenced for the 2023 race. Drivers run through here from Turn 14 to the Turn 15 kink.",
+    "landmark": "Esplanade / Mandarin Oriental",
+    "author": "BugWarp",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Preparations_for_the_2023_Singapore_Grand_Prix_-_BugWarp_17.jpg"
+   },
+   {
+    "file": "img/corners/t15-b.jpg",
+    "caption": "The Bay grandstands along the Marina Bay waterfront in August 2023, with the Singapore Flyer at the end of the straight. Beyond Turn 15 the 2023+ layout runs a long straight along Raffles Avenue past this area.",
+    "landmark": "Bay grandstand / Singapore Flyer",
+    "author": "Daniel Case",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Singapore_Grand_Prix_course_along_Marina_Bay_waterfront.jpg"
+   }
+  ],
+  "16": [
+   {
+    "file": "img/corners/t16-a.jpg",
+    "caption": "Raffles Avenue at night near the Bayfront Avenue junction, with concrete barriers and the Mandarin Oriental behind. Turn 16 is the heavy-braking right at the end of the Raffles Avenue straight.",
+    "landmark": "Raffles Avenue / Bayfront Avenue junction",
+    "author": "LN9267",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Raffles_Avenue_12-05-2024.jpg"
+   },
+   {
+    "file": "img/corners/t15-b.jpg",
+    "caption": "The waterfront straight leading to Turn 16, with the Bay grandstand on the left and the Singapore Flyer ahead.",
+    "landmark": "Bay grandstand / Singapore Flyer",
+    "author": "Daniel Case",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Singapore_Grand_Prix_course_along_Marina_Bay_waterfront.jpg"
+   }
+  ],
+  "17": [
+   {
+    "file": "img/corners/t17-a.jpg",
+    "caption": "Grandstands with catch fencing along the bay during 2023 set-up, with Marina Bay Sands' tower at the right edge. This is the backdrop through the Turn 16–17 right-left.",
+    "landmark": "Bay grandstands / Marina Bay Sands",
+    "author": "BugWarp",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Preparations_for_the_2023_Singapore_Grand_Prix_-_BugWarp_05.jpg"
+   },
+   {
+    "file": "img/corners/t17-b.jpg",
+    "caption": "A kerbed corner beside grandstand G6 with the Singapore Flyer beyond, photographed during 2023 set-up in the Turn 16–18 section near the Flyer.",
+    "landmark": "Grandstand G6 / Singapore Flyer",
+    "author": "BugWarp",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Preparations_for_the_2023_Singapore_Grand_Prix_-_BugWarp_16.jpg"
+   }
+  ],
+  "18": [
+   {
+    "file": "img/corners/t18-a.jpg",
+    "caption": "Track set up beneath the Benjamin Sheares Bridge next to the Singapore Flyer (2026), with grandstands at left. This is the flat-out run through Turns 17–18 towards the final corner.",
+    "landmark": "Benjamin Sheares Bridge",
+    "author": "RFNirmala",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Marina_Bay_Street_Circuit_near_Singapore_Flyer_11Jul2026_02.jpg"
+   },
+   {
+    "file": "img/corners/t18-b.jpg",
+    "caption": "An F1 car flashes past the floodlit Singapore Flyer during the 2014 Grand Prix. Turn 18 is taken flat out right beside the wheel.",
+    "landmark": "Singapore Flyer (night race)",
+    "author": "Morio",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Singapore_Flyer_2014_Singapore_GP.jpg"
+   },
+   {
+    "file": "img/corners/t18-c.jpg",
+    "caption": "The trackside walkway and grandstand at the foot of the Singapore Flyer during 2023 set-up.",
+    "landmark": "Singapore Flyer",
+    "author": "BugWarp",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Preparations_for_the_2023_Singapore_Grand_Prix_-_BugWarp_04.jpg"
+   }
+  ],
+  "19": [
+   {
+    "file": "img/corners/t19-a.jpg",
+    "caption": "The exit of the final corner (Turn 19) opening onto the pit straight in 2023, with the pit building on the left and the Paddock Club on the right.",
+    "landmark": "Pit straight / pit building",
+    "author": "BugWarp",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Preparations_for_the_2023_Singapore_Grand_Prix_-_BugWarp_09.jpg"
+   },
+   {
+    "file": "img/corners/t19-b.jpg",
+    "caption": "The final corner under the floodlights a few days before the first race in 2008, with SingTel boards and the Paddock Club beyond.",
+    "landmark": "Final corner (night)",
+    "author": "colina†ion",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Penultimate_turn_Marina_Bay_Circuit.jpg"
+   }
+  ]
+ }
+}

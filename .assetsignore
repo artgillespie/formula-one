@@ -1,0 +1,15 @@
+# Files that must not be published as static assets
+.git
+.github
+LICENSE
+.gitignore
+.assetsignore
+.wrangler
+node_modules
+wrangler.jsonc
+package.json
+package-lock.json
+tools
+README.md
+*.md
+.DS_Store

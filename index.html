@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Formula One Projects</title>
+  <meta name="description" content="A collection of Formula 1 side projects: interactive track walkthroughs and more." />
+  <meta name="color-scheme" content="dark" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='7' fill='%230b0e1a'/><path d='M7 22c3-10 8-12 18-12' stroke='%23ff2d55' stroke-width='3.2' fill='none' stroke-linecap='round'/></svg>" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;600;900&display=swap" rel="stylesheet" />
+  <style>
+    :root { --bg: #05060c; --card: #0d1020; --line: rgba(160, 175, 255, 0.14); --ink: #eef0ff; --ink-2: #b5bad6; --ink-3: #7c82a6; --accent: #ff2d55; color-scheme: dark; }
+    @media (prefers-color-scheme: dark) { :root:not([data-theme='light']) { color-scheme: dark; } }
+    :root[data-theme='dark'] { color-scheme: dark; }
+    * { box-sizing: border-box; }
+    body { margin: 0; min-height: 100vh; background: radial-gradient(1200px 600px at 80% -10%, #2a0f2c 0%, transparent 60%), radial-gradient(900px 500px at -10% 110%, #0c2340 0%, transparent 60%), var(--bg); color: var(--ink); font: 16px/1.55 'Titillium Web', system-ui, sans-serif; }
+    main { max-width: 1040px; margin: 0 auto; padding: 72px 16px 64px; }
+    .eyebrow { margin: 0; color: var(--accent); font-weight: 600; letter-spacing: 0.22em; text-transform: uppercase; font-size: 12px; }
+    h1 { margin: 6px 0 8px; font-size: clamp(40px, 7vw, 76px); line-height: 0.95; font-weight: 900; letter-spacing: -0.01em; }
+    h1 span { font-weight: 300; color: var(--ink-2); }
+    .lede { color: var(--ink-2); max-width: 60ch; margin: 0 0 40px; }
+    h2 { font-size: 13px; letter-spacing: 0.2em; text-transform: uppercase; color: var(--ink-3); margin: 0 0 12px; font-weight: 600; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 14px; }
+    .card { position: relative; display: block; text-decoration: none; color: inherit; background: var(--card); border: 1px solid var(--line); border-radius: 18px; overflow: hidden; transition: transform 0.25s, border-color 0.25s; }
+    .card:hover { transform: translateY(-3px); border-color: rgba(255, 45, 85, 0.6); }
+    .card svg { display: block; width: 100%; height: auto; background: linear-gradient(160deg, #10142a, #06070f); }
+    .card .body { padding: 14px 16px 16px; }
+    .card h3 { margin: 0; font-size: 22px; }
+    .card p { margin: 4px 0 0; color: var(--ink-2); font-size: 14px; }
+    .card .tags { display: flex; gap: 6px; margin-top: 10px; flex-wrap: wrap; }
+    .card .tags span { font-size: 11px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--ink-3); border: 1px solid var(--line); border-radius: 6px; padding: 2px 7px; }
+    .soon { border-style: dashed; display: grid; place-items: center; min-height: 200px; color: var(--ink-3); font-size: 14px; }
+    footer { margin-top: 56px; color: var(--ink-3); font-size: 13px; }
+  </style>
+</head>
+<body>
+  <main>
+    <p class="eyebrow">Paddock notebook</p>
+    <h1>Formula One <span>projects</span></h1>
+    <p class="lede">Side projects about Formula 1: interactive track walkthroughs, telemetry and race history.</p>
+
+    <h2>Track walkthroughs</h2>
+    <div class="grid">
+      <a class="card" href="/walkthroughs/singapore/">
+        <svg id="sgThumb" viewBox="0 0 320 170" aria-hidden="true"></svg>
+        <div class="body">
+          <h3>Singapore</h3>
+          <p>Marina Bay Street Circuit: 3D night map, all 19 corners with telemetry, lap and sector times, photos and history.</p>
+          <div class="tags"><span>3D</span><span>Live OpenF1 data</span><span>Night race</span></div>
+        </div>
+      </a>
+      <div class="card soon">More circuits coming…</div>
+    </div>
+    <footer>Unofficial fan project. Not associated with Formula 1 companies. F1 and related marks are trademarks of Formula One Licensing B.V.</footer>
+  </main>
+  <script type="module">
+    // Draw the Singapore thumbnail from the real track outline.
+    try {
+      const t = await (await fetch('/walkthroughs/singapore/data/track.json')).json();
+      const pts = t.line.filter((_, i) => i % 3 === 0);
+      const xs = pts.map((p) => p[0]), ys = pts.map((p) => p[1]);
+      const [x0, x1, y0, y1] = [Math.min(...xs), Math.max(...xs), Math.min(...ys), Math.max(...ys)];
+      const s = Math.min(280 / (x1 - x0), 140 / (y1 - y0));
+      const ox = 160 - ((x0 + x1) / 2) * s, oy = 85 + ((y0 + y1) / 2) * s;
+      const d = pts.map((p, i) => `${i ? 'L' : 'M'}${(ox + p[0] * s).toFixed(1)},${(oy - p[1] * s).toFixed(1)}`).join('') + 'Z';
+      document.getElementById('sgThumb').innerHTML = `<defs><filter id="g"><feGaussianBlur stdDeviation="3"/></filter></defs><path d="${d}" fill="none" stroke="#ff2d55" stroke-width="6" opacity=".55" filter="url(#g)"/><path d="${d}" fill="none" stroke="#ffd6de" stroke-width="2" stroke-linejoin="round"/>`;
+    } catch {}
+  </script>
+</body>
+</html>

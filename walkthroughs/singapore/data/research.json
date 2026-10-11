@@ -1,0 +1,831 @@
+{
+ "meta": {
+  "compiledOn": "2026-10-11",
+  "notes": [
+   "Corner gears/speeds are approximate values typical of the 2024-2026 cars, compiled from braking data (Brembo), circuit descriptions and onboard-lap knowledge; there is no single official per-corner table. Treat all approxGear/approxSpeed_kph values as indicative.",
+   "Corner directions for T1-T15 are well established; directions for T16-T19 are cross-checked against Wikipedia ('turn 16 ... turning hard right before slinging back left for turn 17'; T18-19 'flat-out ... past the Singapore Flyer') but sources disagree slightly on T18/T19."
+  ]
+ },
+ "circuit": {
+  "name": "Marina Bay Street Circuit",
+  "location": "Marina Bay, Singapore (Downtown Core and Kallang)",
+  "officialLength_km": 4.927,
+  "lengthNote": "4.927 km is the official figure from 2025 onward (formula1.com, Wikipedia). The 2023-2024 version of the same 19-corner layout was listed at 4.940 km (it was announced at 4.928 km in Oct 2022). Pre-2023 layouts measured 5.063-5.073 km.",
+  "laps": 62,
+  "raceDistance_km": 305.337,
+  "raceDistanceNote": "formula1.com figure. 62 x 4.927 = 305.474 km; the official race distance accounts for the start-line/finish-line offset.",
+  "sprintLaps": 21,
+  "sprintLapsNote": "2026 was the first Singapore Sprint. formula1.com circuit guide gives 21 laps; one results site lists 20. uncertain",
+  "corners": 19,
+  "direction": "anticlockwise",
+  "firstGP": "2008-09-28 (F1's first night race). Earlier non-championship Singapore Grands Prix were held on the Thomson Road circuit from 1966 to 1973.",
+  "designer": "Hermann Tilke (original 2008 design), modified by KBR Inc.",
+  "drsZones": "Not used in 2026. From 2023 to 2025 the circuit had DRS zones on the pit straight, Raffles Boulevard (T5-T7), after T13 into T14, and on the Raffles Avenue straight (T15-T16) from 2024.",
+  "overtakeModeZones": {
+   "summary": "In 2026 DRS is replaced by active aerodynamics. 'Straight Mode' is the low-drag setting: both front and rear wing elements flatten, and any driver may use it on every lap, but only inside FIA-designated zones. 'Overtake Mode' is the extra electrical-energy deployment for a car that is within one second of the car ahead at the detection point.",
+   "straightModeZones": [
+    {
+     "zone": 1,
+     "location": "Pit straight. Starts about 30 m after T19 and runs to the T1 braking zone."
+    },
+    {
+     "zone": 2,
+     "location": "Raffles Boulevard. Starts about 50 m after T5 and runs to T7, the longest zone."
+    },
+    {
+     "zone": 3,
+     "location": "From about 70 m after T9 to T10 (St Andrew's Road, alongside the Padang)."
+    },
+    {
+     "zone": 4,
+     "location": "From about 115 m after T13 to T14 (Esplanade Drive and Esplanade Bridge)."
+    },
+    {
+     "zone": 5,
+     "location": "From about 50 m after T15 to T16 (the Raffles Avenue straight)."
+    }
+   ],
+   "straightModeZoneCount": 5,
+   "overtakeMode": {
+    "detectionPoint": "Exit of Turn 16",
+    "activationPoint": "Exit of Turn 17",
+    "rule": "A driver must be within 1.0 s of the car ahead at detection to use Overtake Mode on the following lap. There is one detection point per lap."
+   },
+   "note": "PlanetF1 reported that five zones ties Singapore with Australia for the most of the 2026 season. Zone start distances come from PlanetF1 and the FIA event notes as reported by the media. No FIA primary document was consulted."
+  },
+  "lapRecord": {
+   "time": "1:33.808",
+   "driver": "Lewis Hamilton",
+   "team": "Ferrari",
+   "year": 2025,
+   "note": "Race lap record on the current 4.927 km layout, set in the 2025 race. The previous record on the 4.940 km version was 1:34.486 by Daniel Ricciardo (RB) in 2024, set in his final F1 race. The 2026 race fastest lap was 1:35.202 by Charles Leclerc on lap 41, slower with the new-regulation cars."
+  },
+  "allTimeFastestLap": {
+   "time": "1:29.158",
+   "driver": "George Russell",
+   "team": "Mercedes",
+   "year": 2025,
+   "session": "Qualifying (pole)",
+   "note": "This is the outright circuit best. It beat Lando Norris's 2024 pole lap of 1:29.525. The 2026 pole (Verstappen, 1:31.373) was slower under the new regulations."
+  },
+  "pitLane": "The pit lane speed limit was raised from 60 to 80 km/h for 2025, which cut the time lost in a stop by several seconds.",
+  "notes": [
+   "This was F1's first night race in 2008. More than 1,500 light projectors light the track, and sessions run on European time.",
+   "It is one of the most physically demanding races of the year: heat, humidity of about 70-80%, a bumpy surface and a long, corner-heavy lap. Drivers can lose up to 3 kg in a race. Only Monaco has a lower average speed.",
+   "Brembo rates Turn 14 the hardest braking zone (2023 data): roughly 289 to 90 km/h in 2.28 s over about 96 m at about 4.8 g, with a pedal load of about 153 kg. Turn 7 at the end of Raffles Boulevard is the other major stop and the best overtaking spot.",
+   "In Oct 2022 the organisers announced that the 2023 layout would bypass old Turns 16-19, the section around The Float at Marina Bay and under the Bay Grandstand, with a 397.9 m straight on Raffles Avenue. The Float is being redeveloped into NS Square, due for completion around end-2026. That cut the corner count from 23 to 19. The old Turns 20-23 became the new Turns 16-19.",
+   "The pit straight runs beside the permanent pit building next to the Singapore Flyer, towards the Benjamin Sheares Bridge.",
+   "Corner names from a 2009 fan competition: Turn 1 'Sheares' (after President Benjamin Sheares), Turn 7 'Memorial' (Civilian War Memorial), Turn 10 'Singapore Sling'. The other corners have no official names.",
+   "Every Singapore GP from 2008 to 2023 had at least one Safety Car. The 2024 race was the first without one.",
+   "2026 was the first Sprint weekend at Marina Bay (Round 17 of the 2026 season, 9-11 October 2026).",
+   "In 2022 F1 extended the race contract until at least 2028. Singapore Airlines' title sponsorship also runs through 2028."
+  ],
+  "sources": [
+   "https://www.formula1.com/en/latest/article/circuit-guide-everything-you-need-to-know-about-the-marina-bay-street-circuit.3d9yfiqIKoQhcMnRLESWbz",
+   "https://en.wikipedia.org/wiki/Marina_Bay_Street_Circuit",
+   "https://www.planetf1.com/news/fia-singapore-grand-prix-2026-active-aero",
+   "https://littlebigreddot.com/singapore-gp-2026-f1-sprint-times-tickets-road-closures/",
+   "https://www.formula1.com/en/latest/article/singapore-grand-prix-set-to-feature-revised-track-layout-in-2023.6KsrU6hQw3hxrVJ6zKeJ74",
+   "https://www.grandprix247.com/formula-1-news/singapore-grand-prix-organizers-revise-track-layout-for-2023",
+   "https://www.the-race.com/formula-1/all-you-need-to-know-about-f1s-new-singapore-gp-layout/",
+   "https://singaporegp.sg/news/2025/george-upsets-the-singapore-applecart",
+   "https://www.formula1.com/en/latest/article/need-to-know-the-most-important-facts-stats-and-trivia-ahead-of-the-2025-singapore.468A8YSelm8nsKywLuGTf",
+   "https://thebrakereport.com/singapore-gp-rated-tough-on-brakes/",
+   "https://www.formulaonehistory.com/2026-singapore-grand-prix/",
+   "https://motorsportmagazine.com/articles/single-seaters/f1/f1-extends-singapore-grand-prix-contract-to-2028"
+  ]
+ },
+ "corners": [
+  {
+   "number": 1,
+   "name": "Sheares",
+   "street": "Temporary pit-straight road beside the Singapore Flyer, approaching the Benjamin Sheares Bridge",
+   "direction": "left",
+   "type": "Heavy-braking left, first part of the T1-T3 'S' complex",
+   "approxGear": "3",
+   "approxSpeed_kph": 125,
+   "description": "Drivers come off the end of the pit straight at around 300 km/h towards the concrete spans of the Benjamin Sheares Bridge and brake hard for a tight left that is already setting up the next corner. On lap one the field funnels in here (the grid-to-T1 run is short, about 178 m from pole to the braking point), and this is where Vettel, Raikkonen and Verstappen collided in 2017. Run too deep and the wide exit leaves you badly placed for Turn 2.",
+   "landmarks": [
+    "Benjamin Sheares Bridge overhead",
+    "Singapore Flyer behind/left",
+    "Pit building and Padang-side grandstands",
+    "Marina Bay Sands across the water to the right on the approach"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Marina_Bay_Street_Circuit",
+    "https://www.grandprixpal.com/races/singapore/circuit"
+   ]
+  },
+  {
+   "number": 2,
+   "name": null,
+   "street": "Sheares complex (Kallang side, under/beside Benjamin Sheares Bridge)",
+   "direction": "right",
+   "type": "Short right flick, middle of the S",
+   "approxGear": "3",
+   "approxSpeed_kph": 115,
+   "description": "A quick change of direction to the right that links Turn 1 to Turn 3. Drivers hop over the inside kerb, but the priority is a tight line so that the car is straight and on the brakes for the Turn 3 hairpin. In the 2026 Sprint, standing water at Turns 2 and 3 delayed the start.",
+   "landmarks": [
+    "Benjamin Sheares Bridge",
+    "Singapore Flyer"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Marina_Bay_Street_Circuit",
+    "https://www.formula1.com/en/latest/article/verstappen-wins-dramatic-rain-hit-singapore-sprint-as-russell-crashes-and-mclarens-collide.4r90mH2skljBa5sinFAsyp"
+   ]
+  },
+  {
+   "number": 3,
+   "name": null,
+   "street": "Sheares complex onto Republic Boulevard",
+   "direction": "left",
+   "type": "Slow left hairpin",
+   "approxGear": "2",
+   "approxSpeed_kph": 90,
+   "description": "A tight left hairpin that sends the cars back west onto Republic Boulevard. It is a prime lap-one flashpoint, and Norris and Piastri touched here at the start of the 2025 race. Rear traction on exit matters because the run through T4 and T5 to the Raffles Boulevard straight starts here.",
+   "landmarks": [
+    "Benjamin Sheares Bridge",
+    "Kallang Basin side of the circuit"
+   ],
+   "sources": [
+    "https://www.total-motorsport.com/singapore-grand-prix-track-guide-marina-bay/",
+    "https://en.wikipedia.org/wiki/2025_Singapore_Grand_Prix"
+   ]
+  },
+  {
+   "number": 4,
+   "name": null,
+   "street": "Republic Boulevard",
+   "direction": "right",
+   "type": "Fast kink",
+   "approxGear": "5",
+   "approxSpeed_kph": 180,
+   "description": "A gentle right-hand bend on Republic Boulevard, taken while still accelerating out of Turn 3. It is not difficult, but the line has to set the car up on the left for the turn-in to Turn 5.",
+   "landmarks": [
+    "Republic Boulevard high-rise hotels",
+    "Millenia Walk / Pan Pacific area ahead"
+   ],
+   "uncertain": true,
+   "uncertainNote": "Direction and speed are from secondary guides; some describe T4 as barely a corner.",
+   "sources": [
+    "https://www.total-motorsport.com/singapore-grand-prix-track-guide-marina-bay/",
+    "https://www.grandprixpal.com/races/singapore/circuit"
+   ]
+  },
+  {
+   "number": 5,
+   "name": null,
+   "street": "Republic Boulevard into Raffles Boulevard",
+   "direction": "right",
+   "type": "90-degree right, traction-critical exit onto the longest straight",
+   "approxGear": "3",
+   "approxSpeed_kph": 115,
+   "description": "A 90-degree right at the junction onto Raffles Boulevard. Exit speed here carries all the way down the longest flat-out section of the lap. Drivers ride the exit kerb and run close to the outside wall before opening up into Straight Mode zone 2. Norris and Piastri collided here late in the 2026 Sprint.",
+   "landmarks": [
+    "Raffles Boulevard canyon of hotels and malls",
+    "Suntec City / Marina Square ahead"
+   ],
+   "sources": [
+    "https://www.grandprixpal.com/races/singapore/circuit",
+    "https://www.planetf1.com/news/fia-singapore-grand-prix-2026-active-aero"
+   ]
+  },
+  {
+   "number": 6,
+   "name": null,
+   "street": "Raffles Boulevard",
+   "direction": "right",
+   "type": "Flat-out kink",
+   "approxGear": "7",
+   "approxSpeed_kph": 290,
+   "description": "Barely a corner: a flat-out curve in the middle of Raffles Boulevard. It is the bumpiest stretch of the circuit (drivers have long complained about the bumps between T5 and T7), so the car is jolting and skipping at close to top speed between walls lined with advertising hoardings.",
+   "landmarks": [
+    "Suntec City",
+    "Marina Square",
+    "Pan Pacific / Mandarin Oriental hotels"
+   ],
+   "uncertain": true,
+   "uncertainNote": "Direction is from secondary guides.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Marina_Bay_Street_Circuit",
+    "https://www.total-motorsport.com/singapore-grand-prix-track-guide-marina-bay/"
+   ]
+  },
+  {
+   "number": 7,
+   "name": "Memorial",
+   "street": "Raffles Boulevard into Nicoll Highway",
+   "direction": "left",
+   "type": "Heavy-braking 90-degree left, main overtaking spot",
+   "approxGear": "3",
+   "approxSpeed_kph": 127,
+   "description": "The fastest point of the lap ends here. Cars arrive at more than 300 km/h (up to about 320 km/h in the DRS era) and brake down to about 127 km/h for a 90-degree left onto Nicoll Highway. It is the hardest stop of the lap after Turn 14 and the most reliable overtaking place. Locking up and running wide into the escape road is common, and the bumps under braking make it worse.",
+   "landmarks": [
+    "Civilian War Memorial ('chopsticks' memorial) in War Memorial Park",
+    "Raffles City towers",
+    "Suntec City behind"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Marina_Bay_Street_Circuit",
+    "https://www.formula1.com/en/latest/article/circuit-guide-everything-you-need-to-know-about-the-marina-bay-street-circuit.3d9yfiqIKoQhcMnRLESWbz"
+   ]
+  },
+  {
+   "number": 8,
+   "name": null,
+   "street": "Nicoll Highway into Stamford Road",
+   "direction": "right",
+   "type": "Tight 90-degree right",
+   "approxGear": "3",
+   "approxSpeed_kph": 110,
+   "description": "After only a block on Nicoll Highway the drivers brake again for a tight right onto Stamford Road. There is very little run-off: it is a classic street-circuit corner with walls at the exit, and the car has to be put down onto the kerb precisely. This marks the start of the technical, wall-lined middle sector.",
+   "landmarks": [
+    "Raffles City / Swissotel The Stamford",
+    "St Andrew's Cathedral",
+    "Esplanade - Theatres on the Bay 'durian' domes visible to the left"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Marina_Bay_Street_Circuit",
+    "https://www.revigorate.com/why-singapore-is-formula-1s-most-demanding-night-race.html"
+   ]
+  },
+  {
+   "number": 9,
+   "name": null,
+   "street": "Stamford Road into St Andrew's Road",
+   "direction": "left",
+   "type": "Medium-speed left with wall on exit",
+   "approxGear": "3",
+   "approxSpeed_kph": 115,
+   "description": "A medium-speed left onto St Andrew's Road. Drivers carry speed onto the exit and use all the road, so the outside wall is centimetres away and many cars brush it. Then comes a short burst alongside the Padang (Straight Mode zone 3 starts about 70 m after the corner).",
+   "landmarks": [
+    "The Padang",
+    "St Andrew's Cathedral",
+    "City Hall / National Gallery Singapore colonnade"
+   ],
+   "sources": [
+    "https://www.total-motorsport.com/singapore-grand-prix-track-guide-marina-bay/",
+    "https://www.planetf1.com/news/fia-singapore-grand-prix-2026-active-aero"
+   ]
+  },
+  {
+   "number": 10,
+   "name": "Singapore Sling",
+   "street": "St Andrew's Road at the south-west corner of the Padang",
+   "direction": "left",
+   "type": "Fast single-apex left (former chicane)",
+   "approxGear": "4",
+   "approxSpeed_kph": 150,
+   "description": "Until 2012 this was the infamous 'Singapore Sling', a left-right-left chicane over high kerbs. Hamilton called it 'the worst corner in F1'. It has been a single-apex left since 2013, taken about 40 km/h faster, with an extra layer of barriers at the run-off. Late braking is punished by the wall on the outside, and George Russell crashed here on the final lap of the 2023 race while chasing a podium.",
+   "landmarks": [
+    "The Padang",
+    "National Gallery Singapore (former Supreme Court and City Hall)",
+    "Victoria Theatre and Concert Hall clock tower",
+    "The Arts House (Old Parliament House)"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Marina_Bay_Street_Circuit",
+    "https://lightsoutblog.com/marina-bay-circuit-ultimate-track-guide",
+    "https://www.formula1.com/en/latest/article/circuit-guide-everything-you-need-to-know-about-the-marina-bay-street-circuit.3d9yfiqIKoQhcMnRLESWbz"
+   ]
+  },
+  {
+   "number": 11,
+   "name": null,
+   "street": "Connaught Drive / approach to Anderson Bridge",
+   "direction": "right",
+   "type": "Medium-slow right with wall on outside",
+   "approxGear": "3",
+   "approxSpeed_kph": 110,
+   "description": "A short brake and a turn right as the circuit swings towards the river. The wall on the outside is tight, and the line has to set up the left-hand entry onto Anderson Bridge. This section (T11-T13) was reprofiled in 2015 to use the other side of the bridge.",
+   "landmarks": [
+    "Victoria Theatre and Concert Hall",
+    "Asian Civilisations Museum",
+    "Singapore River mouth"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Marina_Bay_Street_Circuit",
+    "https://www.total-motorsport.com/singapore-grand-prix-track-guide-marina-bay/"
+   ]
+  },
+  {
+   "number": 12,
+   "name": null,
+   "street": "Onto Anderson Bridge",
+   "direction": "left",
+   "type": "Medium-speed left onto a narrow bridge",
+   "approxGear": "3",
+   "approxSpeed_kph": 125,
+   "description": "Drivers turn left onto the 1910 steel-arched Anderson Bridge, so the white girders frame the car as it crosses the Singapore River. The road is narrow and bumpy, and in 2015 electrical interference here was blamed for problems. The track invader walked along this stretch on lap 37 of the 2015 race.",
+   "landmarks": [
+    "Anderson Bridge white steel arches",
+    "Singapore River",
+    "Fullerton Hotel ahead",
+    "Boat Quay / CBD skyscrapers to the right"
+   ],
+   "uncertain": true,
+   "uncertainNote": "Some guides describe T12 as part of a left-right sequence onto the bridge.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Marina_Bay_Street_Circuit",
+    "https://lightsoutblog.com/marina-bay-circuit-ultimate-track-guide"
+   ]
+  },
+  {
+   "number": 13,
+   "name": null,
+   "street": "Fullerton Road (hairpin at the end of Anderson Bridge)",
+   "direction": "left",
+   "type": "Slowest corner of the lap: tight left hairpin",
+   "approxGear": "1",
+   "approxSpeed_kph": 70,
+   "description": "Coming off the bridge, drivers stand on the brakes for the tightest corner on the circuit, a left hairpin in front of the Fullerton Hotel. It was widened by a metre in 2015 to help overtaking. The surface is bumpy and the exit is all about traction: too much throttle and the rear steps out towards the wall on the short run onto Esplanade Drive.",
+   "landmarks": [
+    "The Fullerton Hotel",
+    "One Fullerton",
+    "Merlion Park ahead/right",
+    "Marina Bay Sands across the bay"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Marina_Bay_Street_Circuit",
+    "https://www.grandprixpal.com/races/singapore/circuit"
+   ]
+  },
+  {
+   "number": 14,
+   "name": null,
+   "street": "Esplanade Drive into Raffles Avenue",
+   "direction": "right",
+   "type": "Heaviest braking zone; tight right",
+   "approxGear": "2",
+   "approxSpeed_kph": 90,
+   "description": "After the blast across Esplanade Bridge, with the Merlion and Marina Bay Sands to the right, this is the hardest stop of the lap: from about 289 to 90 km/h in about 96 m at nearly 5 g (Brembo). It is an acute right in front of the Esplanade theatres, and Sector 3 begins on the approach. Its value as an overtaking spot depends on getting a good exit from Turn 13.",
+   "landmarks": [
+    "Esplanade - Theatres on the Bay (spiky 'durian' domes)",
+    "Esplanade Bridge",
+    "Merlion",
+    "Marina Bay Sands across the water"
+   ],
+   "sources": [
+    "https://thebrakereport.com/singapore-gp-rated-tough-on-brakes/",
+    "https://www.grandprixpal.com/races/singapore/circuit",
+    "https://www.williamsf1.com/grand-prix-experience/0c47ee89-d7ad-4ef7-8800-dda21b436cec/singapore-2025"
+   ]
+  },
+  {
+   "number": 15,
+   "name": null,
+   "street": "Raffles Avenue",
+   "direction": "left",
+   "type": "Flat-out left kink onto the Raffles Avenue straight",
+   "approxGear": "6",
+   "approxSpeed_kph": 240,
+   "description": "A flat-out left kink. Before 2023 the track turned right here onto the bay-side section around The Float. Now it carries straight on down Raffles Avenue, a 2023 straight of about 400 m. In 2026 Straight Mode zone 5 starts about 50 m after it. Lance Stroll's Aston Martin stopped here in the 2026 race and caused a Virtual Safety Car.",
+   "landmarks": [
+    "Esplanade Park",
+    "NS Square (former Float at Marina Bay) to the right",
+    "Marina Bay Sands across the bay",
+    "Singapore Flyer ahead"
+   ],
+   "sources": [
+    "https://www.formula1.com/en/latest/article/singapore-grand-prix-set-to-feature-revised-track-layout-in-2023.6KsrU6hQw3hxrVJ6zKeJ74",
+    "https://www.planetf1.com/news/fia-singapore-grand-prix-2026-active-aero",
+    "https://www.formula1.com/en/latest/article/verstappen-seals-commanding-singapore-grand-prix-victory-from-leclerc-and-antonelli.49wDzysiVqi5cloGjle40A"
+   ]
+  },
+  {
+   "number": 16,
+   "name": null,
+   "street": "End of Raffles Avenue (formerly Turn 20)",
+   "direction": "right",
+   "type": "Heavy-braking 90-degree right; Overtake Mode detection",
+   "approxGear": "2",
+   "approxSpeed_kph": 100,
+   "description": "Since 2023 a big stop at the end of the new straight ('a massive braking point, turning hard right'). It has become a genuine passing opportunity, and the 2026 Overtake Mode detection line is at its exit. Brake too late and the wall at the outside of the exit is waiting.",
+   "landmarks": [
+    "Singapore Flyer looming ahead",
+    "Promenade grandstands",
+    "Marina Bay Sands to the right across the water"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Marina_Bay_Street_Circuit",
+    "https://www.formula1.com/en/latest/article/circuit-guide-everything-you-need-to-know-about-the-marina-bay-street-circuit.3d9yfiqIKoQhcMnRLESWbz"
+   ]
+  },
+  {
+   "number": 17,
+   "name": null,
+   "street": "Around the Singapore Flyer (formerly Turn 21)",
+   "direction": "left",
+   "type": "90-degree left; Overtake Mode activation on exit",
+   "approxGear": "3",
+   "approxSpeed_kph": 110,
+   "description": "A quick flick back left straight after Turn 16, needing a tidy exit because the final two corners are taken at speed. The 2026 Overtake Mode activation line is at its exit. It is a classic street-circuit 90-degree corner with walls close at both apex and exit.",
+   "landmarks": [
+    "Singapore Flyer",
+    "Promenade grandstand"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Marina_Bay_Street_Circuit",
+    "https://www.planetf1.com/news/fia-singapore-grand-prix-2026-active-aero"
+   ]
+  },
+  {
+   "number": 18,
+   "name": null,
+   "street": "Around the Singapore Flyer (formerly Turn 22)",
+   "direction": "left",
+   "type": "Fast left, first part of a double-left onto the straight",
+   "approxGear": "5",
+   "approxSpeed_kph": 180,
+   "description": "The first of two fast lefts that sweep around the base of the Singapore Flyer. Wikipedia describes the pair as taken flat out at around 180 km/h, which makes them a commitment test with the wall close on the outside.",
+   "landmarks": [
+    "Singapore Flyer directly alongside",
+    "Pit building ahead"
+   ],
+   "uncertain": true,
+   "uncertainNote": "Direction and speed: The Race (2023) described the final four corners as 'right, left, left, right' while other sources describe a right-left followed by two quick left-handers onto the pit straight. Two lefts is the better-supported reading.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Marina_Bay_Street_Circuit",
+    "https://www.si.com/onsi/f1/guides/singapore-grand-prix-marina-bay-circuit-track-guide",
+    "https://www.the-race.com/formula-1/all-you-need-to-know-about-f1s-new-singapore-gp-layout/"
+   ]
+  },
+  {
+   "number": 19,
+   "name": null,
+   "street": "Onto the pit straight beside the Singapore Flyer (formerly Turn 23)",
+   "direction": "left",
+   "type": "Fast left onto the start/finish straight",
+   "approxGear": "5",
+   "approxSpeed_kph": 190,
+   "description": "The last left that releases the cars onto the pit straight. Exit speed decides the run to Turn 1, and Straight Mode zone 1 opens about 30 m after the corner. Getting it wrong is costly: George Russell, leading the 2026 Sprint on wet-dry intermediates, lost the rear on exit on the opening lap and hit the concrete wall.",
+   "landmarks": [
+    "Singapore Flyer",
+    "Pit building and main grandstand",
+    "Marina Bay Sands across the bay"
+   ],
+   "uncertain": true,
+   "uncertainNote": "Direction is better supported than for T18, but speed is approximate.",
+   "sources": [
+    "https://en.wikipedia.org/wiki/Marina_Bay_Street_Circuit",
+    "https://www.formula1.com/en/latest/article/verstappen-wins-dramatic-rain-hit-singapore-sprint-as-russell-crashes-and-mclarens-collide.4r90mH2skljBa5sinFAsyp",
+    "https://www.planetf1.com/news/fia-singapore-grand-prix-2026-active-aero"
+   ]
+  }
+ ],
+ "sectors": [
+  {
+   "n": 1,
+   "fromCorner": 1,
+   "toCorner": 7,
+   "character": "Start/finish straight, the S-shaped Sheares complex (T1-T3), then the long bumpy blast down Raffles Boulevard into the big T7 stop. Power, traction out of T3 and T5, and braking stability.",
+   "uncertain": true
+  },
+  {
+   "n": 2,
+   "fromCorner": 8,
+   "toCorner": 13,
+   "character": "The tight, wall-lined colonial-district section: Stamford Road, St Andrew's Road past the Padang and City Hall, the former Singapore Sling (T10), across Anderson Bridge to the slow T13 hairpin at the Fullerton. All low-speed traction and precision.",
+   "uncertain": true
+  },
+  {
+   "n": 3,
+   "fromCorner": 14,
+   "toCorner": 19,
+   "character": "Starts with the heaviest stop of the lap into T14 at the Esplanade, then the 2023 Raffles Avenue straight, the T16-T17 right-left, and the fast lefts around the Singapore Flyer onto the pit straight.",
+   "uncertain": true
+  }
+ ],
+ "sectorsNote": "Boundaries are inferred from team guides. Williams says Sector 1 includes the T5-T7 zone 'before the second sector's technical section takes over' and that Sector 3 'begins with ... the heavy braking zone into Turn 14'. No official FIA timing-line map was consulted. Sources: https://www.williamsf1.com/grand-prix-experience/0c47ee89-d7ad-4ef7-8800-dda21b436cec/singapore-2025 , https://www.revigorate.com/why-singapore-is-formula-1s-most-demanding-night-race.html",
+ "timeline": [
+  {
+   "year": 2008,
+   "date": "2008-09-28",
+   "title": "F1's first night race",
+   "text": "Singapore hosted its first world-championship Grand Prix, and F1's first race under floodlights, on the 5.073 km, 23-corner Marina Bay layout. Felipe Massa took pole.",
+   "tag": "race"
+  },
+  {
+   "year": 2008,
+   "date": "2008-09-28",
+   "title": "Alonso wins; Massa's fuel-hose drama",
+   "text": "Fernando Alonso won for Renault from 15th on the grid. Leader Massa drove off with the fuel hose still attached in a botched pit stop under the Safety Car.",
+   "tag": "race"
+  },
+  {
+   "year": 2008,
+   "date": "2008-09-28",
+   "title": "Piquet Jr's crash at Turn 17",
+   "text": "Nelson Piquet Jr crashed at the old Turn 17 on lap 14. The resulting Safety Car handed the lead to his team-mate Alonso, who had just pitted.",
+   "tag": "crash"
+  },
+  {
+   "year": 2009,
+   "date": "2009-09-21",
+   "title": "Crashgate verdict",
+   "text": "After Piquet Jr's testimony, Renault admitted the crash had been deliberate. The FIA World Motor Sport Council banned Flavio Briatore indefinitely and suspended Pat Symonds; both bans were later overturned in a French court.",
+   "tag": "controversy"
+  },
+  {
+   "year": 2009,
+   "date": "2009-03",
+   "title": "Corners get names",
+   "text": "A fan competition named Turn 1 'Sheares', Turn 7 'Memorial' and Turn 10 'Singapore Sling'.",
+   "tag": "other"
+  },
+  {
+   "year": 2009,
+   "date": "2009-09-27",
+   "title": "Hamilton's first Singapore win",
+   "text": "Lewis Hamilton won from pole for McLaren. Days after the Crashgate verdict, a revised pit exit and modified Turn 10 kerbs were in use.",
+   "tag": "race"
+  },
+  {
+   "year": 2010,
+   "date": "2010-09-26",
+   "title": "Alonso's grand chelem",
+   "text": "Fernando Alonso (Ferrari) took pole, won, set fastest lap and led every lap, holding off Sebastian Vettel by under three tenths at the flag.",
+   "tag": "record"
+  },
+  {
+   "year": 2011,
+   "date": "2011-09-25",
+   "title": "Vettel's first Singapore win",
+   "text": "Sebastian Vettel dominated for Red Bull from pole, moving to within one point of clinching his second title, which he did at Suzuka.",
+   "tag": "race"
+  },
+  {
+   "year": 2012,
+   "date": "2012-09-23",
+   "title": "Hamilton's gearbox fails from the lead",
+   "text": "Pole-sitter Hamilton retired from the lead with a gearbox failure, and Vettel won again. The race hit the two-hour limit after 59 of 61 laps.",
+   "tag": "race"
+  },
+  {
+   "year": 2013,
+   "date": "2013-09",
+   "title": "Singapore Sling removed",
+   "text": "The much-criticised Turn 10 left-right-left chicane was replaced by a single-apex left-hander, raising entry speed by about 40 km/h.",
+   "tag": "layout"
+  },
+  {
+   "year": 2013,
+   "date": "2013-09-22",
+   "title": "Vettel's hat-trick",
+   "text": "Vettel won by more than 30 seconds for his third Singapore win in a row, on his way to a fourth straight title.",
+   "tag": "race"
+  },
+  {
+   "year": 2014,
+   "date": "2014-09-21",
+   "title": "Rosberg's steering wheel fails",
+   "text": "Nico Rosberg started from the pit lane with a wiring fault and retired. Hamilton won and retook the championship lead.",
+   "tag": "race"
+  },
+  {
+   "year": 2015,
+   "date": "2015",
+   "title": "Turns 11-13 reprofiled",
+   "text": "The track moved to the other side of Anderson Bridge and Fullerton Road, and the T13 hairpin was widened by a metre to help overtaking.",
+   "tag": "layout"
+  },
+  {
+   "year": 2015,
+   "date": "2015-09-20",
+   "title": "Vettel wins for Ferrari; track invader",
+   "text": "Vettel took Ferrari's first Singapore win since 2010 from pole. On lap 37 a spectator walked along the track near Anderson Bridge and triggered a Safety Car. Mercedes struggled all weekend.",
+   "tag": "race"
+  },
+  {
+   "year": 2016,
+   "date": "2016-09-18",
+   "title": "Rosberg's 200th GP win",
+   "text": "Nico Rosberg won his 200th Grand Prix by under half a second from Daniel Ricciardo and took the championship lead back from Hamilton.",
+   "tag": "race"
+  },
+  {
+   "year": 2017,
+   "date": "2017-09-17",
+   "title": "Start-line pile-up",
+   "text": "In the first wet Singapore race, pole-sitter Vettel, Raikkonen and Verstappen collided on the run to Turn 1. All three were out, and Hamilton won from fifth on the grid.",
+   "tag": "crash"
+  },
+  {
+   "year": 2018,
+   "date": "2018-09-15",
+   "title": "Hamilton's 'best lap'",
+   "text": "Hamilton's 1:36.015 pole lap, which he called one of his best ever, set the qualifying record on the old layout. He won the race the next day (16 Sept). Turns 16-17 had been reprofiled for 2018.",
+   "tag": "record"
+  },
+  {
+   "year": 2019,
+   "date": "2019-09-22",
+   "title": "Vettel's fifth Singapore win - and his last F1 win",
+   "text": "From third, Vettel undercut team-mate and pole-sitter Leclerc to lead a Ferrari 1-2. It was his record fifth Singapore victory and the 53rd and final win of his career.",
+   "tag": "record"
+  },
+  {
+   "year": 2020,
+   "date": "2020-06-12",
+   "title": "Race cancelled (COVID-19)",
+   "text": "The 2020 Singapore GP was cancelled because of the pandemic, along with other Asian rounds.",
+   "tag": "other"
+  },
+  {
+   "year": 2021,
+   "date": "2021-08-04",
+   "title": "Cancelled again",
+   "text": "The 2021 race was also cancelled because of COVID-19 restrictions.",
+   "tag": "other"
+  },
+  {
+   "year": 2022,
+   "date": "2022-01-27",
+   "title": "Contract to 2028",
+   "text": "F1 agreed a seven-year extension keeping Singapore on the calendar until at least 2028.",
+   "tag": "other"
+  },
+  {
+   "year": 2022,
+   "date": "2022-10-02",
+   "title": "Perez wins in the wet",
+   "text": "After a downpour delayed the start by about an hour, Sergio Perez beat pole-sitter Leclerc. Perez survived a post-race 5-second penalty for a Safety Car infringement, and the race ended on the two-hour limit after 59 of 61 laps.",
+   "tag": "race"
+  },
+  {
+   "year": 2022,
+   "date": "2022-10-19",
+   "title": "2023 layout announced",
+   "text": "Organisers announced that Turns 16-19 around The Float would be bypassed by a 397.9 m straight while the site became NS Square, cutting the circuit from 23 corners to 19.",
+   "tag": "layout"
+  },
+  {
+   "year": 2023,
+   "date": "2023-09-17",
+   "title": "Sainz breaks Red Bull's streak",
+   "text": "Carlos Sainz won from pole for Ferrari, managing the pace and feeding Norris DRS to keep Mercedes behind. Both Red Bulls had gone out in Q2. It was the only race of 2023 that Red Bull did not win, ending a 15-race winning run.",
+   "tag": "race"
+  },
+  {
+   "year": 2023,
+   "date": "2023-09-17",
+   "title": "Russell's last-lap crash",
+   "text": "Chasing a podium, George Russell clipped the wall at Turn 10 on the final lap and crashed out, two laps after Mercedes' late charge on fresh tyres.",
+   "tag": "crash"
+  },
+  {
+   "year": 2023,
+   "date": "2023-08",
+   "title": "Massa revisits Crashgate",
+   "text": "Felipe Massa began legal action against the FIA, F1 and Bernie Ecclestone over the 2008 title. He argued that Crashgate cost him the championship.",
+   "tag": "controversy",
+   "uncertain": true
+  },
+  {
+   "year": 2024,
+   "date": "2024-09-22",
+   "title": "Norris dominates; first race with no Safety Car",
+   "text": "Lando Norris won from pole by more than 20 s despite brushing the walls. It was the first Singapore GP without a Safety Car.",
+   "tag": "race"
+  },
+  {
+   "year": 2024,
+   "date": "2024-09-22",
+   "title": "Ricciardo's farewell fastest lap",
+   "text": "In what became his final F1 race, Daniel Ricciardo pitted late for soft tyres and set the race lap record of 1:34.486. That took the fastest-lap bonus point from Norris and helped Verstappen.",
+   "tag": "record"
+  },
+  {
+   "year": 2025,
+   "date": "2025-10-04",
+   "title": "Russell's record pole",
+   "text": "George Russell set the outright circuit record of 1:29.158 to take pole, Mercedes' first in Singapore since 2018. The pit-lane limit had been raised from 60 to 80 km/h for 2025.",
+   "tag": "record"
+  },
+  {
+   "year": 2025,
+   "date": "2025-10-05",
+   "title": "Russell wins; McLaren clinch constructors' title",
+   "text": "Russell won lights-to-flag. Hamilton (Ferrari) set the current lap record of 1:33.808, and McLaren sealed the 2025 constructors' title. Norris and Piastri touched at Turn 3 on lap one. For the second year in a row there was no Safety Car.",
+   "tag": "race"
+  },
+  {
+   "year": 2026,
+   "date": "2026-10-09",
+   "title": "First Singapore Sprint weekend; Verstappen on Sprint pole",
+   "text": "With active aero and five Straight Mode zones, Verstappen took Sprint pole with 1:31.156, 0.120 s ahead of Russell. Russell was handed a large grid penalty for Sunday after power-unit changes.",
+   "tag": "other"
+  },
+  {
+   "year": 2026,
+   "date": "2026-10-10",
+   "title": "Verstappen wins rain-hit Sprint",
+   "text": "A downpour and standing water at Turns 2-3 delayed the start by about 30 minutes, and the field started on intermediates. Russell took the lead at the start but crashed at the final corner on lap 1. Verstappen beat Hamilton by 2.591 s, with Leclerc third, and Norris and Piastri collided at Turn 5.",
+   "tag": "race"
+  },
+  {
+   "year": 2026,
+   "date": "2026-10-10",
+   "title": "Verstappen's first Singapore GP pole",
+   "text": "Verstappen took Grand Prix pole with 1:31.373, 0.054 s ahead of Leclerc, with Hamilton third.",
+   "tag": "record"
+  },
+  {
+   "year": 2026,
+   "date": "2026-10-11",
+   "title": "Verstappen finally conquers Singapore",
+   "text": "Verstappen led every lap of his 250th GP start for his first Singapore win and the 73rd of his career, ahead of Leclerc (+7.335 s) and championship leader Antonelli. Two Virtual Safety Cars followed (Bortoleto's fire on lap 7 and Stroll's stop at Turn 15), but there was apparently no full Safety Car. Leclerc set the fastest lap, 1:35.202. Red Bull drew level with Mercedes on five Singapore wins.",
+   "tag": "race"
+  }
+ ],
+ "timelineSources": [
+  "https://en.wikipedia.org/wiki/Marina_Bay_Street_Circuit",
+  "https://en.wikipedia.org/wiki/Singapore_Grand_Prix",
+  "https://www.formula1.com/en/latest/article/singapore-grand-prix-set-to-feature-revised-track-layout-in-2023.6KsrU6hQw3hxrVJ6zKeJ74",
+  "https://www.espn.com/f1/story/_/id/33157059/singapore-grand-prix-remain-f1-2028",
+  "https://singaporegp.sg/news/2025/george-upsets-the-singapore-applecart",
+  "https://en.wikipedia.org/wiki/2025_Singapore_Grand_Prix",
+  "https://en.ilsole24ore.com/art/singapore-without-salt-russell-uncomfortable-winner-mclaren-constructors-champion-AHxy1s0C",
+  "https://www.formula1.com/en/latest/article/verstappen-clinches-pole-position-in-singapore-sprint-qualifying-ahead-of-russell.4dvkvpkCXftdhX7sLI2dcQ",
+  "https://www.formula1.com/en/latest/article/verstappen-wins-dramatic-rain-hit-singapore-sprint-as-russell-crashes-and-mclarens-collide.4r90mH2skljBa5sinFAsyp",
+  "https://www.formula1.com/en/latest/article/verstappen-seals-commanding-singapore-grand-prix-victory-from-leclerc-and-antonelli.49wDzysiVqi5cloGjle40A",
+  "https://www.formulaonehistory.com/2026-singapore-grand-prix/"
+ ],
+ "timelineNotes": [
+  "The 2008-2025 entries come from Wikipedia and race reports together with well-established race history. The 2020/2021 cancellation announcement dates (12 Jun 2020, 4 Aug 2021) are from memory and uncertain.",
+  "The 2023 Massa legal action date is uncertain: a lawyers' letter was sent in Aug 2023 and the claim was filed in the High Court in London in March 2024.",
+  "The 2026 Sprint details come from formula1.com and formulaonehistory.com. The Sprint's Safety Car/formation-lap sequence (wet start, Safety Car lights out at the end of lap 6 per one summary) and Russell's crash lap are slightly inconsistent between sources."
+ ],
+ "records": {
+  "mostWins_driver": {
+   "driver": "Sebastian Vettel",
+   "wins": 5,
+   "years": [
+    2011,
+    2012,
+    2013,
+    2015,
+    2019
+   ],
+   "runnerUp": "Lewis Hamilton, 4 (2009, 2014, 2017, 2018)"
+  },
+  "mostWins_team": {
+   "teams": [
+    "Mercedes",
+    "Red Bull"
+   ],
+   "wins": 5,
+   "detail": "After 2026: Mercedes 5 (2014, 2016, 2017, 2018, 2025); Red Bull 5 (2011, 2012, 2013, 2022, 2026); Ferrari 4 (2010, 2015, 2019, 2023); McLaren 2 (2009, 2024); Renault 1 (2008).",
+   "uncertain": true,
+   "uncertainNote": "The formula1.com circuit guide says Ferrari and Mercedes share the record with five each, but a count of the winners gives Ferrari only four. The count here is from the year-by-year winners list."
+  },
+  "mostPoles": {
+   "drivers": [
+    "Sebastian Vettel",
+    "Lewis Hamilton"
+   ],
+   "poles": 4,
+   "detail": "Vettel 2011, 2013, 2015, 2017; Hamilton 2009, 2012, 2014, 2018 (per formula1.com 2025 'Need to know'; unchanged in 2026 as Verstappen took pole)."
+  },
+  "winnersByYear": {
+   "2008": "Fernando Alonso (Renault)",
+   "2009": "Lewis Hamilton (McLaren)",
+   "2010": "Fernando Alonso (Ferrari)",
+   "2011": "Sebastian Vettel (Red Bull)",
+   "2012": "Sebastian Vettel (Red Bull)",
+   "2013": "Sebastian Vettel (Red Bull)",
+   "2014": "Lewis Hamilton (Mercedes)",
+   "2015": "Sebastian Vettel (Ferrari)",
+   "2016": "Nico Rosberg (Mercedes)",
+   "2017": "Lewis Hamilton (Mercedes)",
+   "2018": "Lewis Hamilton (Mercedes)",
+   "2019": "Sebastian Vettel (Ferrari)",
+   "2020": "Cancelled",
+   "2021": "Cancelled",
+   "2022": "Sergio Perez (Red Bull)",
+   "2023": "Carlos Sainz (Ferrari)",
+   "2024": "Lando Norris (McLaren)",
+   "2025": "George Russell (Mercedes)",
+   "2026": "Max Verstappen (Red Bull)"
+  },
+  "safetyCarStats": {
+   "summary": "Every Singapore Grand Prix from 2008 to 2023 (14 races) had at least one Safety Car, which made it F1's most predictable Safety Car race. The streak ended in 2024 (Norris won with no Safety Car), and 2025 (Russell) also had none.",
+   "totalDeployments": "Wikipedia gives 24 Safety Car deployments in 17 races. It is unclear whether that tally includes 2026.",
+   "2026": "The 2026 Grand Prix had two Virtual Safety Car periods (lap 7 for Bortoleto's burning Audi; around lap 37-38 for Stroll's stopped Aston Martin at T15), apparently with no full Safety Car, which would make three races in a row without one. In the 2026 Sprint, the Safety Car led the field away on a wet track.",
+   "uncertain": true
+  },
+  "notes": [
+   "Before 2026, Singapore was one of the few calendar circuits where Verstappen had never won (his 'bogey track'; he was 2nd in 2024 and 2025 and 5th in 2023). He finally won here in 2026 from pole, in his 250th GP start.",
+   "Most races here have hit or neared the two-hour time limit (2012 and 2022 ended on it after 59 of 61 laps); the 2023 layout trimmed about 10 s off the lap.",
+   "Outright circuit best: 1:29.158, Russell, Q 2025. Race lap record: 1:33.808, Hamilton, 2025.",
+   "Pole-to-T1 braking point is about 178 m, and a pit stop costs about 29 s (2024, before the pit-lane speed increase)."
+  ],
+  "sources": [
+   "https://www.formula1.com/en/latest/article/need-to-know-the-most-important-facts-stats-and-trivia-ahead-of-the-2025-singapore.468A8YSelm8nsKywLuGTf",
+   "https://www.formula1.com/en/latest/article/circuit-guide-everything-you-need-to-know-about-the-marina-bay-street-circuit.3d9yfiqIKoQhcMnRLESWbz",
+   "https://en.wikipedia.org/wiki/Marina_Bay_Street_Circuit",
+   "https://en.ilsole24ore.com/art/singapore-without-salt-russell-uncomfortable-winner-mclaren-constructors-champion-AHxy1s0C",
+   "https://www.formula1.com/en/latest/article/verstappen-seals-commanding-singapore-grand-prix-victory-from-leclerc-and-antonelli.49wDzysiVqi5cloGjle40A"
+  ]
+ }
+}
