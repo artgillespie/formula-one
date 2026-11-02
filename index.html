@@ -51,22 +51,34 @@
           <div class="tags"><span>3D</span><span>Live OpenF1 data</span><span>Night race</span></div>
         </div>
       </a>
+      <a class="card" href="/walkthroughs/austin/">
+        <svg id="usThumb" viewBox="0 0 320 170" aria-hidden="true"></svg>
+        <div class="body">
+          <h3>Austin</h3>
+          <p>Circuit of the Americas on real terrain: the Turn 1 hill, all 20 corners, three pole laps with a ghost car, lap and sector times, photos and history.</p>
+          <div class="tags"><span>3D terrain</span><span>Live OpenF1 data</span><span>Ghost laps</span></div>
+        </div>
+      </a>
       <div class="card soon">More circuits coming…</div>
     </div>
     <footer>Unofficial fan project. Not associated with Formula 1 companies. F1 and related marks are trademarks of Formula One Licensing B.V.</footer>
   </main>
   <script type="module">
-    // Draw the Singapore thumbnail from the real track outline.
-    try {
-      const t = await (await fetch('/walkthroughs/singapore/data/track.json')).json();
-      const pts = t.line.filter((_, i) => i % 3 === 0);
-      const xs = pts.map((p) => p[0]), ys = pts.map((p) => p[1]);
-      const [x0, x1, y0, y1] = [Math.min(...xs), Math.max(...xs), Math.min(...ys), Math.max(...ys)];
-      const s = Math.min(280 / (x1 - x0), 140 / (y1 - y0));
-      const ox = 160 - ((x0 + x1) / 2) * s, oy = 85 + ((y0 + y1) / 2) * s;
-      const d = pts.map((p, i) => `${i ? 'L' : 'M'}${(ox + p[0] * s).toFixed(1)},${(oy - p[1] * s).toFixed(1)}`).join('') + 'Z';
-      document.getElementById('sgThumb').innerHTML = `<defs><filter id="g"><feGaussianBlur stdDeviation="3"/></filter></defs><path d="${d}" fill="none" stroke="#ff2d55" stroke-width="6" opacity=".55" filter="url(#g)"/><path d="${d}" fill="none" stroke="#ffd6de" stroke-width="2" stroke-linejoin="round"/>`;
-    } catch {}
+    // Draw each card's thumbnail from the real track outline.
+    async function thumb(id, url, glow, ink) {
+      try {
+        const t = await (await fetch(url)).json();
+        const pts = t.line.filter((_, i) => i % 3 === 0);
+        const xs = pts.map((p) => p[0]), ys = pts.map((p) => p[1]);
+        const [x0, x1, y0, y1] = [Math.min(...xs), Math.max(...xs), Math.min(...ys), Math.max(...ys)];
+        const s = Math.min(280 / (x1 - x0), 140 / (y1 - y0));
+        const ox = 160 - ((x0 + x1) / 2) * s, oy = 85 + ((y0 + y1) / 2) * s;
+        const d = pts.map((p, i) => `${i ? 'L' : 'M'}${(ox + p[0] * s).toFixed(1)},${(oy - p[1] * s).toFixed(1)}`).join('') + 'Z';
+        document.getElementById(id).innerHTML = `<defs><filter id="g${id}"><feGaussianBlur stdDeviation="3"/></filter></defs><path d="${d}" fill="none" stroke="${glow}" stroke-width="6" opacity=".55" filter="url(#g${id})"/><path d="${d}" fill="none" stroke="${ink}" stroke-width="2" stroke-linejoin="round"/>`;
+      } catch {}
+    }
+    thumb('sgThumb', '/walkthroughs/singapore/data/track.json', '#ff2d55', '#ffd6de');
+    thumb('usThumb', '/walkthroughs/austin/data/track.json', '#ff6a2b', '#ffe2cf');
   </script>
 </body>
 </html>

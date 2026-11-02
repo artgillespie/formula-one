@@ -1,0 +1,210 @@
+{
+ "corners": {
+  "1": [
+   {
+    "file": "img/corners/t01-a.jpg",
+    "caption": "The start/finish straight rising towards the Turn 1 hill: the road climbs steeply to the crest, where drivers brake for the tight uphill left-hand hairpin.",
+    "landmark": "Turn 1 hill / main straight",
+    "author": "Lars Plougmann",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Main_straight_and_turn_1_hill,_Circuit_of_the_Americas.jpg"
+   },
+   {
+    "file": "img/corners/t01-c.jpg",
+    "caption": "Kevin Magnussen's McLaren exiting Turn 1 during the 2014 US Grand Prix, past the crest of the hairpin and heading down towards Turn 2.",
+    "landmark": "Turn 1 exit",
+    "author": "John Champion",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kevin_Magnussen_comes_out_of_turn_1_at_COTA_2014_US_Grand_Prix_(15685417371).jpg"
+   }
+  ],
+  "2": [
+   {
+    "file": "img/corners/t02-a.jpg",
+    "caption": "The field streaming downhill through Turn 2, the sweeping right-hander after the Turn 1 hairpin, at the 2013 United States Grand Prix.",
+    "landmark": "Turn 2",
+    "author": "Larry D. Moore",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:United_states_grand_prix_2013.jpg"
+   }
+  ],
+  "3": [
+   {
+    "file": "img/corners/t03-a.jpg",
+    "caption": "The esses viewed from the hillside during the 2016 US Grand Prix: Turns 3, 4, 5 and 6 snake left-right-left-right through the Maggotts/Becketts-style sequence.",
+    "landmark": "Esses (Turns 3-6)",
+    "author": "el_ave",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Turns_3,4,5_and_6_(31641661631).jpg"
+   },
+   {
+    "file": "img/corners/t03-b.jpg",
+    "caption": "Aerial view of the 'Ess Curves', the fast Turns 3-6 sequence below the Turn 1 hill, photographed in June 2015.",
+    "landmark": "Esses aerial",
+    "author": "formulanone",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Circuit_of_the_Americas_Ess_Curves_Aerial_-_June_2015_(52538202379).jpg"
+   }
+  ],
+  "4": [
+   {
+    "file": "img/corners/t03-a.jpg",
+    "caption": "Turn 4 is the second element of the esses visible in this view of Turns 3-6 from the 2016 US Grand Prix.",
+    "landmark": "Esses (Turns 3-6)",
+    "author": "el_ave",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Turns_3,4,5_and_6_(31641661631).jpg"
+   }
+  ],
+  "5": [
+   {
+    "file": "img/corners/t03-a.jpg",
+    "caption": "Turn 5 is the third element of the esses visible in this view of Turns 3-6 from the 2016 US Grand Prix.",
+    "landmark": "Esses (Turns 3-6)",
+    "author": "el_ave",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Turns_3,4,5_and_6_(31641661631).jpg"
+   }
+  ],
+  "6": [
+   {
+    "file": "img/corners/t03-a.jpg",
+    "caption": "Turn 6 closes the esses sequence visible in this view of Turns 3-6 from the 2016 US Grand Prix.",
+    "landmark": "Esses (Turns 3-6)",
+    "author": "el_ave",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Turns_3,4,5_and_6_(31641661631).jpg"
+   }
+  ],
+  "7": [],
+  "8": [
+   {
+    "file": "img/corners/t08-a.jpg",
+    "caption": "Turns 8 and 9 during the 2016 US Grand Prix: the right-left flick at the end of the first sector that leads onto the run to Turn 10.",
+    "landmark": "Turns 8 & 9",
+    "author": "el_ave",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Turns_8_&_9_(30948073113).jpg"
+   }
+  ],
+  "9": [
+   {
+    "file": "img/corners/t08-a.jpg",
+    "caption": "Turn 9 is the left-hand half of the Turn 8-9 flick shown here at the 2016 US Grand Prix.",
+    "landmark": "Turns 8 & 9",
+    "author": "el_ave",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Turns_8_&_9_(30948073113).jpg"
+   }
+  ],
+  "10": [
+   {
+    "file": "img/corners/t10-a.jpg",
+    "caption": "Construction-era view looking into Turn 10, the fast downhill left kink, with the paddock building and main grandstand in the background (June 2012).",
+    "landmark": "Turn 10 (construction, 2012)",
+    "author": "Larry D. Moore",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:COTA_2012_06_30b.jpg"
+   }
+  ],
+  "11": [
+   {
+    "file": "img/corners/t11-a.jpg",
+    "caption": "Turn 11, the tight left hairpin at the far end of the circuit, nearing completion in June 2012.",
+    "landmark": "Turn 11 hairpin (construction)",
+    "author": "Larry D. Moore",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:COTA_2012_06_30a.jpg"
+   },
+   {
+    "file": "img/corners/t11-b.jpg",
+    "caption": "Sebastian Vettel slowing to about 70 mph for the Turn 11 hairpin at the inaugural 2012 race, with eventual winner Lewis Hamilton close behind.",
+    "landmark": "Turn 11 hairpin",
+    "author": "Earl McGehee from Austin, TX, USA",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:US_Grand_Prix_2012_(8227888953).jpg"
+   }
+  ],
+  "12": [
+   {
+    "file": "img/corners/t12-a.jpg",
+    "caption": "Panorama from the Turn 12 grandstand in 2012: the end of the back straight and the heavy-braking left-hander, with the Observation Tower and stadium section beyond.",
+    "landmark": "Turn 12 grandstand",
+    "author": "Patrick from Moretown, VT, United States",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:2012_USA_GP_circuit_panorama.jpg"
+   }
+  ],
+  "13": [],
+  "14": [
+   {
+    "file": "img/corners/t14-a.jpg",
+    "caption": "Looking down from the top of the Observation Tower onto the amphitheatre beside the stadium section; the Turn 12-15 track runs along the left edge of the frame.",
+    "landmark": "Amphitheatre from Observation Tower",
+    "author": "Larry D. Moore",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Austin360_amphitheater_from_tower_2013.jpg"
+   }
+  ],
+  "15": [
+   {
+    "file": "img/corners/t15-b.jpg",
+    "caption": "A car lifting a wheel over the kerb at Turn 15 during the 2016 US Grand Prix.",
+    "landmark": "Turn 15 kerb",
+    "author": "pedrik",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lift_off_at_turn_15_(30529456405).jpg"
+   },
+   {
+    "file": "img/corners/t15-c.jpg",
+    "caption": "Opening lap of the 2016 US Grand Prix: Palmer, Ericsson, Grosjean, Ocon and Nasr still tightly bunched through Turn 15.",
+    "landmark": "Turn 15, first lap",
+    "author": "pedrik",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:First_lap-_still_packed_at_turn_15_(30528897485).jpg"
+   }
+  ],
+  "16": [],
+  "17": [],
+  "18": [],
+  "19": [
+   {
+    "file": "img/corners/t19-a.jpg",
+    "caption": "Turn 19, the fast left-hander after the Turn 16-18 multi-apex right, at the 2016 US Grand Prix.",
+    "landmark": "Turn 19",
+    "author": "el_ave",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Turn_19_(31757787455).jpg"
+   }
+  ],
+  "20": [
+   {
+    "file": "img/corners/t20-a.jpg",
+    "caption": "Turn 20, the final tight left that releases cars onto the start/finish straight, at the 2016 US Grand Prix.",
+    "landmark": "Turn 20",
+    "author": "el_ave",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Turn_20_(31385434810).jpg"
+   }
+  ]
+ }
+}

@@ -1,0 +1,2512 @@
+{
+ "generated": "2026-11-02T01:35:11.853Z",
+ "source": "OpenF1 (api.openf1.org)",
+ "sessions": [
+  {
+   "key": 11396,
+   "meeting": 1297,
+   "year": 2026,
+   "name": "Race",
+   "kind": "race",
+   "date": "2026-10-25T20:00:00+00:00",
+   "fastest": {
+    "time": 97.976,
+    "lap": 42,
+    "driver": {
+     "number": 16,
+     "code": "LEC",
+     "name": "Charles Leclerc",
+     "team": "Ferrari",
+     "colour": "#ED1131"
+    }
+   },
+   "sectors": [
+    {
+     "best": 25.885,
+     "driver": {
+      "number": 44,
+      "code": "HAM",
+      "name": "Lewis Hamilton",
+      "team": "Ferrari",
+      "colour": "#ED1131"
+     },
+     "avg": 27.051
+    },
+    {
+     "best": 38.834,
+     "driver": {
+      "number": 3,
+      "code": "VER",
+      "name": "Max Verstappen",
+      "team": "Red Bull Racing",
+      "colour": "#4781D7"
+     },
+     "avg": 40.118
+    },
+    {
+     "best": 32.781,
+     "driver": {
+      "number": 16,
+      "code": "LEC",
+      "name": "Charles Leclerc",
+      "team": "Ferrari",
+      "colour": "#ED1131"
+     },
+     "avg": 34.489
+    }
+   ],
+   "ideal": 97.5,
+   "avgLap": 101.669,
+   "avgLapNote": "median green-flag lap",
+   "topSpeed": {
+    "kph": 349,
+    "driver": {
+     "number": 63,
+     "code": "RUS",
+     "name": "George Russell",
+     "team": "Mercedes",
+     "colour": "#00D7B6"
+    }
+   },
+   "results": [
+    {
+     "pos": 1,
+     "number": 12,
+     "code": "ANT",
+     "name": "Kimi Antonelli",
+     "team": "Mercedes",
+     "colour": "#00D7B6",
+     "time": 5716.65,
+     "gap": 0,
+     "laps": 56
+    },
+    {
+     "pos": 2,
+     "number": 16,
+     "code": "LEC",
+     "name": "Charles Leclerc",
+     "team": "Ferrari",
+     "colour": "#ED1131",
+     "time": 5729.728,
+     "gap": 13.078,
+     "laps": 56
+    },
+    {
+     "pos": 3,
+     "number": 3,
+     "code": "VER",
+     "name": "Max Verstappen",
+     "team": "Red Bull Racing",
+     "colour": "#4781D7",
+     "time": 5734.135,
+     "gap": 17.485,
+     "laps": 56
+    },
+    {
+     "pos": 4,
+     "number": 44,
+     "code": "HAM",
+     "name": "Lewis Hamilton",
+     "team": "Ferrari",
+     "colour": "#ED1131",
+     "time": 5735.165,
+     "gap": 18.515,
+     "laps": 56
+    },
+    {
+     "pos": 5,
+     "number": 1,
+     "code": "NOR",
+     "name": "Lando Norris",
+     "team": "McLaren",
+     "colour": "#F47600",
+     "time": 5747.171,
+     "gap": 30.521,
+     "laps": 56
+    },
+    {
+     "pos": 6,
+     "number": 6,
+     "code": "HAD",
+     "name": "Isack Hadjar",
+     "team": "Red Bull Racing",
+     "colour": "#4781D7",
+     "time": 5751.023,
+     "gap": 34.373,
+     "laps": 56
+    },
+    {
+     "pos": 7,
+     "number": 81,
+     "code": "PIA",
+     "name": "Oscar Piastri",
+     "team": "McLaren",
+     "colour": "#F47600",
+     "time": 5769.324,
+     "gap": 52.674,
+     "laps": 56
+    },
+    {
+     "pos": 8,
+     "number": 63,
+     "code": "RUS",
+     "name": "George Russell",
+     "team": "Mercedes",
+     "colour": "#00D7B6",
+     "time": 5770.953,
+     "gap": 54.303,
+     "laps": 56
+    },
+    {
+     "pos": 9,
+     "number": 30,
+     "code": "LAW",
+     "name": "Liam Lawson",
+     "team": "Racing Bulls",
+     "colour": "#6C98FF",
+     "time": 5795.833,
+     "gap": 79.183,
+     "laps": 56
+    },
+    {
+     "pos": 10,
+     "number": 10,
+     "code": "GAS",
+     "name": "Pierre Gasly",
+     "team": "Alpine",
+     "colour": "#00A1E8",
+     "time": 5804.166,
+     "gap": 87.516,
+     "laps": 56
+    }
+   ]
+  },
+  {
+   "key": 11392,
+   "meeting": 1297,
+   "year": 2026,
+   "name": "Qualifying",
+   "kind": "quali",
+   "date": "2026-10-24T21:00:00+00:00",
+   "fastest": {
+    "time": 94.035,
+    "lap": 14,
+    "driver": {
+     "number": 12,
+     "code": "ANT",
+     "name": "Kimi Antonelli",
+     "team": "Mercedes",
+     "colour": "#00D7B6"
+    }
+   },
+   "sectors": [
+    {
+     "best": 25.23,
+     "driver": {
+      "number": 63,
+      "code": "RUS",
+      "name": "George Russell",
+      "team": "Mercedes",
+      "colour": "#00D7B6"
+     },
+     "avg": 25.348
+    },
+    {
+     "best": 37.185,
+     "driver": {
+      "number": 12,
+      "code": "ANT",
+      "name": "Kimi Antonelli",
+      "team": "Mercedes",
+      "colour": "#00D7B6"
+     },
+     "avg": 37.455
+    },
+    {
+     "best": 31.428,
+     "driver": {
+      "number": 12,
+      "code": "ANT",
+      "name": "Kimi Antonelli",
+      "team": "Mercedes",
+      "colour": "#00D7B6"
+     },
+     "avg": 31.648
+    }
+   ],
+   "ideal": 93.843,
+   "avgLap": 94.45,
+   "avgLapNote": "mean of top-10 best",
+   "topSpeed": {
+    "kph": 341,
+    "driver": {
+     "number": 10,
+     "code": "GAS",
+     "name": "Pierre Gasly",
+     "team": "Alpine",
+     "colour": "#00A1E8"
+    }
+   },
+   "results": [
+    {
+     "pos": 1,
+     "number": 12,
+     "code": "ANT",
+     "name": "Kimi Antonelli",
+     "team": "Mercedes",
+     "colour": "#00D7B6",
+     "time": 94.035,
+     "gap": 0,
+     "laps": 18
+    },
+    {
+     "pos": 2,
+     "number": 3,
+     "code": "VER",
+     "name": "Max Verstappen",
+     "team": "Red Bull Racing",
+     "colour": "#4781D7",
+     "time": 94.214,
+     "gap": 0.179,
+     "laps": 12
+    },
+    {
+     "pos": 3,
+     "number": 6,
+     "code": "HAD",
+     "name": "Isack Hadjar",
+     "team": "Red Bull Racing",
+     "colour": "#4781D7",
+     "time": 94.25,
+     "gap": 0.215,
+     "laps": 12
+    },
+    {
+     "pos": 4,
+     "number": 16,
+     "code": "LEC",
+     "name": "Charles Leclerc",
+     "team": "Ferrari",
+     "colour": "#ED1131",
+     "time": 94.267,
+     "gap": 0.232,
+     "laps": 15
+    },
+    {
+     "pos": 5,
+     "number": 44,
+     "code": "HAM",
+     "name": "Lewis Hamilton",
+     "team": "Ferrari",
+     "colour": "#ED1131",
+     "time": 94.311,
+     "gap": 0.276,
+     "laps": 14
+    },
+    {
+     "pos": 6,
+     "number": 63,
+     "code": "RUS",
+     "name": "George Russell",
+     "team": "Mercedes",
+     "colour": "#00D7B6",
+     "time": 94.476,
+     "gap": 0.441,
+     "laps": 18
+    },
+    {
+     "pos": 7,
+     "number": 81,
+     "code": "PIA",
+     "name": "Oscar Piastri",
+     "team": "McLaren",
+     "colour": "#F47600",
+     "time": 94.803,
+     "gap": 0.768,
+     "laps": 20
+    },
+    {
+     "pos": 8,
+     "number": 1,
+     "code": "NOR",
+     "name": "Lando Norris",
+     "team": "McLaren",
+     "colour": "#F47600",
+     "time": 95.049,
+     "gap": 1.014,
+     "laps": 15
+    },
+    {
+     "pos": 9,
+     "number": 41,
+     "code": "LIN",
+     "name": "Arvid Lindblad",
+     "team": "Racing Bulls",
+     "colour": "#6C98FF",
+     "time": 96.049,
+     "gap": 2.014,
+     "laps": 15
+    },
+    {
+     "pos": 10,
+     "number": 30,
+     "code": "LAW",
+     "name": "Liam Lawson",
+     "team": "Racing Bulls",
+     "colour": "#6C98FF",
+     "time": 95.058,
+     "gap": null,
+     "laps": 9
+    }
+   ]
+  },
+  {
+   "key": 9888,
+   "meeting": 1271,
+   "year": 2025,
+   "name": "Race",
+   "kind": "race",
+   "date": "2025-10-19T19:00:00+00:00",
+   "fastest": {
+    "time": 97.577,
+    "lap": 33,
+    "driver": {
+     "number": 12,
+     "code": "ANT",
+     "name": "Kimi Antonelli",
+     "team": "Mercedes",
+     "colour": "#00D7B6"
+    }
+   },
+   "sectors": [
+    {
+     "best": 25.832,
+     "driver": {
+      "number": 4,
+      "code": "NOR",
+      "name": "Lando Norris",
+      "team": "McLaren",
+      "colour": "#F47600"
+     },
+     "avg": 26.695
+    },
+    {
+     "best": 38.904,
+     "driver": {
+      "number": 4,
+      "code": "NOR",
+      "name": "Lando Norris",
+      "team": "McLaren",
+      "colour": "#F47600"
+     },
+     "avg": 39.985
+    },
+    {
+     "best": 32.131,
+     "driver": {
+      "number": 1,
+      "code": "VER",
+      "name": "Max Verstappen",
+      "team": "Red Bull Racing",
+      "colour": "#4781D7"
+     },
+     "avg": 33.435
+    }
+   ],
+   "ideal": 96.867,
+   "avgLap": 100.128,
+   "avgLapNote": "median green-flag lap",
+   "topSpeed": {
+    "kph": 339,
+    "driver": {
+     "number": 55,
+     "code": "SAI",
+     "name": "Carlos Sainz",
+     "team": "Williams",
+     "colour": "#1868DB"
+    }
+   },
+   "results": [
+    {
+     "pos": 1,
+     "number": 1,
+     "code": "VER",
+     "name": "Max Verstappen",
+     "team": "Red Bull Racing",
+     "colour": "#4781D7",
+     "time": 5640.161,
+     "gap": 0,
+     "laps": 56
+    },
+    {
+     "pos": 2,
+     "number": 4,
+     "code": "NOR",
+     "name": "Lando Norris",
+     "team": "McLaren",
+     "colour": "#F47600",
+     "time": 5648.12,
+     "gap": 7.959,
+     "laps": 56
+    },
+    {
+     "pos": 3,
+     "number": 16,
+     "code": "LEC",
+     "name": "Charles Leclerc",
+     "team": "Ferrari",
+     "colour": "#ED1131",
+     "time": 5655.534,
+     "gap": 15.373,
+     "laps": 56
+    },
+    {
+     "pos": 4,
+     "number": 44,
+     "code": "HAM",
+     "name": "Lewis Hamilton",
+     "team": "Ferrari",
+     "colour": "#ED1131",
+     "time": 5668.697,
+     "gap": 28.536,
+     "laps": 56
+    },
+    {
+     "pos": 5,
+     "number": 81,
+     "code": "PIA",
+     "name": "Oscar Piastri",
+     "team": "McLaren",
+     "colour": "#F47600",
+     "time": 5669.839,
+     "gap": 29.678,
+     "laps": 56
+    },
+    {
+     "pos": 6,
+     "number": 63,
+     "code": "RUS",
+     "name": "George Russell",
+     "team": "Mercedes",
+     "colour": "#00D7B6",
+     "time": 5673.617,
+     "gap": 33.456,
+     "laps": 56
+    },
+    {
+     "pos": 7,
+     "number": 22,
+     "code": "TSU",
+     "name": "Yuki Tsunoda",
+     "team": "Red Bull Racing",
+     "colour": "#4781D7",
+     "time": 5692.875,
+     "gap": 52.714,
+     "laps": 56
+    },
+    {
+     "pos": 8,
+     "number": 27,
+     "code": "HUL",
+     "name": "Nico Hulkenberg",
+     "team": "Kick Sauber",
+     "colour": "#01C00E",
+     "time": 5697.41,
+     "gap": 57.249,
+     "laps": 56
+    },
+    {
+     "pos": 9,
+     "number": 87,
+     "code": "BEA",
+     "name": "Oliver Bearman",
+     "team": "Haas F1 Team",
+     "colour": "#9C9FA2",
+     "time": 5704.883,
+     "gap": 64.722,
+     "laps": 56
+    },
+    {
+     "pos": 10,
+     "number": 14,
+     "code": "ALO",
+     "name": "Fernando Alonso",
+     "team": "Aston Martin",
+     "colour": "#229971",
+     "time": 5710.162,
+     "gap": 70.001,
+     "laps": 56
+    }
+   ]
+  },
+  {
+   "key": 9884,
+   "meeting": 1271,
+   "year": 2025,
+   "name": "Qualifying",
+   "kind": "quali",
+   "date": "2025-10-18T21:00:00+00:00",
+   "fastest": {
+    "time": 92.51,
+    "lap": 11,
+    "driver": {
+     "number": 1,
+     "code": "VER",
+     "name": "Max Verstappen",
+     "team": "Red Bull Racing",
+     "colour": "#4781D7"
+    }
+   },
+   "sectors": [
+    {
+     "best": 24.914,
+     "driver": {
+      "number": 1,
+      "code": "VER",
+      "name": "Max Verstappen",
+      "team": "Red Bull Racing",
+      "colour": "#4781D7"
+     },
+     "avg": 25.064
+    },
+    {
+     "best": 37.324,
+     "driver": {
+      "number": 12,
+      "code": "ANT",
+      "name": "Kimi Antonelli",
+      "team": "Mercedes",
+      "colour": "#00D7B6"
+     },
+     "avg": 37.566
+    },
+    {
+     "best": 30.157,
+     "driver": {
+      "number": 4,
+      "code": "NOR",
+      "name": "Lando Norris",
+      "team": "McLaren",
+      "colour": "#F47600"
+     },
+     "avg": 30.31
+    }
+   ],
+   "ideal": 92.395,
+   "avgLap": 92.941,
+   "avgLapNote": "mean of top-10 best",
+   "topSpeed": {
+    "kph": 329,
+    "driver": {
+     "number": 12,
+     "code": "ANT",
+     "name": "Kimi Antonelli",
+     "team": "Mercedes",
+     "colour": "#00D7B6"
+    }
+   },
+   "results": [
+    {
+     "pos": 1,
+     "number": 1,
+     "code": "VER",
+     "name": "Max Verstappen",
+     "team": "Red Bull Racing",
+     "colour": "#4781D7",
+     "time": 92.51,
+     "gap": 0,
+     "laps": 14
+    },
+    {
+     "pos": 2,
+     "number": 4,
+     "code": "NOR",
+     "name": "Lando Norris",
+     "team": "McLaren",
+     "colour": "#F47600",
+     "time": 92.801,
+     "gap": 0.291,
+     "laps": 20
+    },
+    {
+     "pos": 3,
+     "number": 16,
+     "code": "LEC",
+     "name": "Charles Leclerc",
+     "team": "Ferrari",
+     "colour": "#ED1131",
+     "time": 92.807,
+     "gap": 0.297,
+     "laps": 17
+    },
+    {
+     "pos": 4,
+     "number": 63,
+     "code": "RUS",
+     "name": "George Russell",
+     "team": "Mercedes",
+     "colour": "#00D7B6",
+     "time": 92.826,
+     "gap": 0.316,
+     "laps": 19
+    },
+    {
+     "pos": 5,
+     "number": 44,
+     "code": "HAM",
+     "name": "Lewis Hamilton",
+     "team": "Ferrari",
+     "colour": "#ED1131",
+     "time": 92.912,
+     "gap": 0.402,
+     "laps": 18
+    },
+    {
+     "pos": 6,
+     "number": 81,
+     "code": "PIA",
+     "name": "Oscar Piastri",
+     "team": "McLaren",
+     "colour": "#F47600",
+     "time": 93.084,
+     "gap": 0.574,
+     "laps": 19
+    },
+    {
+     "pos": 7,
+     "number": 12,
+     "code": "ANT",
+     "name": "Kimi Antonelli",
+     "team": "Mercedes",
+     "colour": "#00D7B6",
+     "time": 93.114,
+     "gap": 0.604,
+     "laps": 18
+    },
+    {
+     "pos": 8,
+     "number": 87,
+     "code": "BEA",
+     "name": "Oliver Bearman",
+     "team": "Haas F1 Team",
+     "colour": "#9C9FA2",
+     "time": 93.139,
+     "gap": 0.629,
+     "laps": 19
+    },
+    {
+     "pos": 9,
+     "number": 55,
+     "code": "SAI",
+     "name": "Carlos Sainz",
+     "team": "Williams",
+     "colour": "#1868DB",
+     "time": 93.15,
+     "gap": 0.64,
+     "laps": 20
+    },
+    {
+     "pos": 10,
+     "number": 14,
+     "code": "ALO",
+     "name": "Fernando Alonso",
+     "team": "Aston Martin",
+     "colour": "#229971",
+     "time": 93.16,
+     "gap": 0.65,
+     "laps": 18
+    }
+   ]
+  },
+  {
+   "key": 9883,
+   "meeting": 1271,
+   "year": 2025,
+   "name": "Sprint",
+   "kind": "race",
+   "date": "2025-10-18T17:00:00+00:00",
+   "fastest": {
+    "time": 96.527,
+    "lap": 7,
+    "driver": {
+     "number": 1,
+     "code": "VER",
+     "name": "Max Verstappen",
+     "team": "Red Bull Racing",
+     "colour": "#4781D7"
+    }
+   },
+   "sectors": [
+    {
+     "best": 25.964,
+     "driver": {
+      "number": 63,
+      "code": "RUS",
+      "name": "George Russell",
+      "team": "Mercedes",
+      "colour": "#00D7B6"
+     },
+     "avg": 26.531
+    },
+    {
+     "best": 38.665,
+     "driver": {
+      "number": 63,
+      "code": "RUS",
+      "name": "George Russell",
+      "team": "Mercedes",
+      "colour": "#00D7B6"
+     },
+     "avg": 39.822
+    },
+    {
+     "best": 31.483,
+     "driver": {
+      "number": 1,
+      "code": "VER",
+      "name": "Max Verstappen",
+      "team": "Red Bull Racing",
+      "colour": "#4781D7"
+     },
+     "avg": 32.465
+    }
+   ],
+   "ideal": 96.112,
+   "avgLap": 99.02,
+   "avgLapNote": "median green-flag lap",
+   "topSpeed": {
+    "kph": 338,
+    "driver": {
+     "number": 12,
+     "code": "ANT",
+     "name": "Kimi Antonelli",
+     "team": "Mercedes",
+     "colour": "#00D7B6"
+    }
+   },
+   "results": [
+    {
+     "pos": 1,
+     "number": 1,
+     "code": "VER",
+     "name": "Max Verstappen",
+     "team": "Red Bull Racing",
+     "colour": "#4781D7",
+     "time": 2278.229,
+     "gap": 0,
+     "laps": 19
+    },
+    {
+     "pos": 2,
+     "number": 63,
+     "code": "RUS",
+     "name": "George Russell",
+     "team": "Mercedes",
+     "colour": "#00D7B6",
+     "time": 2278.624,
+     "gap": 0.395,
+     "laps": 19
+    },
+    {
+     "pos": 3,
+     "number": 55,
+     "code": "SAI",
+     "name": "Carlos Sainz",
+     "team": "Williams",
+     "colour": "#1868DB",
+     "time": 2279.02,
+     "gap": 0.791,
+     "laps": 19
+    },
+    {
+     "pos": 4,
+     "number": 44,
+     "code": "HAM",
+     "name": "Lewis Hamilton",
+     "team": "Ferrari",
+     "colour": "#ED1131",
+     "time": 2279.453,
+     "gap": 1.224,
+     "laps": 19
+    },
+    {
+     "pos": 5,
+     "number": 16,
+     "code": "LEC",
+     "name": "Charles Leclerc",
+     "team": "Ferrari",
+     "colour": "#ED1131",
+     "time": 2280.054,
+     "gap": 1.825,
+     "laps": 19
+    },
+    {
+     "pos": 6,
+     "number": 23,
+     "code": "ALB",
+     "name": "Alexander Albon",
+     "team": "Williams",
+     "colour": "#1868DB",
+     "time": 2280.805,
+     "gap": 2.576,
+     "laps": 19
+    },
+    {
+     "pos": 7,
+     "number": 22,
+     "code": "TSU",
+     "name": "Yuki Tsunoda",
+     "team": "Red Bull Racing",
+     "colour": "#4781D7",
+     "time": 2281.205,
+     "gap": 2.976,
+     "laps": 19
+    },
+    {
+     "pos": 8,
+     "number": 12,
+     "code": "ANT",
+     "name": "Kimi Antonelli",
+     "team": "Mercedes",
+     "colour": "#00D7B6",
+     "time": 2282.376,
+     "gap": 4.147,
+     "laps": 19
+    },
+    {
+     "pos": 9,
+     "number": 30,
+     "code": "LAW",
+     "name": "Liam Lawson",
+     "team": "Racing Bulls",
+     "colour": "#6C98FF",
+     "time": 2283.033,
+     "gap": 4.804,
+     "laps": 19
+    },
+    {
+     "pos": 10,
+     "number": 10,
+     "code": "GAS",
+     "name": "Pierre Gasly",
+     "team": "Alpine",
+     "colour": "#00A1E8",
+     "time": 2283.355,
+     "gap": 5.126,
+     "laps": 19
+    }
+   ]
+  },
+  {
+   "key": 9879,
+   "meeting": 1271,
+   "year": 2025,
+   "name": "Sprint Qualifying",
+   "kind": "quali",
+   "date": "2025-10-17T21:30:00+00:00",
+   "fastest": {
+    "time": 92.143,
+    "lap": 11,
+    "driver": {
+     "number": 1,
+     "code": "VER",
+     "name": "Max Verstappen",
+     "team": "Red Bull Racing",
+     "colour": "#4781D7"
+    }
+   },
+   "sectors": [
+    {
+     "best": 24.891,
+     "driver": {
+      "number": 1,
+      "code": "VER",
+      "name": "Max Verstappen",
+      "team": "Red Bull Racing",
+      "colour": "#4781D7"
+     },
+     "avg": 25.1
+    },
+    {
+     "best": 37.134,
+     "driver": {
+      "number": 4,
+      "code": "NOR",
+      "name": "Lando Norris",
+      "team": "McLaren",
+      "colour": "#F47600"
+     },
+     "avg": 37.322
+    },
+    {
+     "best": 30.093,
+     "driver": {
+      "number": 1,
+      "code": "VER",
+      "name": "Max Verstappen",
+      "team": "Red Bull Racing",
+      "colour": "#4781D7"
+     },
+     "avg": 30.326
+    }
+   ],
+   "ideal": 92.118,
+   "avgLap": 92.747,
+   "avgLapNote": "mean of top-10 best",
+   "topSpeed": {
+    "kph": 327,
+    "driver": {
+     "number": 23,
+     "code": "ALB",
+     "name": "Alexander Albon",
+     "team": "Williams",
+     "colour": "#1868DB"
+    }
+   },
+   "results": [
+    {
+     "pos": 1,
+     "number": 1,
+     "code": "VER",
+     "name": "Max Verstappen",
+     "team": "Red Bull Racing",
+     "colour": "#4781D7",
+     "time": 92.143,
+     "gap": 0,
+     "laps": 12
+    },
+    {
+     "pos": 2,
+     "number": 4,
+     "code": "NOR",
+     "name": "Lando Norris",
+     "team": "McLaren",
+     "colour": "#F47600",
+     "time": 92.214,
+     "gap": 0.071,
+     "laps": 12
+    },
+    {
+     "pos": 3,
+     "number": 81,
+     "code": "PIA",
+     "name": "Oscar Piastri",
+     "team": "McLaren",
+     "colour": "#F47600",
+     "time": 92.523,
+     "gap": 0.38,
+     "laps": 13
+    },
+    {
+     "pos": 4,
+     "number": 27,
+     "code": "HUL",
+     "name": "Nico Hulkenberg",
+     "team": "Kick Sauber",
+     "colour": "#01C00E",
+     "time": 92.645,
+     "gap": 0.502,
+     "laps": 12
+    },
+    {
+     "pos": 5,
+     "number": 63,
+     "code": "RUS",
+     "name": "George Russell",
+     "team": "Mercedes",
+     "colour": "#00D7B6",
+     "time": 92.888,
+     "gap": 0.745,
+     "laps": 13
+    },
+    {
+     "pos": 6,
+     "number": 14,
+     "code": "ALO",
+     "name": "Fernando Alonso",
+     "team": "Aston Martin",
+     "colour": "#229971",
+     "time": 92.91,
+     "gap": 0.767,
+     "laps": 12
+    },
+    {
+     "pos": 7,
+     "number": 55,
+     "code": "SAI",
+     "name": "Carlos Sainz",
+     "team": "Williams",
+     "colour": "#1868DB",
+     "time": 92.911,
+     "gap": 0.768,
+     "laps": 14
+    },
+    {
+     "pos": 8,
+     "number": 44,
+     "code": "HAM",
+     "name": "Lewis Hamilton",
+     "team": "Ferrari",
+     "colour": "#ED1131",
+     "time": 93.035,
+     "gap": 0.892,
+     "laps": 14
+    },
+    {
+     "pos": 9,
+     "number": 23,
+     "code": "ALB",
+     "name": "Alexander Albon",
+     "team": "Williams",
+     "colour": "#1868DB",
+     "time": 93.099,
+     "gap": 0.956,
+     "laps": 14
+    },
+    {
+     "pos": 10,
+     "number": 16,
+     "code": "LEC",
+     "name": "Charles Leclerc",
+     "team": "Ferrari",
+     "colour": "#ED1131",
+     "time": 93.104,
+     "gap": 0.961,
+     "laps": 15
+    }
+   ]
+  },
+  {
+   "key": 9617,
+   "meeting": 1247,
+   "year": 2024,
+   "name": "Race",
+   "kind": "race",
+   "date": "2024-10-20T19:00:00+00:00",
+   "fastest": {
+    "time": 97.33,
+    "lap": 53,
+    "driver": {
+     "number": 31,
+     "code": "OCO",
+     "name": "Esteban Ocon",
+     "team": "Alpine",
+     "colour": "#0093cc"
+    }
+   },
+   "sectors": [
+    {
+     "best": 26.007,
+     "driver": {
+      "number": 16,
+      "code": "LEC",
+      "name": "Charles Leclerc",
+      "team": "Ferrari",
+      "colour": "#E80020"
+     },
+     "avg": 26.908
+    },
+    {
+     "best": 38.874,
+     "driver": {
+      "number": 63,
+      "code": "RUS",
+      "name": "George Russell",
+      "team": "Mercedes",
+      "colour": "#27F4D2"
+     },
+     "avg": 40.04
+    },
+    {
+     "best": 32.007,
+     "driver": {
+      "number": 31,
+      "code": "OCO",
+      "name": "Esteban Ocon",
+      "team": "Alpine",
+      "colour": "#0093cc"
+     },
+     "avg": 33.195
+    }
+   ],
+   "ideal": 96.888,
+   "avgLap": 100.192,
+   "avgLapNote": "median green-flag lap",
+   "topSpeed": {
+    "kph": 344,
+    "driver": {
+     "number": 63,
+     "code": "RUS",
+     "name": "George Russell",
+     "team": "Mercedes",
+     "colour": "#27F4D2"
+    }
+   },
+   "results": [
+    {
+     "pos": 1,
+     "number": 16,
+     "code": "LEC",
+     "name": "Charles Leclerc",
+     "team": "Ferrari",
+     "colour": "#E80020",
+     "time": 5709.639,
+     "gap": 0,
+     "laps": 56
+    },
+    {
+     "pos": 2,
+     "number": 55,
+     "code": "SAI",
+     "name": "Carlos Sainz",
+     "team": "Ferrari",
+     "colour": "#E80020",
+     "time": 5718.201,
+     "gap": 8.562,
+     "laps": 56
+    },
+    {
+     "pos": 3,
+     "number": 1,
+     "code": "VER",
+     "name": "Max Verstappen",
+     "team": "Red Bull Racing",
+     "colour": "#3671C6",
+     "time": 5729.051,
+     "gap": 19.412,
+     "laps": 56
+    },
+    {
+     "pos": 4,
+     "number": 4,
+     "code": "NOR",
+     "name": "Lando Norris",
+     "team": "McLaren",
+     "colour": "#FF8000",
+     "time": 5729.993,
+     "gap": 20.354,
+     "laps": 56
+    },
+    {
+     "pos": 5,
+     "number": 81,
+     "code": "PIA",
+     "name": "Oscar Piastri",
+     "team": "McLaren",
+     "colour": "#FF8000",
+     "time": 5731.56,
+     "gap": 21.921,
+     "laps": 56
+    },
+    {
+     "pos": 6,
+     "number": 63,
+     "code": "RUS",
+     "name": "George Russell",
+     "team": "Mercedes",
+     "colour": "#27F4D2",
+     "time": 5765.934,
+     "gap": 56.295,
+     "laps": 56
+    },
+    {
+     "pos": 7,
+     "number": 11,
+     "code": "PER",
+     "name": "Sergio Perez",
+     "team": "Red Bull Racing",
+     "colour": "#3671C6",
+     "time": 5768.711,
+     "gap": 59.072,
+     "laps": 56
+    },
+    {
+     "pos": 8,
+     "number": 27,
+     "code": "HUL",
+     "name": "Nico Hulkenberg",
+     "team": "Haas F1 Team",
+     "colour": "#B6BABD",
+     "time": 5772.596,
+     "gap": 62.957,
+     "laps": 56
+    },
+    {
+     "pos": 9,
+     "number": 30,
+     "code": "LAW",
+     "name": "Liam Lawson",
+     "team": "RB",
+     "colour": "#6692FF",
+     "time": 5780.202,
+     "gap": 70.563,
+     "laps": 56
+    },
+    {
+     "pos": 10,
+     "number": 43,
+     "code": "COL",
+     "name": "Franco Colapinto",
+     "team": "Williams",
+     "colour": "#64C4FF",
+     "time": 5781.618,
+     "gap": 71.979,
+     "laps": 56
+    }
+   ]
+  },
+  {
+   "key": 9608,
+   "meeting": 1247,
+   "year": 2024,
+   "name": "Qualifying",
+   "kind": "quali",
+   "date": "2024-10-19T22:00:00+00:00",
+   "fastest": {
+    "time": 92.33,
+    "lap": 13,
+    "driver": {
+     "number": 4,
+     "code": "NOR",
+     "name": "Lando Norris",
+     "team": "McLaren",
+     "colour": "#FF8000"
+    }
+   },
+   "sectors": [
+    {
+     "best": 24.82,
+     "driver": {
+      "number": 1,
+      "code": "VER",
+      "name": "Max Verstappen",
+      "team": "Red Bull Racing",
+      "colour": "#3671C6"
+     },
+     "avg": 25.147
+    },
+    {
+     "best": 36.887,
+     "driver": {
+      "number": 4,
+      "code": "NOR",
+      "name": "Lando Norris",
+      "team": "McLaren",
+      "colour": "#FF8000"
+     },
+     "avg": 37.118
+    },
+    {
+     "best": 30.451,
+     "driver": {
+      "number": 4,
+      "code": "NOR",
+      "name": "Lando Norris",
+      "team": "McLaren",
+      "colour": "#FF8000"
+     },
+     "avg": 30.605
+    }
+   ],
+   "ideal": 92.158,
+   "avgLap": 92.869,
+   "avgLapNote": "mean of top-10 best",
+   "topSpeed": {
+    "kph": 334,
+    "driver": {
+     "number": 22,
+     "code": "TSU",
+     "name": "Yuki Tsunoda",
+     "team": "RB",
+     "colour": "#6692FF"
+    }
+   },
+   "results": [
+    {
+     "pos": 1,
+     "number": 4,
+     "code": "NOR",
+     "name": "Lando Norris",
+     "team": "McLaren",
+     "colour": "#FF8000",
+     "time": 92.33,
+     "gap": 0,
+     "laps": 16
+    },
+    {
+     "pos": 2,
+     "number": 1,
+     "code": "VER",
+     "name": "Max Verstappen",
+     "team": "Red Bull Racing",
+     "colour": "#3671C6",
+     "time": 92.361,
+     "gap": 0.031,
+     "laps": 17
+    },
+    {
+     "pos": 3,
+     "number": 55,
+     "code": "SAI",
+     "name": "Carlos Sainz",
+     "team": "Ferrari",
+     "colour": "#E80020",
+     "time": 92.652,
+     "gap": 0.322,
+     "laps": 19
+    },
+    {
+     "pos": 4,
+     "number": 16,
+     "code": "LEC",
+     "name": "Charles Leclerc",
+     "team": "Ferrari",
+     "colour": "#E80020",
+     "time": 92.74,
+     "gap": 0.41,
+     "laps": 20
+    },
+    {
+     "pos": 5,
+     "number": 81,
+     "code": "PIA",
+     "name": "Oscar Piastri",
+     "team": "McLaren",
+     "colour": "#FF8000",
+     "time": 92.95,
+     "gap": 0.62,
+     "laps": 19
+    },
+    {
+     "pos": 6,
+     "number": 63,
+     "code": "RUS",
+     "name": "George Russell",
+     "team": "Mercedes",
+     "colour": "#27F4D2",
+     "time": 92.974,
+     "gap": 0.644,
+     "laps": 15
+    },
+    {
+     "pos": 7,
+     "number": 10,
+     "code": "GAS",
+     "name": "Pierre Gasly",
+     "team": "Alpine",
+     "colour": "#0093cc",
+     "time": 93.018,
+     "gap": 0.688,
+     "laps": 20
+    },
+    {
+     "pos": 8,
+     "number": 14,
+     "code": "ALO",
+     "name": "Fernando Alonso",
+     "team": "Aston Martin",
+     "colour": "#229971",
+     "time": 93.309,
+     "gap": 0.979,
+     "laps": 18
+    },
+    {
+     "pos": 9,
+     "number": 20,
+     "code": "MAG",
+     "name": "Kevin Magnussen",
+     "team": "Haas F1 Team",
+     "colour": "#B6BABD",
+     "time": 93.481,
+     "gap": 1.151,
+     "laps": 17
+    },
+    {
+     "pos": 10,
+     "number": 11,
+     "code": "PER",
+     "name": "Sergio Perez",
+     "team": "Red Bull Racing",
+     "colour": "#3671C6",
+     "time": 93.02,
+     "gap": null,
+     "laps": 17
+    }
+   ]
+  },
+  {
+   "key": 9616,
+   "meeting": 1247,
+   "year": 2024,
+   "name": "Sprint",
+   "kind": "race",
+   "date": "2024-10-19T18:00:00+00:00",
+   "fastest": {
+    "time": 97.463,
+    "lap": 19,
+    "driver": {
+     "number": 1,
+     "code": "VER",
+     "name": "Max Verstappen",
+     "team": "Red Bull Racing",
+     "colour": "#3671C6"
+    }
+   },
+   "sectors": [
+    {
+     "best": 25.964,
+     "driver": {
+      "number": 55,
+      "code": "SAI",
+      "name": "Carlos Sainz",
+      "team": "Ferrari",
+      "colour": "#E80020"
+     },
+     "avg": 26.74
+    },
+    {
+     "best": 38.586,
+     "driver": {
+      "number": 55,
+      "code": "SAI",
+      "name": "Carlos Sainz",
+      "team": "Ferrari",
+      "colour": "#E80020"
+     },
+     "avg": 39.662
+    },
+    {
+     "best": 32.308,
+     "driver": {
+      "number": 1,
+      "code": "VER",
+      "name": "Max Verstappen",
+      "team": "Red Bull Racing",
+      "colour": "#3671C6"
+     },
+     "avg": 33.168
+    }
+   ],
+   "ideal": 96.858,
+   "avgLap": 99.652,
+   "avgLapNote": "median green-flag lap",
+   "topSpeed": {
+    "kph": 348,
+    "driver": {
+     "number": 14,
+     "code": "ALO",
+     "name": "Fernando Alonso",
+     "team": "Aston Martin",
+     "colour": "#229971"
+    }
+   },
+   "results": [
+    {
+     "pos": 1,
+     "number": 1,
+     "code": "VER",
+     "name": "Max Verstappen",
+     "team": "Red Bull Racing",
+     "colour": "#3671C6",
+     "time": 1866.146,
+     "gap": 0,
+     "laps": 19
+    },
+    {
+     "pos": 2,
+     "number": 55,
+     "code": "SAI",
+     "name": "Carlos Sainz",
+     "team": "Ferrari",
+     "colour": "#E80020",
+     "time": 1870.028,
+     "gap": 3.882,
+     "laps": 19
+    },
+    {
+     "pos": 3,
+     "number": 4,
+     "code": "NOR",
+     "name": "Lando Norris",
+     "team": "McLaren",
+     "colour": "#FF8000",
+     "time": 1872.386,
+     "gap": 6.24,
+     "laps": 19
+    },
+    {
+     "pos": 4,
+     "number": 16,
+     "code": "LEC",
+     "name": "Charles Leclerc",
+     "team": "Ferrari",
+     "colour": "#E80020",
+     "time": 1873.102,
+     "gap": 6.956,
+     "laps": 19
+    },
+    {
+     "pos": 5,
+     "number": 63,
+     "code": "RUS",
+     "name": "George Russell",
+     "team": "Mercedes",
+     "colour": "#27F4D2",
+     "time": 1881.912,
+     "gap": 15.766,
+     "laps": 19
+    },
+    {
+     "pos": 6,
+     "number": 44,
+     "code": "HAM",
+     "name": "Lewis Hamilton",
+     "team": "Mercedes",
+     "colour": "#27F4D2",
+     "time": 1884.87,
+     "gap": 18.724,
+     "laps": 19
+    },
+    {
+     "pos": 7,
+     "number": 20,
+     "code": "MAG",
+     "name": "Kevin Magnussen",
+     "team": "Haas F1 Team",
+     "colour": "#B6BABD",
+     "time": 1891.307,
+     "gap": 25.161,
+     "laps": 19
+    },
+    {
+     "pos": 8,
+     "number": 27,
+     "code": "HUL",
+     "name": "Nico Hulkenberg",
+     "team": "Haas F1 Team",
+     "colour": "#B6BABD",
+     "time": 1892.734,
+     "gap": 26.588,
+     "laps": 19
+    },
+    {
+     "pos": 9,
+     "number": 11,
+     "code": "PER",
+     "name": "Sergio Perez",
+     "team": "Red Bull Racing",
+     "colour": "#3671C6",
+     "time": 1896.096,
+     "gap": 29.95,
+     "laps": 19
+    },
+    {
+     "pos": 10,
+     "number": 81,
+     "code": "PIA",
+     "name": "Oscar Piastri",
+     "team": "McLaren",
+     "colour": "#FF8000",
+     "time": 1903.205,
+     "gap": 37.059,
+     "laps": 19
+    }
+   ]
+  },
+  {
+   "key": 9612,
+   "meeting": 1247,
+   "year": 2024,
+   "name": "Sprint Qualifying",
+   "kind": "quali",
+   "date": "2024-10-18T21:30:00+00:00",
+   "fastest": {
+    "time": 92.833,
+    "lap": 11,
+    "driver": {
+     "number": 1,
+     "code": "VER",
+     "name": "Max Verstappen",
+     "team": "Red Bull Racing",
+     "colour": "#3671C6"
+    }
+   },
+   "sectors": [
+    {
+     "best": 24.874,
+     "driver": {
+      "number": 44,
+      "code": "HAM",
+      "name": "Lewis Hamilton",
+      "team": "Mercedes",
+      "colour": "#27F4D2"
+     },
+     "avg": 25.239
+    },
+    {
+     "best": 37.114,
+     "driver": {
+      "number": 63,
+      "code": "RUS",
+      "name": "George Russell",
+      "team": "Mercedes",
+      "colour": "#27F4D2"
+     },
+     "avg": 37.365
+    },
+    {
+     "best": 30.484,
+     "driver": {
+      "number": 16,
+      "code": "LEC",
+      "name": "Charles Leclerc",
+      "team": "Ferrari",
+      "colour": "#E80020"
+     },
+     "avg": 30.658
+    }
+   ],
+   "ideal": 92.472,
+   "avgLap": 93.261,
+   "avgLapNote": "mean of top-10 best",
+   "topSpeed": {
+    "kph": 329,
+    "driver": {
+     "number": 14,
+     "code": "ALO",
+     "name": "Fernando Alonso",
+     "team": "Aston Martin",
+     "colour": "#229971"
+    }
+   },
+   "results": [
+    {
+     "pos": 1,
+     "number": 1,
+     "code": "VER",
+     "name": "Max Verstappen",
+     "team": "Red Bull Racing",
+     "colour": "#3671C6",
+     "time": 92.833,
+     "gap": 0,
+     "laps": 12
+    },
+    {
+     "pos": 2,
+     "number": 63,
+     "code": "RUS",
+     "name": "George Russell",
+     "team": "Mercedes",
+     "colour": "#27F4D2",
+     "time": 92.845,
+     "gap": 0.012,
+     "laps": 14
+    },
+    {
+     "pos": 3,
+     "number": 16,
+     "code": "LEC",
+     "name": "Charles Leclerc",
+     "team": "Ferrari",
+     "colour": "#E80020",
+     "time": 93.059,
+     "gap": 0.226,
+     "laps": 12
+    },
+    {
+     "pos": 4,
+     "number": 4,
+     "code": "NOR",
+     "name": "Lando Norris",
+     "team": "McLaren",
+     "colour": "#FF8000",
+     "time": 93.083,
+     "gap": 0.25,
+     "laps": 14
+    },
+    {
+     "pos": 5,
+     "number": 55,
+     "code": "SAI",
+     "name": "Carlos Sainz",
+     "team": "Ferrari",
+     "colour": "#E80020",
+     "time": 93.089,
+     "gap": 0.256,
+     "laps": 12
+    },
+    {
+     "pos": 6,
+     "number": 27,
+     "code": "HUL",
+     "name": "Nico Hulkenberg",
+     "team": "Haas F1 Team",
+     "colour": "#B6BABD",
+     "time": 93.183,
+     "gap": 0.35,
+     "laps": 14
+    },
+    {
+     "pos": 7,
+     "number": 44,
+     "code": "HAM",
+     "name": "Lewis Hamilton",
+     "team": "Mercedes",
+     "colour": "#27F4D2",
+     "time": 93.378,
+     "gap": 0.545,
+     "laps": 12
+    },
+    {
+     "pos": 8,
+     "number": 20,
+     "code": "MAG",
+     "name": "Kevin Magnussen",
+     "team": "Haas F1 Team",
+     "colour": "#B6BABD",
+     "time": 93.398,
+     "gap": 0.565,
+     "laps": 14
+    },
+    {
+     "pos": 9,
+     "number": 22,
+     "code": "TSU",
+     "name": "Yuki Tsunoda",
+     "team": "RB",
+     "colour": "#6692FF",
+     "time": 93.802,
+     "gap": 0.969,
+     "laps": 12
+    },
+    {
+     "pos": 10,
+     "number": 43,
+     "code": "COL",
+     "name": "Franco Colapinto",
+     "team": "Williams",
+     "colour": "#64C4FF",
+     "time": 94.406,
+     "gap": 1.573,
+     "laps": 15
+    }
+   ]
+  },
+  {
+   "key": 9213,
+   "meeting": 1222,
+   "year": 2023,
+   "name": "Race",
+   "kind": "race",
+   "date": "2023-10-22T19:00:00+00:00",
+   "fastest": {
+    "time": 98.139,
+    "lap": 56,
+    "driver": {
+     "number": 22,
+     "code": "TSU",
+     "name": "Yuki Tsunoda",
+     "team": "AlphaTauri",
+     "colour": "#5E8FAA"
+    }
+   },
+   "sectors": [
+    {
+     "best": 26.546,
+     "driver": {
+      "number": 22,
+      "code": "TSU",
+      "name": "Yuki Tsunoda",
+      "team": "AlphaTauri",
+      "colour": "#5E8FAA"
+     },
+     "avg": 27.567
+    },
+    {
+     "best": 39.573,
+     "driver": {
+      "number": 22,
+      "code": "TSU",
+      "name": "Yuki Tsunoda",
+      "team": "AlphaTauri",
+      "colour": "#5E8FAA"
+     },
+     "avg": 41.075
+    },
+    {
+     "best": 32.02,
+     "driver": {
+      "number": 22,
+      "code": "TSU",
+      "name": "Yuki Tsunoda",
+      "team": "AlphaTauri",
+      "colour": "#5E8FAA"
+     },
+     "avg": 33.65
+    }
+   ],
+   "ideal": 98.139,
+   "avgLap": 102.331,
+   "avgLapNote": "median green-flag lap",
+   "topSpeed": {
+    "kph": 334,
+    "driver": {
+     "number": 20,
+     "code": "MAG",
+     "name": "Kevin Magnussen",
+     "team": "Haas F1 Team",
+     "colour": "#B6BABD"
+    }
+   },
+   "results": [
+    {
+     "pos": 1,
+     "number": 1,
+     "code": "VER",
+     "name": "Max Verstappen",
+     "team": "Red Bull Racing",
+     "colour": "#3671C6",
+     "time": 5721.362,
+     "gap": 0,
+     "laps": 56
+    },
+    {
+     "pos": 2,
+     "number": 4,
+     "code": "NOR",
+     "name": "Lando Norris",
+     "team": "McLaren",
+     "colour": "#F58020",
+     "time": 5732.092,
+     "gap": 10.73,
+     "laps": 56
+    },
+    {
+     "pos": 3,
+     "number": 55,
+     "code": "SAI",
+     "name": "Carlos Sainz",
+     "team": "Ferrari",
+     "colour": "#F91536",
+     "time": 5736.496,
+     "gap": 15.134,
+     "laps": 56
+    },
+    {
+     "pos": 4,
+     "number": 11,
+     "code": "PER",
+     "name": "Sergio Perez",
+     "team": "Red Bull Racing",
+     "colour": "#3671C6",
+     "time": 5739.822,
+     "gap": 18.46,
+     "laps": 56
+    },
+    {
+     "pos": 5,
+     "number": 63,
+     "code": "RUS",
+     "name": "George Russell",
+     "team": "Mercedes",
+     "colour": "#6CD3BF",
+     "time": 5746.361,
+     "gap": 24.999,
+     "laps": 56
+    },
+    {
+     "pos": 6,
+     "number": 10,
+     "code": "GAS",
+     "name": "Pierre Gasly",
+     "team": "Alpine",
+     "colour": "#2293D1",
+     "time": 5769.358,
+     "gap": 47.996,
+     "laps": 56
+    },
+    {
+     "pos": 7,
+     "number": 18,
+     "code": "STR",
+     "name": "Lance Stroll",
+     "team": "Aston Martin",
+     "colour": "#358C75",
+     "time": 5770.058,
+     "gap": 48.696,
+     "laps": 56
+    },
+    {
+     "pos": 8,
+     "number": 22,
+     "code": "TSU",
+     "name": "Yuki Tsunoda",
+     "team": "AlphaTauri",
+     "colour": "#5E8FAA",
+     "time": 5795.747,
+     "gap": 74.385,
+     "laps": 56
+    },
+    {
+     "pos": 9,
+     "number": 23,
+     "code": "ALB",
+     "name": "Alexander Albon",
+     "team": "Williams",
+     "colour": "#37BEDD",
+     "time": 5808.076,
+     "gap": 86.714,
+     "laps": 56
+    },
+    {
+     "pos": 10,
+     "number": 2,
+     "code": "SAR",
+     "name": "Logan Sargeant",
+     "team": "Williams",
+     "colour": "#37BEDD",
+     "time": 5809.36,
+     "gap": 87.998,
+     "laps": 56
+    }
+   ]
+  },
+  {
+   "key": 9212,
+   "meeting": 1222,
+   "year": 2023,
+   "name": "Sprint",
+   "kind": "race",
+   "date": "2023-10-21T22:00:00+00:00",
+   "fastest": {
+    "time": 99.06,
+    "lap": 2,
+    "driver": {
+     "number": 1,
+     "code": "VER",
+     "name": "Max Verstappen",
+     "team": "Red Bull Racing",
+     "colour": "#3671C6"
+    }
+   },
+   "sectors": [
+    {
+     "best": 26.629,
+     "driver": {
+      "number": 11,
+      "code": "PER",
+      "name": "Sergio Perez",
+      "team": "Red Bull Racing",
+      "colour": "#3671C6"
+     },
+     "avg": 27.202
+    },
+    {
+     "best": 39.709,
+     "driver": {
+      "number": 44,
+      "code": "HAM",
+      "name": "Lewis Hamilton",
+      "team": "Mercedes",
+      "colour": "#6CD3BF"
+     },
+     "avg": 40.627
+    },
+    {
+     "best": 32.138,
+     "driver": {
+      "number": 1,
+      "code": "VER",
+      "name": "Max Verstappen",
+      "team": "Red Bull Racing",
+      "colour": "#3671C6"
+     },
+     "avg": 33.39
+    }
+   ],
+   "ideal": 98.476,
+   "avgLap": 101.405,
+   "avgLapNote": "median green-flag lap",
+   "topSpeed": {
+    "kph": 339,
+    "driver": {
+     "number": 18,
+     "code": "STR",
+     "name": "Lance Stroll",
+     "team": "Aston Martin",
+     "colour": "#358C75"
+    }
+   },
+   "results": [
+    {
+     "pos": 1,
+     "number": 1,
+     "code": "VER",
+     "name": "Max Verstappen",
+     "team": "Red Bull Racing",
+     "colour": "#3671C6",
+     "time": 1890.849,
+     "gap": 0,
+     "laps": 19
+    },
+    {
+     "pos": 2,
+     "number": 44,
+     "code": "HAM",
+     "name": "Lewis Hamilton",
+     "team": "Mercedes",
+     "colour": "#6CD3BF",
+     "time": 1900.314,
+     "gap": 9.465,
+     "laps": 19
+    },
+    {
+     "pos": 3,
+     "number": 16,
+     "code": "LEC",
+     "name": "Charles Leclerc",
+     "team": "Ferrari",
+     "colour": "#F91536",
+     "time": 1908.836,
+     "gap": 17.987,
+     "laps": 19
+    },
+    {
+     "pos": 4,
+     "number": 4,
+     "code": "NOR",
+     "name": "Lando Norris",
+     "team": "McLaren",
+     "colour": "#F58020",
+     "time": 1909.712,
+     "gap": 18.863,
+     "laps": 19
+    },
+    {
+     "pos": 5,
+     "number": 11,
+     "code": "PER",
+     "name": "Sergio Perez",
+     "team": "Red Bull Racing",
+     "colour": "#3671C6",
+     "time": 1913.777,
+     "gap": 22.928,
+     "laps": 19
+    },
+    {
+     "pos": 6,
+     "number": 55,
+     "code": "SAI",
+     "name": "Carlos Sainz",
+     "team": "Ferrari",
+     "colour": "#F91536",
+     "time": 1919.156,
+     "gap": 28.307,
+     "laps": 19
+    },
+    {
+     "pos": 7,
+     "number": 10,
+     "code": "GAS",
+     "name": "Pierre Gasly",
+     "team": "Alpine",
+     "colour": "#2293D1",
+     "time": 1923.252,
+     "gap": 32.403,
+     "laps": 19
+    },
+    {
+     "pos": 8,
+     "number": 63,
+     "code": "RUS",
+     "name": "George Russell",
+     "team": "Mercedes",
+     "colour": "#6CD3BF",
+     "time": 1925.099,
+     "gap": 34.25,
+     "laps": 19
+    },
+    {
+     "pos": 9,
+     "number": 23,
+     "code": "ALB",
+     "name": "Alexander Albon",
+     "team": "Williams",
+     "colour": "#37BEDD",
+     "time": 1925.416,
+     "gap": 34.567,
+     "laps": 19
+    },
+    {
+     "pos": 10,
+     "number": 81,
+     "code": "PIA",
+     "name": "Oscar Piastri",
+     "team": "McLaren",
+     "colour": "#F58020",
+     "time": 1933.252,
+     "gap": 42.403,
+     "laps": 19
+    }
+   ]
+  },
+  {
+   "key": 9294,
+   "meeting": 1222,
+   "year": 2023,
+   "name": "Sprint Qualifying",
+   "kind": "quali",
+   "date": "2023-10-21T17:30:00+00:00",
+   "fastest": {
+    "time": 94.538,
+    "lap": 10,
+    "driver": {
+     "number": 1,
+     "code": "VER",
+     "name": "Max Verstappen",
+     "team": "Red Bull Racing",
+     "colour": "#3671C6"
+    }
+   },
+   "sectors": [
+    {
+     "best": 25.396,
+     "driver": {
+      "number": 4,
+      "code": "NOR",
+      "name": "Lando Norris",
+      "team": "McLaren",
+      "colour": "#F58020"
+     },
+     "avg": 25.539
+    },
+    {
+     "best": 38.091,
+     "driver": {
+      "number": 16,
+      "code": "LEC",
+      "name": "Charles Leclerc",
+      "team": "Ferrari",
+      "colour": "#F91536"
+     },
+     "avg": 38.322
+    },
+    {
+     "best": 30.882,
+     "driver": {
+      "number": 81,
+      "code": "PIA",
+      "name": "Oscar Piastri",
+      "team": "McLaren",
+      "colour": "#F58020"
+     },
+     "avg": 31.098
+    }
+   ],
+   "ideal": 94.369,
+   "avgLap": 94.96,
+   "avgLapNote": "mean of top-10 best",
+   "topSpeed": {
+    "kph": 326,
+    "driver": {
+     "number": 27,
+     "code": "HUL",
+     "name": "Nico Hulkenberg",
+     "team": "Haas F1 Team",
+     "colour": "#B6BABD"
+    }
+   },
+   "results": [
+    {
+     "pos": 1,
+     "number": 1,
+     "code": "VER",
+     "name": "Max Verstappen",
+     "team": "Red Bull Racing",
+     "colour": "#3671C6",
+     "time": 94.538,
+     "gap": 0,
+     "laps": 11
+    },
+    {
+     "pos": 2,
+     "number": 16,
+     "code": "LEC",
+     "name": "Charles Leclerc",
+     "team": "Ferrari",
+     "colour": "#F91536",
+     "time": 94.593,
+     "gap": 0.055,
+     "laps": 14
+    },
+    {
+     "pos": 3,
+     "number": 44,
+     "code": "HAM",
+     "name": "Lewis Hamilton",
+     "team": "Mercedes",
+     "colour": "#6CD3BF",
+     "time": 94.607,
+     "gap": 0.069,
+     "laps": 12
+    },
+    {
+     "pos": 4,
+     "number": 4,
+     "code": "NOR",
+     "name": "Lando Norris",
+     "team": "McLaren",
+     "colour": "#F58020",
+     "time": 94.639,
+     "gap": 0.101,
+     "laps": 15
+    },
+    {
+     "pos": 5,
+     "number": 81,
+     "code": "PIA",
+     "name": "Oscar Piastri",
+     "team": "McLaren",
+     "colour": "#F58020",
+     "time": 94.894,
+     "gap": 0.356,
+     "laps": 15
+    },
+    {
+     "pos": 6,
+     "number": 55,
+     "code": "SAI",
+     "name": "Carlos Sainz",
+     "team": "Ferrari",
+     "colour": "#F91536",
+     "time": 94.939,
+     "gap": 0.401,
+     "laps": 14
+    },
+    {
+     "pos": 7,
+     "number": 11,
+     "code": "PER",
+     "name": "Sergio Perez",
+     "team": "Red Bull Racing",
+     "colour": "#3671C6",
+     "time": 95.041,
+     "gap": 0.503,
+     "laps": 14
+    },
+    {
+     "pos": 8,
+     "number": 63,
+     "code": "RUS",
+     "name": "George Russell",
+     "team": "Mercedes",
+     "colour": "#6CD3BF",
+     "time": 95.199,
+     "gap": 0.661,
+     "laps": 12
+    },
+    {
+     "pos": 9,
+     "number": 23,
+     "code": "ALB",
+     "name": "Alexander Albon",
+     "team": "Williams",
+     "colour": "#37BEDD",
+     "time": 95.366,
+     "gap": 0.828,
+     "laps": 12
+    },
+    {
+     "pos": 10,
+     "number": 10,
+     "code": "GAS",
+     "name": "Pierre Gasly",
+     "team": "Alpine",
+     "colour": "#2293D1",
+     "time": 95.897,
+     "gap": 1.359,
+     "laps": 12
+    }
+   ]
+  },
+  {
+   "key": 9207,
+   "meeting": 1222,
+   "year": 2023,
+   "name": "Qualifying",
+   "kind": "quali",
+   "date": "2023-10-20T21:00:00+00:00",
+   "fastest": {
+    "time": 94.718,
+    "lap": 17,
+    "driver": {
+     "number": 1,
+     "code": "VER",
+     "name": "Max Verstappen",
+     "team": "Red Bull Racing",
+     "colour": "#3671C6"
+    }
+   },
+   "sectors": [
+    {
+     "best": 25.332,
+     "driver": {
+      "number": 1,
+      "code": "VER",
+      "name": "Max Verstappen",
+      "team": "Red Bull Racing",
+      "colour": "#3671C6"
+     },
+     "avg": 25.469
+    },
+    {
+     "best": 38.055,
+     "driver": {
+      "number": 44,
+      "code": "HAM",
+      "name": "Lewis Hamilton",
+      "team": "Mercedes",
+      "colour": "#6CD3BF"
+     },
+     "avg": 38.232
+    },
+    {
+     "best": 31.146,
+     "driver": {
+      "number": 1,
+      "code": "VER",
+      "name": "Max Verstappen",
+      "team": "Red Bull Racing",
+      "colour": "#3671C6"
+     },
+     "avg": 31.305
+    }
+   ],
+   "ideal": 94.533,
+   "avgLap": 95.006,
+   "avgLapNote": "mean of top-10 best",
+   "topSpeed": {
+    "kph": 330,
+    "driver": {
+     "number": 20,
+     "code": "MAG",
+     "name": "Kevin Magnussen",
+     "team": "Haas F1 Team",
+     "colour": "#B6BABD"
+    }
+   },
+   "results": [
+    {
+     "pos": 1,
+     "number": 16,
+     "code": "LEC",
+     "name": "Charles Leclerc",
+     "team": "Ferrari",
+     "colour": "#F91536",
+     "time": 94.723,
+     "gap": 0,
+     "laps": 21
+    },
+    {
+     "pos": 2,
+     "number": 4,
+     "code": "NOR",
+     "name": "Lando Norris",
+     "team": "McLaren",
+     "colour": "#F58020",
+     "time": 94.853,
+     "gap": 0.13,
+     "laps": 20
+    },
+    {
+     "pos": 3,
+     "number": 44,
+     "code": "HAM",
+     "name": "Lewis Hamilton",
+     "team": "Mercedes",
+     "colour": "#6CD3BF",
+     "time": 94.862,
+     "gap": 0.139,
+     "laps": 18
+    },
+    {
+     "pos": 4,
+     "number": 55,
+     "code": "SAI",
+     "name": "Carlos Sainz",
+     "team": "Ferrari",
+     "colour": "#F91536",
+     "time": 94.945,
+     "gap": 0.222,
+     "laps": 18
+    },
+    {
+     "pos": 5,
+     "number": 63,
+     "code": "RUS",
+     "name": "George Russell",
+     "team": "Mercedes",
+     "colour": "#6CD3BF",
+     "time": 95.079,
+     "gap": 0.356,
+     "laps": 18
+    },
+    {
+     "pos": 6,
+     "number": 1,
+     "code": "VER",
+     "name": "Max Verstappen",
+     "team": "Red Bull Racing",
+     "colour": "#3671C6",
+     "time": 95.081,
+     "gap": 0.358,
+     "laps": 18
+    },
+    {
+     "pos": 7,
+     "number": 10,
+     "code": "GAS",
+     "name": "Pierre Gasly",
+     "team": "Alpine",
+     "colour": "#2293D1",
+     "time": 95.089,
+     "gap": 0.366,
+     "laps": 19
+    },
+    {
+     "pos": 8,
+     "number": 31,
+     "code": "OCO",
+     "name": "Esteban Ocon",
+     "team": "Alpine",
+     "colour": "#2293D1",
+     "time": 95.154,
+     "gap": 0.431,
+     "laps": 21
+    },
+    {
+     "pos": 9,
+     "number": 11,
+     "code": "PER",
+     "name": "Sergio Perez",
+     "team": "Red Bull Racing",
+     "colour": "#3671C6",
+     "time": 95.173,
+     "gap": 0.45,
+     "laps": 17
+    },
+    {
+     "pos": 10,
+     "number": 81,
+     "code": "PIA",
+     "name": "Oscar Piastri",
+     "team": "McLaren",
+     "colour": "#F58020",
+     "time": 95.467,
+     "gap": 0.744,
+     "laps": 20
+    }
+   ]
+  }
+ ]
+}
