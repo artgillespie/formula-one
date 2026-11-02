@@ -3,7 +3,7 @@
   "1": [
    {
     "file": "img/corners/t01-a.jpg",
-    "caption": "The start/finish straight rising towards the Turn 1 hill: the road climbs about 41 m to the crest, where drivers brake for the tight uphill left-hand hairpin.",
+    "caption": "The start/finish straight rising towards the Turn 1 hill: the road climbs steeply to the crest, where drivers brake for the tight uphill left-hand hairpin.",
     "landmark": "Turn 1 hill / main straight",
     "author": "Lars Plougmann",
     "license": "CC BY-SA 2.0",
@@ -99,7 +99,7 @@
   "9": [
    {
     "file": "img/corners/t08-a.jpg",
-    "caption": "Turn 9 is the right-hand half of the Turn 8-9 flick shown here at the 2016 US Grand Prix.",
+    "caption": "Turn 9 is the left-hand half of the Turn 8-9 flick shown here at the 2016 US Grand Prix.",
     "landmark": "Turns 8 & 9",
     "author": "el_ave",
     "license": "CC BY 2.0",
@@ -195,6 +195,16 @@
     "sourceUrl": "https://commons.wikimedia.org/wiki/File:Turn_19_(31757787455).jpg"
    }
   ],
-  "20": []
+  "20": [
+   {
+    "file": "img/corners/t20-a.jpg",
+    "caption": "Turn 20, the final tight left that releases cars onto the start/finish straight, at the 2016 US Grand Prix.",
+    "landmark": "Turn 20",
+    "author": "el_ave",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Turn_20_(31385434810).jpg"
+   }
+  ]
  }
 }
