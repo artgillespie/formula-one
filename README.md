@@ -18,6 +18,8 @@ npm run deploy   # wrangler deploy (needs `npx wrangler login` once)
 
 `npm run dev` keeps Wrangler's local state outside the repo (`--persist-to $TMPDIR/...`). The repo root is the watched asset directory, so state written inside it (`.wrangler/state/*.sqlite-wal`) would trigger an endless reload loop.
 
+Pull requests get a Cloudflare preview build, so changes can be checked on a live URL before merging to `main`.
+
 No build step is needed to serve the site. Any static server works: `python3 -m http.server`.
 
 ## Singapore walkthrough
