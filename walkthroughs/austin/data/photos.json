@@ -85,8 +85,28 @@
    }
   ],
   "7": [],
-  "8": [],
-  "9": [],
+  "8": [
+   {
+    "file": "img/corners/t08-a.jpg",
+    "caption": "Turns 8 and 9 during the 2016 US Grand Prix: the right-left flick at the end of the first sector that leads onto the run to Turn 10.",
+    "landmark": "Turns 8 & 9",
+    "author": "el_ave",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Turns_8_&_9_(30948073113).jpg"
+   }
+  ],
+  "9": [
+   {
+    "file": "img/corners/t08-a.jpg",
+    "caption": "Turn 9 is the right-hand half of the Turn 8-9 flick shown here at the 2016 US Grand Prix.",
+    "landmark": "Turns 8 & 9",
+    "author": "el_ave",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Turns_8_&_9_(30948073113).jpg"
+   }
+  ],
   "10": [
    {
     "file": "img/corners/t10-a.jpg",
