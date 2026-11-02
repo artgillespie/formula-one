@@ -6,6 +6,7 @@
     "dev": "npx wrangler@4 dev --persist-to \"${TMPDIR:-/tmp}/formula-one-wrangler-state\"",
     "deploy": "npx wrangler@4 deploy",
     "serve": "python3 -m http.server 8787",
-    "build:singapore": "node tools/singapore/build-data.mjs"
+    "build:singapore": "node tools/singapore/build-data.mjs",
+    "build:austin": "node tools/austin/build-data.mjs"
   }
 }

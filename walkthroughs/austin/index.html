@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Austin Track Walkthrough</title>
+  <meta name="description" content="An interactive 3D walkthrough of the Circuit of the Americas on real terrain: every corner, the Turn 1 hill, three pole laps of telemetry, lap and sector times, and the history of the United States Grand Prix in Austin." />
+  <meta name="color-scheme" content="dark" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='7' fill='%230b0e1a'/><path d='M6 23c4-12 7-14 10-6s6 6 10-8' stroke='%23ff7a3d' stroke-width='3.2' fill='none' stroke-linecap='round' stroke-linejoin='round'/></svg>" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;600;700;900&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <script type="importmap">
+    { "imports": { "three": "/lib/three-0.170.0/three.module.min.js", "three/addons/": "/lib/three-0.170.0/addons/" } }
+  </script>
+</head>
+<body>
+  <a class="skip" href="#numbers">Skip the 3D map</a>
+
+  <section class="stage" id="stage" aria-label="3D track map">
+    <div class="canvas-host" id="canvas"></div>
+    <div class="vignette" aria-hidden="true"></div>
+
+    <div class="loader" id="loader"><div class="loader-ring"></div><p>Raising the Turn 1 hill…</p></div>
+
+    <header class="masthead">
+      <a class="home" href="/">← Formula One projects</a>
+      <p class="eyebrow">Track walkthrough · United States GP</p>
+      <h1>Circuit of <span>the Americas</span></h1>
+      <p class="sub" id="sub">Austin, Texas · the hill, the esses and the stadium</p>
+      <ul class="facts" id="facts"></ul>
+      <div class="live" id="live"><span class="dot"></span><span class="txt">Checking OpenF1…</span></div>
+    </header>
+
+    <aside class="corner-panel" id="panel" aria-live="polite" hidden></aside>
+
+    <div class="hud" id="hud" hidden>
+      <div class="hud-speed"><b id="hudSpeed">0</b><span>km/h</span></div>
+      <div class="hud-gear"><span>GEAR</span><b id="hudGear">N</b></div>
+      <div class="hud-bars">
+        <label>THR<span><i id="hudThr"></i></span></label>
+        <label>BRK<span><i id="hudBrk"></i></span></label>
+        <label class="alt">ALT<b id="hudAlt">—</b><em id="hudGrade"></em></label>
+      </div>
+      <div class="hud-time"><span id="hudWho">—</span><b id="hudClock">0:00.000</b><em id="hudSector">S1</em></div>
+      <div class="hud-gap" id="hudGapBox" hidden><span id="hudGapWho">vs —</span><b id="hudGap">+0.000</b></div>
+    </div>
+
+    <nav class="dock" aria-label="Map controls">
+      <div class="dock-row strip" id="strip" role="tablist" aria-label="Corners"></div>
+      <div class="dock-row controls">
+        <button class="btn" id="btnOverview" title="Overview">◎ Overview</button>
+        <div class="seg" id="playSeg">
+          <button class="btn primary" id="btnPlay">▶ Ride the pole lap</button>
+          <select id="lapSel" aria-label="Lap"></select>
+          <select id="ghostSel" aria-label="Ghost car"></select>
+        </div>
+        <div class="seg" id="camSeg" hidden>
+          <button class="btn chip on" data-cam="chase">Chase</button>
+          <button class="btn chip" data-cam="onboard">Onboard</button>
+          <button class="btn chip" data-cam="tv">TV</button>
+          <button class="btn chip" data-cam="heli">Heli</button>
+          <button class="btn chip" data-cam="free">Free</button>
+          <select id="rateSel" aria-label="Playback speed"><option value="1">1×</option><option value="0.5">½×</option><option value="0.25">¼×</option><option value="2">2×</option><option value="4">4×</option></select>
+        </div>
+        <div class="seg">
+          <button class="btn chip on" data-mode="sector">Sectors</button>
+          <button class="btn chip" data-mode="speed">Speed</button>
+          <button class="btn chip" data-mode="grade">Gradient</button>
+        </div>
+        <div class="seg sun" title="Sun position for race day, 25 Oct 2026">
+          <span aria-hidden="true">☀</span>
+          <input type="range" id="sunRange" min="7.5" max="19.25" step="0.05" value="15" aria-label="Time of day on race day" />
+          <output id="sunOut">3:00 pm</output>
+        </div>
+        <div class="seg layers">
+          <label><input type="checkbox" id="layBuildings" checked /> Buildings</label>
+          <label><input type="checkbox" id="layLabels" checked /> Landmarks</label>
+          <label><input type="checkbox" id="layLine" checked /> Line</label>
+          <label><input type="checkbox" id="layZones" /> 2026 Straight Mode</label>
+        </div>
+      </div>
+      <div class="legend-line" id="lineLegend" hidden></div>
+    </nav>
+    <p class="hint">Drag to orbit · scroll to zoom · right-drag to pan · tap a numbered pin</p>
+  </section>
+
+  <main>
+    <section id="numbers" class="band">
+      <div class="band-head">
+        <p class="eyebrow">The lap in numbers</p>
+        <h2>Three pole laps, metre by metre</h2>
+        <p class="lede">Telemetry from the last three Austin pole laps, sampled at ~4 Hz from the cars' own data. The middle panel shows where each lap gained or lost time against the 2026 pole. The bottom panel is the real ground profile under the track. Hover to move the marker on the map.</p>
+      </div>
+      <div class="insights" id="insights"></div>
+      <div class="legend" id="traceLegend"></div>
+      <div id="trace" class="chart"></div>
+      <div class="sector-cards" id="sectorCards"></div>
+      <div class="table-scroll"><table class="corner-table" id="cornerTable"></table></div>
+    </section>
+
+    <section id="times" class="band">
+      <div class="band-head">
+        <p class="eyebrow">Qualifying vs race</p>
+        <h2>Lap &amp; sector times</h2>
+        <p class="lede" id="timesLede">Best and average lap and sector times from every Austin qualifying, Sprint and race session with OpenF1 timing (2023 onward). The layout has not changed since 2012.</p>
+      </div>
+      <div class="tabs" id="yearTabs" role="tablist"></div>
+      <div class="session-grid" id="sessionGrid"></div>
+      <div class="evo">
+        <h3>One lap, four seasons</h3>
+        <p class="lede small">Pole lap vs fastest race lap, by year. 2026 cars run new chassis and power-unit rules, so their laps are slower.</p>
+        <div class="legend" id="evoLegend"></div>
+        <div id="evo" class="chart"></div>
+      </div>
+    </section>
+
+    <section id="aero" class="band">
+      <div class="band-head">
+        <p class="eyebrow">2026 rules</p>
+        <h2>Straight Mode &amp; Overtake Mode</h2>
+        <p class="lede" id="aeroLede"></p>
+        <p><a href="#stage" id="zoneLink">Show the zones on the 3D map ↑</a></p>
+      </div>
+      <ol class="zones" id="zones"></ol>
+    </section>
+
+    <section id="history" class="band">
+      <div class="band-head">
+        <p class="eyebrow">2010 → today</p>
+        <h2>Timeline</h2>
+      </div>
+      <div class="tabs" id="tagTabs"></div>
+      <ol class="timeline" id="timeline"></ol>
+      <div class="records" id="records"></div>
+    </section>
+
+    <footer class="band credits" id="credits">
+      <h2>Sources &amp; credits</h2>
+      <ul>
+        <li>Telemetry, lap, sector &amp; result data: <a href="https://openf1.org">OpenF1</a> (fetched live in your browser, with a saved snapshot as fallback). Unofficial; not associated with Formula 1.</li>
+        <li>Track outline &amp; corner positions: F1 live-timing circuit data via <a href="https://multiviewer.app">MultiViewer</a>'s public API.</li>
+        <li>Terrain: <a href="https://registry.opendata.aws/terrain-tiles/">AWS Terrain Tiles</a> (Mapzen/Tilezen), from the USGS 3D Elevation Program (public domain).</li>
+        <li>Ground features, run-off paint, buildings &amp; grandstands: © <a href="https://www.openstreetmap.org/copyright">OpenStreetMap contributors</a> (ODbL).</li>
+        <li>3D rendering: <a href="https://threejs.org">three.js</a> (MIT), including its Preetham sky model. Sun position is computed for race day, 25 October 2026.</li>
+        <li id="photoCredits">Photographs: see individual credits.</li>
+        <li id="researchSources"></li>
+      </ul>
+      <p class="fine" id="finePrint">Corner names follow common usage. Track length shown is the official 5.513 km. Corner speeds and gears are measured from the pole laps. Sector lines are placed using the official sector split times. Heights are true scale, with no vertical exaggeration.</p>
+    </footer>
+  </main>
+
+  <dialog class="lightbox" id="lightbox">
+    <button class="lb-close" aria-label="Close">×</button>
+    <button class="lb-nav prev" aria-label="Previous photo">‹</button>
+    <figure><img alt="" /><figcaption></figcaption></figure>
+    <button class="lb-nav next" aria-label="Next photo">›</button>
+  </dialog>
+
+  <script type="module" src="app.js"></script>
+</body>
+</html>

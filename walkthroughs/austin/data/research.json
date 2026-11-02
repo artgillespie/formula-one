@@ -1,0 +1,832 @@
+{
+ "meta": {
+  "compiledOn": "2026-11-02",
+  "notes": [
+   "Corner gears and speeds are approximate values typical of the 2024-2026 cars. They come from Brembo braking data (T1, T11, T12), circuit descriptions and onboard-lap knowledge. There is no single official per-corner table, so treat every approxGear/approxSpeed_kph value as indicative.",
+   "Corner directions follow the official split of 11 left-handers and 9 right-handers (FIA 2012 fact sheet, MotoGP data). Left: T1, T3, T5, T7, T9, T10, T11, T12, T15, T19, T20. Right: T2, T4, T6, T8, T13, T14, T16, T17, T18. T13/T14 are the least well documented; one guide gives both as rights, which is the only reading that fits the 11/9 split.",
+   "Only web search summaries were available while compiling this file. No FIA primary documents (event notes, classifications) were opened directly."
+  ]
+ },
+ "circuit": {
+  "name": "Circuit of the Americas (COTA)",
+  "location": "Elroy, Travis County, Texas, USA. It is about 24 km (15 miles) south-east of downtown Austin.",
+  "officialLength_km": 5.513,
+  "lengthNote": "5.513 km has been the official F1 length since 2012 (formula1.com, Wikipedia). The layout has not changed; only the surface has been resurfaced.",
+  "laps": 56,
+  "raceDistance_km": 308.405,
+  "raceDistanceNote": "formula1.com figure. 56 x 5.513 = 308.728 km; the official race distance allows for the start-line/finish-line offset.",
+  "sprintLaps": null,
+  "sprintLapsNote": "2026 was NOT a Sprint weekend at COTA. The six 2026 Sprints were China, Miami, Canada, Britain, the Netherlands and Singapore. Austin had hosted a Sprint every year from 2023 to 2025 (19 laps).",
+  "corners": 20,
+  "direction": "anticlockwise",
+  "firstGP": "2012-11-18. It was the first US Grand Prix since Indianapolis in 2007, and COTA was the first purpose-built F1 circuit in the USA.",
+  "designer": "Hermann Tilke (Tilke GmbH), working to a concept by promoter Tavo Hellmund and 1993 500cc motorcycle world champion Kevin Schwantz. The layout borrows from famous European corners: the T3-T6 esses copy Silverstone's Maggotts-Becketts-Chapel, the T12-T15 stadium section echoes Hockenheim's arena, and the T16-T18 triple-apex right is a mirror image of Istanbul Park's Turn 8.",
+  "elevation": "About 41 m (133 ft) of elevation change in total. The steepest part is the climb from the grid up to Turn 1, often quoted at about an 11% gradient. The blind braking zone sits on the crest of the hill.",
+  "drsZones": "Not used in 2026. From 2013 to 2025 there were two DRS zones: the back straight from T11 to T12 (in 2021 the FIA set detection 150 m after T10 and activation 250 m after T11), and the pit straight from T20 to T1. The 2012 debut is usually described as having only the back-straight zone, where Hamilton passed Vettel; this is less well sourced.",
+  "overtakeModeZones": {
+   "summary": "In 2026 DRS is replaced by active aerodynamics. 'Straight Mode' is the low-drag setting: both front and rear wing elements flatten, and any driver may use it on every lap, but only inside FIA-designated zones. 'Overtake Mode' is the extra electrical-energy deployment for a car that is within one second of the car ahead at the detection point.",
+   "straightModeZones": [
+    {
+     "zone": 1,
+     "location": "Pit straight. Starts about 120 m after T20 and runs to the T1 braking zone at the foot of the hill."
+    },
+    {
+     "zone": 2,
+     "location": "Back straight. Starts about 110 m after T11 and runs to T12, the longest flat-out stretch of the lap."
+    }
+   ],
+   "straightModeZoneCount": 2,
+   "overtakeMode": {
+    "detectionPoint": "About 30 m after Turn 20 (exit of the final corner)",
+    "activationPoint": "About 120 m after Turn 20, on the start/finish straight",
+    "rule": "A driver must be within 1.0 s of the car ahead at detection to use Overtake Mode. There is one detection point per lap."
+   },
+   "note": "PlanetF1 reported the FIA's choice of two zones, the same number as Japan, the Netherlands, Madrid and Baku. The zone start distances come from PlanetF1 and the f1livepulse track-map write-up. Search summaries said each zone 'ends 60-70 m later', which looks like a misreading. Zones normally run up to the next braking point, so the end points here are inferred. uncertain",
+   "uncertain": true
+  },
+  "lapRecord": {
+   "time": "1:36.169",
+   "driver": "Charles Leclerc",
+   "team": "Ferrari",
+   "year": 2019,
+   "note": "Race lap record, set on lap 44 of the 2019 race on fresh soft tyres. It beat Hamilton's 2018 record of 1:37.392. Later races have not beaten it. The 2025 race fastest lap was 1:37.577 (Antonelli). The 2026 race fastest lap was 1:37.976 by Leclerc on lap 42, his fourth fastest-lap award of 2026."
+  },
+  "allTimeFastestLap": {
+   "time": "1:32.029",
+   "driver": "Valtteri Bottas",
+   "team": "Mercedes",
+   "year": 2019,
+   "session": "Qualifying (pole)",
+   "note": "This is the outright circuit best. It was only 0.012 s ahead of Vettel. Verstappen came close in 2025 with 1:32.143 for Sprint pole and 1:32.510 for Grand Prix pole. The 2026 pole (Antonelli, 1:34.035) was about two seconds slower under the new regulations.",
+   "uncertain": true,
+   "uncertainNote": "1:32.029 is the 2019 pole time as remembered and widely listed. No source seen in this session showed a faster F1 lap, but it was not checked against an official all-sessions list."
+  },
+  "pitLane": "The pit lane runs alongside the main straight in front of the main grandstand. It joins the track after the climb to Turn 1, and the exit line runs on the inside towards Turn 2. A green-flag stop costs about 19-20 s, one of the lowest losses of the season, which makes two-stop strategies attractive.",
+  "notes": [
+   "Bumps have been COTA's long-running problem. The circuit is built on expansive clay soil, and both F1 and MotoGP riders have complained about the surface. Sections around T12 were redone around 2019-2020. In late 2021 and January 2022, T2-T10 and T12-T16 were partly resurfaced and ground smooth. The circuit planned another resurfacing from T12 round to T2 in January 2024, after Verstappen said in 2023 that 'the bumps and jumps ... it's way too much'.",
+   "In 2023 Lewis Hamilton (2nd on the road) and Charles Leclerc (6th) were disqualified for excessive plank (skid block) wear, against Article 3.5.9 e) of the technical rules. Teams had only one practice session before parc fermé on the Sprint weekend, and Mercedes blamed the bumps. Norris was promoted to 2nd and Sainz to 3rd.",
+   "Track limits are a constant theme. Turn 19 is the most notorious: Verstappen lost his 2023 Q3 lap there and started sixth, and he lost his fastest 2026 FP1 lap there. Turn 9 is also often policed. In Friday practice of 2026, 207 lap times were deleted (T6, T12, T15, T19 and T20 were the worst), so the FIA widened the white lines at T12, T15 and T20 for Saturday. 'Fake gravel' painted strips and extra turf were added at exits from 2024.",
+   "Before 2024, asphalt run-off at T6, T13, T14 and T15 was narrowed by 1.5 m and replaced with turf to discourage track-limits abuse.",
+   "Weather in late October is usually warm, dry and sunny. The big exception was 2015, when the remnants of Hurricane Patricia washed out FP2 and Saturday qualifying.",
+   "COTA hosts MotoGP (the Grand Prix of the Americas, from 2013) and NASCAR Cup (from 2021). IndyCar raced here in 2019 only. The circuit has also hosted the WEC (2013-2017) and IMSA.",
+   "In October 2025 F1 announced a contract extension that keeps the United States Grand Prix at COTA until 2034 inclusive. The previous deal ran to 2026. COTA will become the longest-serving US F1 venue, overtaking Watkins Glen.",
+   "The circuit has a 77 m (251 ft) observation tower, designed by Miró Rivera Architects, above the amphitheatre and the Grand Plaza inside the T15-T16 area. Its deck looks over most of the track and towards the Austin skyline."
+  ],
+  "sources": [
+   "https://www.formula1.com/en/latest/article/circuit-guide-everything-you-need-to-know-about-circuit-of-the-americas.3OjhBbugiQRmN4FnlpBtBc",
+   "https://en.wikipedia.org/wiki/Circuit_of_the_Americas",
+   "https://moto3.tech3racing.fr/index.php/en/pages-gp/gp-americas",
+   "https://www.planetf1.com/news/fia-united-states-grand-prix-2026-active-aero",
+   "https://blog.f1livepulse.com/2026-united-states-grand-prix-track-map-straight-overtake-mode",
+   "https://www.fia.com/sites/default/files/f121_17_usa_v1_copy.pdf",
+   "https://www.crash.net/f1/news/1081903/1/confirmed-six-f1-venues-holding-sprint-races-2026",
+   "https://www.gpfans.com/us/f1-news/1062022/f1-sprint-race-schedule-2026-austin-united-states-grand-prix-not-featured/",
+   "https://formula1.com/en/results/2019/races/1018/united-states/fastest-laps",
+   "https://www.grandprix.com/races/united-states-gp-2026-race-analysis.html",
+   "https://www.formula1.com/en/video/dhl-fastest-lap-award-2026-united-states-grand-prix.1880074221983642589",
+   "https://speedcafe.com/cota-major-resurfacing-bumpy-f1-drivers-complaints/",
+   "https://www.autosport.com/f1/news/cota-undertaking-track-resurfacing-to-fix-bumps-after-f1-and-motogp-complaints/7472176/",
+   "https://www.formula1.com/en/latest/article/explained-why-hamilton-and-charles-leclerc-were-disqualified-from-the-2023-united-states.35mNgpUwUVjJiePtPjEWWQ",
+   "https://www.planetf1.com/news/fia-announcement-us-grand-prix-track-changes-lap-deletions",
+   "https://www.motorsport.com/f1/news/resurfaced-austin-adds-fake-gravel-grass-and-more-cameras-to-help-with-track-limits/10661196/",
+   "https://www.formula1.com/en/latest/article/formula-1-announces-extension-of-the-united-states-grand-prix-through-2034.1Qxc1oXyrxaSVLKn2IPvRu",
+   "https://www.formula1.com/en/latest/article/strategy-guide-what-are-the-possible-race-strategies-for-the-2022-us-grand.5tiDhCCh8nay336LaMic9X"
+  ]
+ },
+ "corners": [
+  {
+   "number": 1,
+   "name": "Turn 1 hill",
+   "location": "Top of the steep hill at the end of the pit straight, above the main grandstand",
+   "direction": "left",
+   "type": "Uphill, blind, heavy-braking left hairpin",
+   "approxGear": "2",
+   "approxSpeed_kph": 100,
+   "description": "Drivers brake while still climbing the 11% slope. The apex sits on the crest, so they cannot see the exit when they turn in. The corner is very wide on entry, which invites several lines, and it is famous for lap-one chaos. Hamilton pushed Rosberg wide here in 2015, Russell hit pole-sitter Sainz in 2022, and in 2024 Verstappen and Norris both ran wide, letting Leclerc through on the inside to win.",
+   "landmarks": [
+    "Main grandstand and pit building behind",
+    "Turn 1 grandstand and general-admission hillside",
+    "Open Texas sky over the crest",
+    "Observation tower visible back across the circuit"
+   ],
+   "sources": [
+    "https://www.nascar.com/news-media/2021/05/20/circuit-of-the-americas-turn-by-turn-analysis/",
+    "https://www.conceptcarz.com/a51942/brembo-formula-1-2023-united-states-grand-prix.aspx",
+    "https://www.formula1.com/en/latest/article/leclerc-wins-the-2024-united-states-grand-prix-as-ferrari-seal-a-one-two.3VSTWKOy40Ta1vvtlwHBff"
+   ]
+  },
+  {
+   "number": 2,
+   "name": null,
+   "location": "Downhill from the Turn 1 crest towards the esses",
+   "direction": "right",
+   "type": "Fast downhill right sweeper",
+   "approxGear": "5",
+   "approxSpeed_kph": 200,
+   "description": "Straight out of the hairpin the track plunges downhill into a long right. Drivers pick up the throttle early and let the car run out to the left to set up the esses. The pit exit joins on this stretch, so out-laps and first laps can get crowded here.",
+   "landmarks": [
+    "Whole esses section laid out below",
+    "Turn 1 hill behind",
+    "Esses general-admission banks"
+   ],
+   "uncertain": true,
+   "uncertainNote": "Speed is approximate; the pit-exit position is from memory.",
+   "sources": [
+    "https://www.nascar.com/news-media/2021/05/20/circuit-of-the-americas-turn-by-turn-analysis/",
+    "https://jalopnik.com/circuit-of-the-americas-a-turn-by-turn-guide-5856083"
+   ]
+  },
+  {
+   "number": 3,
+   "name": "The esses (Turn 3)",
+   "location": "Start of the esses, at the bottom of the hill",
+   "direction": "left",
+   "type": "High-speed left, first of the Maggotts-Becketts-style esses",
+   "approxGear": "6",
+   "approxSpeed_kph": 250,
+   "description": "The esses begin here. They copy Silverstone's Maggotts-Becketts, and every change of direction sets up the next. Drivers barely lift, flicking the car left with a small dab of brake or a lift. An early mistake costs speed through the whole sequence, and it is one of the best places to judge a car's high-speed balance.",
+   "landmarks": [
+    "Esses grandstand and general-admission banks",
+    "Turn 1 hill rising behind",
+    "Observation tower in the distance"
+   ],
+   "sources": [
+    "https://www.nascar.com/news-media/2021/05/20/circuit-of-the-americas-turn-by-turn-analysis/",
+    "https://www.formula1.com/en/latest/article/trackside-performance-analysis-threading-the-needle-through-cotas.3jJMyAGUzFamFVyVatDOxz"
+   ]
+  },
+  {
+   "number": 4,
+   "name": "The esses (Turn 4)",
+   "location": "Middle of the esses",
+   "direction": "right",
+   "type": "High-speed right flick",
+   "approxGear": "6",
+   "approxSpeed_kph": 240,
+   "description": "A quick right that flicks the car straight back the other way. Drivers ride the inside kerb, but not too hard because the car is light and moving fast. The rhythm matters more than any one apex.",
+   "landmarks": [
+    "Esses spectator banks",
+    "Open grassland inside the circuit"
+   ],
+   "sources": [
+    "https://www.nascar.com/news-media/2021/05/20/circuit-of-the-americas-turn-by-turn-analysis/",
+    "https://www.formula1.com/en/latest/article/trackside-performance-analysis-threading-the-needle-through-cotas.3jJMyAGUzFamFVyVatDOxz"
+   ]
+  },
+  {
+   "number": 5,
+   "name": "The esses (Turn 5)",
+   "location": "Middle of the esses",
+   "direction": "left",
+   "type": "High-speed left",
+   "approxGear": "6",
+   "approxSpeed_kph": 230,
+   "description": "Another fast left in the esses. The car is still changing direction while speed falls a little. Bumps here have unsettled cars in the past, and this stretch was among those resurfaced in 2021-22.",
+   "landmarks": [
+    "Esses spectator banks",
+    "Texas scrubland beyond the fences"
+   ],
+   "sources": [
+    "https://www.nascar.com/news-media/2021/05/20/circuit-of-the-americas-turn-by-turn-analysis/",
+    "https://speedcafe.com/cota-major-resurfacing-bumpy-f1-drivers-complaints/"
+   ]
+  },
+  {
+   "number": 6,
+   "name": "The esses (Turn 6)",
+   "location": "End of the esses",
+   "direction": "right",
+   "type": "Long, fast right; track-limits hotspot",
+   "approxGear": "5",
+   "approxSpeed_kph": 210,
+   "description": "A longer right that ends the high-speed part of the esses. Drivers carry so much speed that the exit kerb and run-off tempt them wide. It was added to the monitored track-limits corners in earlier years, and in 2026 Friday practice it was one of the worst spots for deleted laps.",
+   "landmarks": [
+    "Esses spectator banks",
+    "Grass and turf strip at the exit (narrowed run-off)"
+   ],
+   "sources": [
+    "https://www.planetf1.com/news/fia-announcement-us-grand-prix-track-changes-lap-deletions",
+    "https://www.formula1.com/en/latest/article/trackside-performance-analysis-threading-the-needle-through-cotas.3jJMyAGUzFamFVyVatDOxz"
+   ]
+  },
+  {
+   "number": 7,
+   "name": null,
+   "location": "After the esses, heading out into the far side of the circuit",
+   "direction": "left",
+   "type": "Medium-speed left with a crest before the apex",
+   "approxGear": "4",
+   "approxSpeed_kph": 180,
+   "description": "The first real brake after the esses. The road crests just before the apex, so the car goes light and wants to run wide. Drivers need a tidy exit because it starts the busy left-right-left run of T7-T9.",
+   "landmarks": [
+    "Open grassland on the far side of the track",
+    "Turn 9 grandstand ahead"
+   ],
+   "uncertain": true,
+   "uncertainNote": "Sources disagree on whether T7 is downhill or cresting.",
+   "sources": [
+    "https://www.indycar.com/news/2019/03/03-22-cota-weekend-preview",
+    "https://www.nascar.com/news-media/2021/05/20/circuit-of-the-americas-turn-by-turn-analysis/"
+   ]
+  },
+  {
+   "number": 8,
+   "name": null,
+   "location": "Uphill section on the far side of the circuit",
+   "direction": "right",
+   "type": "Uphill, off-camber 90-degree right",
+   "approxGear": "3",
+   "approxSpeed_kph": 150,
+   "description": "A short, uphill right that falls away from the driver. It is blind and late-apexed, with few reference points. The car lands into it from T7 and must be straight quickly for T9.",
+   "landmarks": [
+    "Rising ground towards Turn 9",
+    "Turn 9 grandstand"
+   ],
+   "sources": [
+    "https://www.nascar.com/news-media/2021/05/20/circuit-of-the-americas-turn-by-turn-analysis/",
+    "https://jalopnik.com/circuit-of-the-americas-a-turn-by-turn-guide-5856083"
+   ]
+  },
+  {
+   "number": 9,
+   "name": null,
+   "location": "Top of the far-side rise, before the drop to Turn 11",
+   "direction": "left",
+   "type": "Uphill, blind, cresting left; track-limits corner",
+   "approxGear": "4",
+   "approxSpeed_kph": 160,
+   "description": "A left that crests the hill, with the exit hidden until the last moment. Drivers run wide over the exit kerb to keep speed for the run downhill, so it is regularly policed for track limits. In 2026 FP3 Leclerc lost a faster lap here, which left Hamilton on top. The FIA has widened the white line here in some years.",
+   "landmarks": [
+    "Turn 9 grandstand",
+    "View down the hill towards Turn 11"
+   ],
+   "sources": [
+    "https://jalopnik.com/circuit-of-the-americas-a-turn-by-turn-guide-5856083",
+    "https://www.radiox.co.uk/news/sport/united-states-gp-lewis-hamilton-fastest-from/"
+   ]
+  },
+  {
+   "number": 10,
+   "name": null,
+   "location": "Downhill run to the Turn 11 hairpin",
+   "direction": "left",
+   "type": "Flat-out downhill left kink",
+   "approxGear": "7",
+   "approxSpeed_kph": 280,
+   "description": "Barely a corner: a blind, flat-out left kink as the road falls away towards Turn 11. The car is light over the drop, which makes it feel quicker than it is. It was the DRS detection area for the back-straight zone in the DRS era.",
+   "landmarks": [
+    "Road falling away towards Turn 11",
+    "Back straight visible beyond"
+   ],
+   "sources": [
+    "https://www.nascar.com/news-media/2021/05/20/circuit-of-the-americas-turn-by-turn-analysis/",
+    "https://www.fia.com/sites/default/files/f121_17_usa_v1_copy.pdf"
+   ]
+  },
+  {
+   "number": 11,
+   "name": "Turn 11 hairpin",
+   "location": "Far eastern end of the circuit, start of the back straight",
+   "direction": "left",
+   "type": "Slow left hairpin; launches the back straight",
+   "approxGear": "2",
+   "approxSpeed_kph": 75,
+   "description": "After the downhill rush, drivers brake hard from close to 300 km/h for the tight left hairpin. Brembo once rated this the longest stop of the lap. It is a passing spot in its own right, but its real importance is the exit, because it opens the 1 km-plus back straight. Straight Mode zone 2 begins about 110 m after it.",
+   "landmarks": [
+    "Open fields at the far end of the property",
+    "The long back straight stretching away",
+    "Observation tower on the skyline ahead"
+   ],
+   "sources": [
+    "https://www.conceptcarz.com/u18256/the-united-states-f1-gp-according-to-brembo.aspx",
+    "https://www.indycar.com/news/2019/03/03-22-cota-weekend-preview",
+    "https://www.planetf1.com/news/fia-united-states-grand-prix-2026-active-aero"
+   ]
+  },
+  {
+   "number": 12,
+   "name": "Turn 12",
+   "location": "End of the back straight, entrance to the stadium section",
+   "direction": "left",
+   "type": "Heaviest braking zone; main overtaking spot",
+   "approxGear": "2",
+   "approxSpeed_kph": 86,
+   "description": "The fastest point of the lap ends here. Brembo's 2024 figures had cars braking from 309 to 86 km/h in 2.7 s over 123 m, at about 4.3 g. It is the main overtaking place: Hamilton swept past Vettel on the back straight for the 2012 win, and Norris's around-the-outside pass on Verstappen here in 2024 earned a 5 s penalty for leaving the track. The exit was widened by the FIA during the 2026 weekend.",
+   "landmarks": [
+    "Turn 12 grandstand and bleachers",
+    "Stadium section and observation tower ahead",
+    "Run-off area and wide asphalt on the outside"
+   ],
+   "sources": [
+    "https://www.conceptcarz.com/a51942/brembo-formula-1-2023-united-states-grand-prix.aspx",
+    "https://www.the-race.com/formula-1/max-verstappen-lando-norris-clash-overshadows-ferrari-1-2-us-gp",
+    "https://oversteer48.com/cota-turn-12/"
+   ]
+  },
+  {
+   "number": 13,
+   "name": "Stadium section (Turn 13)",
+   "location": "Start of the stadium section in front of the Turn 12-15 grandstands",
+   "direction": "right",
+   "type": "Medium-slow right, first corner of Sector 3",
+   "approxGear": "3",
+   "approxSpeed_kph": 120,
+   "description": "The first part of the Hockenheim-style arena, a short burst and a right. On lap one of 2026 Russell was penalised 5 s for gaining an advantage off track on Piastri here. One report places the Bearman-Gasly clash, which earned Bearman a 10 s penalty, at the same corner.",
+   "landmarks": [
+    "Turn 13 grandstand",
+    "Turn 12 bleachers",
+    "Observation tower close by"
+   ],
+   "uncertain": true,
+   "uncertainNote": "Direction rests on one guide plus the 11-left/9-right count. The location of the Bearman-Gasly clash differs between reports.",
+   "sources": [
+    "https://cdn.motorlat.com/notas/f1/13532/your-ultimate-guide-of-the-circuit-of-the-americas",
+    "https://www.grandprix.com/races/united-states-gp-2026-race-notes.html",
+    "https://www.grandprix.com/news/bearman-disputes-gasly-collision-penalty.html"
+   ]
+  },
+  {
+   "number": 14,
+   "name": "Stadium section (Turn 14)",
+   "location": "Middle of the stadium section",
+   "direction": "right",
+   "type": "Slow right that turns the track back on itself",
+   "approxGear": "2",
+   "approxSpeed_kph": 95,
+   "description": "Close behind Turn 13, this right switches the track back towards the grandstands. Together with T13 and T15 it is the slowest and most technical part of the lap. Traction and a tidy line matter more than bravery here.",
+   "landmarks": [
+    "Turn 15 grandstand",
+    "Observation tower and amphitheatre",
+    "Grand Plaza behind the stands"
+   ],
+   "uncertain": true,
+   "uncertainNote": "Direction rests on one guide plus the 11-left/9-right count.",
+   "sources": [
+    "https://cdn.motorlat.com/notas/f1/13532/your-ultimate-guide-of-the-circuit-of-the-americas",
+    "https://oversteer48.com/cota-turn-15/"
+   ]
+  },
+  {
+   "number": 15,
+   "name": "Stadium section (Turn 15)",
+   "location": "Below the observation tower, at the end of the stadium section",
+   "direction": "left",
+   "type": "Slow double-apex left",
+   "approxGear": "2",
+   "approxSpeed_kph": 85,
+   "description": "A tight double-apex left almost under the tower. Getting the second apex right sets up the long carousel that follows. In 2026 FP1 the FIA ran a low-grip software test with cars crawling through here. The white line at the exit was widened for Saturday after many lap deletions.",
+   "landmarks": [
+    "Observation tower (77 m) directly above",
+    "Amphitheatre and Grand Plaza",
+    "Turn 15 grandstand"
+   ],
+   "sources": [
+    "https://cdn.motorlat.com/notas/f1/13532/your-ultimate-guide-of-the-circuit-of-the-americas",
+    "https://www.planetf1.com/news/2026-united-states-grand-prix-fp1-report",
+    "https://www.planetf1.com/news/fia-announcement-us-grand-prix-track-changes-lap-deletions"
+   ]
+  },
+  {
+   "number": 16,
+   "name": "Triple-apex right (Turn 16)",
+   "location": "Start of the carousel, beside the tower",
+   "direction": "right",
+   "type": "Fast right, first apex of the Istanbul-style carousel",
+   "approxGear": "4",
+   "approxSpeed_kph": 180,
+   "description": "The start of the long triple-apex right, a mirror image of Istanbul Park's famous Turn 8. Drivers build speed through the three apexes while the car loads up the left-front tyre. It is a key place for front-tyre wear over a race distance.",
+   "landmarks": [
+    "Observation tower behind on the left",
+    "Turn 15/16 grandstands"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Circuit_of_the_Americas",
+    "https://www.nascar.com/news-media/2021/05/20/circuit-of-the-americas-turn-by-turn-analysis/"
+   ]
+  },
+  {
+   "number": 17,
+   "name": "Triple-apex right (Turn 17)",
+   "location": "Middle of the carousel",
+   "direction": "right",
+   "type": "Fast right, middle apex",
+   "approxGear": "5",
+   "approxSpeed_kph": 210,
+   "description": "The middle apex of the carousel, taken with growing throttle. On the last lap in 2017 Verstappen dived inside Raikkonen here with all four wheels over the kerb. He was given a 5 s penalty and was pulled out of the podium room.",
+   "landmarks": [
+    "Grandstands around the stadium area",
+    "Main grandstand roof ahead in the distance"
+   ],
+   "sources": [
+    "https://racer.com/2017/10/26/anger-justified-after-austin-penalty-verstappen/",
+    "https://en.wikipedia.org/wiki/Circuit_of_the_Americas"
+   ]
+  },
+  {
+   "number": 18,
+   "name": "Triple-apex right (Turn 18)",
+   "location": "End of the carousel",
+   "direction": "right",
+   "type": "Fast right, final apex and exit",
+   "approxGear": "6",
+   "approxSpeed_kph": 230,
+   "description": "The last apex of the carousel. Drivers open the steering and run out wide while accelerating, then have to get back across the track to brake for Turn 19.",
+   "landmarks": [
+    "Turn 19 grandstand ahead",
+    "Main grandstand and pit building in the distance"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Circuit_of_the_Americas",
+    "https://www.nascar.com/news-media/2021/05/20/circuit-of-the-americas-turn-by-turn-analysis/"
+   ]
+  },
+  {
+   "number": 19,
+   "name": "Turn 19",
+   "location": "Approach to the final corner",
+   "direction": "left",
+   "type": "Medium-speed left; the most notorious track-limits corner",
+   "approxGear": "4",
+   "approxSpeed_kph": 160,
+   "description": "A brake and a left that tempts drivers to run out over the exit kerb. It is COTA's most notorious track-limits corner. Verstappen's 2023 Q3 lap was deleted here and he started sixth, then went on to win. His quickest 2026 FP1 lap was also struck off here. Staying close through T19 matters in 2026 because the Overtake Mode detection line comes just after the next corner.",
+   "landmarks": [
+    "Turn 19 grandstand",
+    "Pit building and main grandstand ahead"
+   ],
+   "sources": [
+    "https://www.formula1.com/en/latest/article/fp1-leclerc-fastest-in-first-practice-for-the-united-states-gp-ahead-of-verstappen-and-norris.125WlaFK7K1mXXyLgb93ui",
+    "https://www.planetf1.com/news/fia-announcement-us-grand-prix-track-changes-lap-deletions",
+    "https://blog.f1livepulse.com/2026-united-states-grand-prix-track-map-straight-overtake-mode"
+   ]
+  },
+  {
+   "number": 20,
+   "name": "Turn 20",
+   "location": "Final corner onto the pit straight",
+   "direction": "left",
+   "type": "Slow 90-degree left onto the start/finish straight; Overtake Mode detection",
+   "approxGear": "3",
+   "approxSpeed_kph": 105,
+   "description": "The last brake of the lap: a slow left that releases the cars onto the pit straight and the run up to Turn 1. Exit speed decides the next attack. The 2026 Overtake Mode detection line sits about 30 m after it, and Straight Mode zone 1 opens about 120 m after it. The FIA widened the white line at the exit during the 2026 weekend.",
+   "landmarks": [
+    "Main grandstand",
+    "Pit building and Paddock Club",
+    "Turn 1 hill rising at the far end of the straight"
+   ],
+   "uncertain": true,
+   "uncertainNote": "One fan guide calls the final corner a right-hander; the 11-left/9-right count and the anticlockwise layout support a left.",
+   "sources": [
+    "https://blog.f1livepulse.com/2026-united-states-grand-prix-track-map-straight-overtake-mode",
+    "https://www.planetf1.com/news/fia-united-states-grand-prix-2026-active-aero",
+    "https://www.planetf1.com/news/fia-announcement-us-grand-prix-track-changes-lap-deletions"
+   ]
+  }
+ ],
+ "sectors": [
+  {
+   "n": 1,
+   "fromCorner": 1,
+   "toCorner": 9,
+   "character": "The climb to the blind Turn 1 hairpin, the plunge through T2, then the high-speed Maggotts-Becketts-style esses (T3-T6) and the cresting T7-T9 sequence. It rewards aero balance and high-speed change of direction.",
+   "uncertain": true
+  },
+  {
+   "n": 2,
+   "fromCorner": 10,
+   "toCorner": 12,
+   "character": "The flat-out T10 kink downhill, the slow T11 hairpin, the 1 km-plus back straight (Straight Mode zone 2) and the huge stop into T12. It is all about power, traction and braking, and it is the main overtaking area.",
+   "uncertain": true
+  },
+  {
+   "n": 3,
+   "fromCorner": 13,
+   "toCorner": 20,
+   "character": "The slow, technical stadium section (T13-T15) under the tower, the long triple-apex T16-T18 carousel that punishes the front tyres, then T19 and the final T20 onto the pit straight.",
+   "uncertain": true
+  }
+ ],
+ "sectorsNote": "Boundaries are inferred. One circuit guide says 'Turn 13 is the first corner that is part of Sector 3'. The split between Sectors 1 and 2 (placed here between T9 and T10) is from general knowledge, not an official FIA timing-line map. Sources: https://cdn.motorlat.com/notas/f1/13532/your-ultimate-guide-of-the-circuit-of-the-americas , https://www.formula1.com/en/latest/article/circuit-guide-everything-you-need-to-know-about-circuit-of-the-americas.3OjhBbugiQRmN4FnlpBtBc",
+ "timeline": [
+  {
+   "year": 2010,
+   "date": "2010-05-25",
+   "title": "Austin wins the US Grand Prix",
+   "text": "F1 announced a 10-year deal for a United States Grand Prix in Austin from 2012. The promoter was Texan Tavo Hellmund's Full Throttle Productions, backed by investors including Red McCombs and Bobby Epstein.",
+   "tag": "other",
+   "uncertain": true
+  },
+  {
+   "year": 2010,
+   "date": "2010-12-31",
+   "title": "Ground broken on a purpose-built circuit",
+   "text": "Construction began on farmland in Elroy, south-east of Austin. Tilke drew the layout from a concept by Hellmund and Kevin Schwantz.",
+   "tag": "layout",
+   "uncertain": true
+  },
+  {
+   "year": 2011,
+   "date": "2011-11-15",
+   "title": "Construction halted as the deal collapses",
+   "text": "Ecclestone said Hellmund's company had been in breach of its contract since May 2011 and cancelled it. COTA stopped building work until it held a race contract of its own, and Texas state funding was in doubt.",
+   "tag": "controversy"
+  },
+  {
+   "year": 2011,
+   "date": "2011-12",
+   "title": "New contract; building resumes",
+   "text": "COTA signed directly with Formula One Management. Red McCombs announced that 'Mr. Ecclestone received his check today', and construction restarted at once. The Hellmund-Epstein dispute was settled out of court in June 2012.",
+   "tag": "other",
+   "uncertain": true
+  },
+  {
+   "year": 2012,
+   "date": "2012-11-18",
+   "title": "Hamilton wins the debut race",
+   "text": "At the first US GP since 2007, Hamilton (McLaren) chased pole-sitter Vettel all race. On lap 42 Vettel was held up by Karthikeyan's HRT, and Hamilton blew past on the back straight with DRS to win.",
+   "tag": "race"
+  },
+  {
+   "year": 2013,
+   "date": "2013-04-21",
+   "title": "MotoGP arrives",
+   "text": "Marc Marquez won the first MotoGP Grand Prix of the Americas. He became the youngest premier-class winner and began a long run of dominance at COTA.",
+   "tag": "other"
+  },
+  {
+   "year": 2013,
+   "date": "2013-11-17",
+   "title": "Vettel's record eighth win in a row",
+   "text": "Vettel won from pole for Red Bull. It was his eighth straight win, a record for a single season.",
+   "tag": "record"
+  },
+  {
+   "year": 2014,
+   "date": "2014-11-02",
+   "title": "Hamilton beats Rosberg; only 18 cars",
+   "text": "Hamilton passed pole-sitter Rosberg into Turn 12 and won. Caterham and Marussia were in administration and missed the race, leaving the smallest field in years.",
+   "tag": "race"
+  },
+  {
+   "year": 2015,
+   "date": "2015-10-25",
+   "title": "Storm weekend; Hamilton clinches third title",
+   "text": "The remnants of Hurricane Patricia washed out FP2 and Saturday qualifying, which was finished on Sunday morning. Rosberg started from pole, but Hamilton forced him wide at Turn 1. Hamilton won and sealed his third title with three races to go.",
+   "tag": "race"
+  },
+  {
+   "year": 2016,
+   "date": "2016-10-23",
+   "title": "Hamilton's 50th win",
+   "text": "Hamilton won from pole for his fourth Austin win and the 50th of his career.",
+   "tag": "record"
+  },
+  {
+   "year": 2017,
+   "date": "2017-10-22",
+   "title": "Verstappen thrown out of the podium room",
+   "text": "Hamilton won from pole, and Mercedes clinched the constructors' title. From 16th on the grid, Verstappen passed Raikkonen at Turn 17 on the last lap. He got a 5 s penalty for leaving the track and lost third place after reaching the podium room.",
+   "tag": "controversy"
+  },
+  {
+   "year": 2018,
+   "date": "2018-10-21",
+   "title": "Raikkonen's last F1 win",
+   "text": "Kimi Raikkonen won for Ferrari, his first win since 2013 and the last of his career. Verstappen was second from 18th, and Hamilton's title party was delayed.",
+   "tag": "race"
+  },
+  {
+   "year": 2019,
+   "date": "2019-11-03",
+   "title": "Bottas wins, Hamilton is six-time champion",
+   "text": "Bottas won from a record 1:32.029 pole. Hamilton's second place gave him his sixth world title. Leclerc set the race lap record of 1:36.169, which still stands.",
+   "tag": "record"
+  },
+  {
+   "year": 2020,
+   "date": "2020-07-24",
+   "title": "Race cancelled (COVID-19)",
+   "text": "F1 cancelled the US, Mexican, Brazilian and Canadian rounds because of the pandemic.",
+   "tag": "other"
+  },
+  {
+   "year": 2021,
+   "date": "2021-10-24",
+   "title": "Verstappen beats Hamilton in a title thriller",
+   "text": "Verstappen took the first non-Mercedes pole of the hybrid era at COTA. He lost the lead at Turn 1, then won it back with an undercut. He held off Hamilton by about 1.3 s in front of a record crowd.",
+   "tag": "race"
+  },
+  {
+   "year": 2022,
+   "date": "2022-01",
+   "title": "Major resurfacing",
+   "text": "After complaints from F1 and MotoGP, T2-T10 and T12-T16 were partly resurfaced and ground smooth.",
+   "tag": "layout"
+  },
+  {
+   "year": 2022,
+   "date": "2022-10-23",
+   "title": "Verstappen wins for Mateschitz; Red Bull champions",
+   "text": "A day after Red Bull founder Dietrich Mateschitz died, Verstappen recovered from a slow pit stop to pass Hamilton and win. Red Bull sealed its first constructors' title since 2013. Pole-sitter Sainz was hit by Russell at Turn 1, and Alonso survived a big crash with Stroll on the back straight.",
+   "tag": "race"
+  },
+  {
+   "year": 2023,
+   "date": "2023-10-20",
+   "title": "Verstappen's pole lap deleted at Turn 19",
+   "text": "In qualifying on Sprint-format Friday, Verstappen's Q3 lap was cancelled for track limits at Turn 19, and he started sixth. Leclerc took pole.",
+   "tag": "controversy"
+  },
+  {
+   "year": 2023,
+   "date": "2023-10-22",
+   "title": "Verstappen's 50th win",
+   "text": "Verstappen won the Sprint and then the Grand Prix from sixth on the grid, his 50th career win. Hamilton crossed the line second.",
+   "tag": "race"
+  },
+  {
+   "year": 2023,
+   "date": "2023-10-22",
+   "title": "Hamilton and Leclerc disqualified",
+   "text": "Post-race checks found too much plank wear on the cars of Hamilton (2nd) and Leclerc (6th). Mercedes blamed the bumps and the single practice session, but both were excluded. Norris and Sainz moved up to the podium.",
+   "tag": "controversy"
+  },
+  {
+   "year": 2024,
+   "date": "2024-01",
+   "title": "Track resurfaced again",
+   "text": "COTA resurfaced from Turn 12 round to Turn 2 and later added 'fake gravel' strips, turf and cameras to police track limits.",
+   "tag": "layout",
+   "uncertain": true
+  },
+  {
+   "year": 2024,
+   "date": "2024-10-20",
+   "title": "Leclerc wins; Norris penalised at Turn 12",
+   "text": "Leclerc went from fourth to first at Turn 1 as Verstappen and pole-sitter Norris ran wide, then led a Ferrari 1-2. On lap 52 Norris passed Verstappen around the outside at Turn 12 but left the track. His 5 s penalty dropped him to fourth.",
+   "tag": "controversy"
+  },
+  {
+   "year": 2025,
+   "date": "2025-09-16",
+   "title": "Austin dropped from the 2026 Sprint calendar",
+   "text": "F1 named six 2026 Sprint venues, and COTA was not among them after three straight Sprint weekends (2023-2025).",
+   "tag": "other"
+  },
+  {
+   "year": 2025,
+   "date": "2025-10-18",
+   "title": "Verstappen wins the Sprint as the McLarens crash out",
+   "text": "Verstappen won the Sprint from pole. Both McLarens and Alonso were eliminated in a first-corner collision.",
+   "tag": "crash"
+  },
+  {
+   "year": 2025,
+   "date": "2025-10-19",
+   "title": "Contract to 2034; Verstappen's fourth Austin win",
+   "text": "Hours before the race, F1 extended the deal to 2034. Verstappen then won from pole (1:32.510) ahead of Norris and Leclerc.",
+   "tag": "race"
+  },
+  {
+   "year": 2026,
+   "date": "2026-10-23",
+   "title": "Ferrari quickest Friday; 207 laps deleted",
+   "text": "Leclerc topped FP1 (1:36.052) after Verstappen's faster lap was deleted at Turn 19, and FP2 (1:35.291) from Antonelli. The FIA held a low-grip software test at Turn 15. 207 lap times were deleted across the two sessions.",
+   "tag": "controversy"
+  },
+  {
+   "year": 2026,
+   "date": "2026-10-24",
+   "title": "Track limits eased; Hamilton tops FP3",
+   "text": "The FIA widened the white lines at T12, T15 and T20. Hamilton led FP3 with 1:34.893, completing a Ferrari clean sweep of practice.",
+   "tag": "layout"
+  },
+  {
+   "year": 2026,
+   "date": "2026-10-24",
+   "title": "Antonelli's first pole in eight races",
+   "text": "Championship leader Antonelli took pole with 1:34.035, 0.179 s ahead of Verstappen, with Hadjar a career-best third. It was his seventh pole of 2026.",
+   "tag": "record"
+  },
+  {
+   "year": 2026,
+   "date": "2026-10-25",
+   "title": "Lap-one clashes",
+   "text": "Russell was given 5 s for gaining an advantage off track on Piastri at Turn 13. Bearman got 10 s for hitting Gasly and later retired with damage. Debris caused a very short Virtual Safety Car on lap 2.",
+   "tag": "crash"
+  },
+  {
+   "year": 2026,
+   "date": "2026-10-25",
+   "title": "Antonelli dominates, but the title waits",
+   "text": "Antonelli led from pole for his ninth win of 2026, 13.078 s ahead of Leclerc, with Verstappen third. Leclerc set the fastest lap (1:37.976). Bottas's Cadillac stopped late and caused a second VSC, and there was no full Safety Car. Hamilton fourth and Russell eighth kept the title open.",
+   "tag": "race"
+  },
+  {
+   "year": 2026,
+   "date": "2026-11-01",
+   "title": "Antonelli crowned in Mexico",
+   "text": "A week after Austin, third place in Mexico City made Antonelli champion at 20 years and 68 days. He is F1's youngest champion and the first Italian champion since Ascari in 1953.",
+   "tag": "other"
+  }
+ ],
+ "timelineSources": [
+  "https://en.wikipedia.org/wiki/Circuit_of_the_Americas",
+  "https://en.wikipedia.org/wiki/United_States_Grand_Prix",
+  "https://www.grandprix.com/news/austin-gp-work-stops-amid-dispute.html",
+  "https://adamcooperf1.com/2011/11/15/work-stops-at-austin-track-as-race-hangs-in-balance/",
+  "https://www.austinchronicle.com/news/formula-one-back-in-play-11753238/",
+  "https://www.grandprix.com/races/united-states-gp-2012-race-report-hamilton-pips-vettel-to-win-us-gp.html",
+  "https://en.wikipedia.org/wiki/2015_United_States_Grand_Prix",
+  "https://racer.com/2017/10/26/anger-justified-after-austin-penalty-verstappen/",
+  "https://www.motorsportmagazine.com/articles/single-seaters/f1/verstappen-wins-thriller-in-mercedes-stronghold-2021-united-states-grand-prix-report",
+  "https://motorsportmagazine.com/articles/single-seaters/f1/verstappen-seals-red-bull-constructors-title-with-comeback-united-states-gp-drive",
+  "https://www.formula1.com/en/latest/article/explained-why-hamilton-and-charles-leclerc-were-disqualified-from-the-2023-united-states.35mNgpUwUVjJiePtPjEWWQ",
+  "https://www.the-race.com/formula-1/max-verstappen-lando-norris-clash-overshadows-ferrari-1-2-us-gp",
+  "https://www.crash.net/f1/results/1084828/1/2025-f1-united-states-gp-race-results-max-verstappen-wins-close-mclarens",
+  "https://www.formula1.com/en/latest/article/formula-1-announces-extension-of-the-united-states-grand-prix-through-2034.1Qxc1oXyrxaSVLKn2IPvRu",
+  "https://www.formula1.com/en/latest/article/fp1-leclerc-fastest-in-first-practice-for-the-united-states-gp-ahead-of-verstappen-and-norris.125WlaFK7K1mXXyLgb93ui",
+  "https://www.planetf1.com/news/2026-united-states-grand-prix-fp1-report",
+  "https://www.the-race.com/formula-1/what-happened-f1-2026-us-gp-fp2-leclerc-ferrari-fastest/",
+  "https://www.formulaonehistory.com/2026-united-states-gp-fp3/",
+  "https://www.crash.net/f1/news/1108379/1/kimi-antonelli-claims-us-gp-pole-ahead-potential-f1-title-coronation",
+  "https://racer.com/2026/10/24/antonelli-sets-the-stage-for-final-title-push-with-u-s-gp-pole",
+  "https://www.formula1.com/en/latest/article/antonelli-surges-to-dominant-victory-in-united-states-grand-prix-ahead-of-leclerc-and-verstappen.6kmBQv9FNTW7LzkDj8S34j",
+  "https://www.grandprix.com/races/united-states-gp-2026-race-notes.html",
+  "https://www.grandprix.com/races/united-states-gp-2026-race-analysis.html",
+  "https://www.planetf1.com/news/f1-results-united-states-grand-prix-2026-race",
+  "https://www.crash.net/f1/results/1108507/1/new-f1-championship-standings-after-united-states-grand-prix",
+  "https://www.espn.com/f1/story/_/id/50321045/mexico-city-grand-prix-2026-live-updates-results-analysis-commentary-autodromo-hermanos-rodriguez"
+ ],
+ "timelineNotes": [
+  "The 2010 announcement date (25 May 2010), the groundbreaking date (31 Dec 2010) and the new-contract month (Dec 2011) are from memory and uncertain. The Nov 2011 construction halt is confirmed by several contemporary reports; they disagree on the exact day (Nov 14-16).",
+  "The 2021 winning margin (about 1.3 s) and the record-crowd claim are from memory; search results only confirmed 'under two seconds'. The 2022 Alonso-Stroll crash and the 2017 Mercedes constructors' clinch are also from memory.",
+  "The 2024 resurfacing scope (T12 round to T2) is the plan reported by Speedcafe in Oct 2023; the finished scope was not confirmed.",
+  "2026 race: two short Virtual Safety Cars (lap 2 debris; Bottas stopping on lap 51 or 52, sources differ). No full Safety Car was reported. One outlet wrongly claimed Antonelli clinched the title in Austin; most reports, and the 123-point margin over Russell, confirm it was settled in Mexico.",
+  "Nothing was found on a Carlos Sainz lap-one incident beyond an F1 video title saying Sainz and Russell were 'among those caught up in lap 1 drama'."
+ ],
+ "records": {
+  "mostWins_driver": {
+   "driver": "Lewis Hamilton",
+   "wins": 5,
+   "years": [
+    2012,
+    2014,
+    2015,
+    2016,
+    2017
+   ],
+   "runnerUp": "Max Verstappen, 4 (2021, 2022, 2023, 2025)",
+   "note": "Hamilton has six US Grand Prix wins in total, the all-time record. The sixth was at Indianapolis in 2007. At COTA itself he has five."
+  },
+  "mostWins_team": {
+   "teams": [
+    "Mercedes"
+   ],
+   "wins": 6,
+   "detail": "After 2026: Mercedes 6 (2014, 2015, 2016, 2017, 2019, 2026); Red Bull 5 (2013, 2021, 2022, 2023, 2025); Ferrari 2 (2018, 2024); McLaren 1 (2012)."
+  },
+  "mostPoles": {
+   "drivers": [
+    "Lewis Hamilton"
+   ],
+   "poles": 3,
+   "detail": "Hamilton 2016, 2017, 2018 (three in a row). Two each: Vettel (2012, 2013), Rosberg (2014, 2015), Verstappen (2021, 2025). One each: Bottas 2019, Sainz 2022, Leclerc 2023, Norris 2024, Antonelli 2026.",
+   "uncertain": true,
+   "uncertainNote": "The pole list is compiled from race history; one older preview said the record was two, which predates Hamilton's 2018 pole."
+  },
+  "winnersByYear": {
+   "2012": "Lewis Hamilton (McLaren)",
+   "2013": "Sebastian Vettel (Red Bull)",
+   "2014": "Lewis Hamilton (Mercedes)",
+   "2015": "Lewis Hamilton (Mercedes)",
+   "2016": "Lewis Hamilton (Mercedes)",
+   "2017": "Lewis Hamilton (Mercedes)",
+   "2018": "Kimi Raikkonen (Ferrari)",
+   "2019": "Valtteri Bottas (Mercedes)",
+   "2020": "Cancelled",
+   "2021": "Max Verstappen (Red Bull)",
+   "2022": "Max Verstappen (Red Bull)",
+   "2023": "Max Verstappen (Red Bull)",
+   "2024": "Charles Leclerc (Ferrari)",
+   "2025": "Max Verstappen (Red Bull)",
+   "2026": "Kimi Antonelli (Mercedes)"
+  },
+  "notes": [
+   "Hamilton won four in a row at COTA (2014-2017), the longest winning run at the circuit.",
+   "Verstappen won the Grand Prix four times and the Sprint three times (2023, 2024, 2025). He took Sprint pole at all three Sprints from 2023 to 2025.",
+   "Pole has often not won here: only seven of the 14 races were won from pole. Leclerc won from fourth in 2024, Verstappen from sixth in 2023, and Hamilton from second in 2012.",
+   "Outright circuit best: 1:32.029, Bottas, Q 2019. Race lap record: 1:36.169, Leclerc, 2019. 2026: pole 1:34.035 (Antonelli), race fastest lap 1:37.976 (Leclerc).",
+   "Austin crowned world champions in 2015 (Hamilton) and 2019 (Hamilton). It nearly did in 2026, but Antonelli had to wait one more week, until Mexico.",
+   "A green-flag pit stop costs only about 19-20 s, one of the lowest losses of the season."
+  ],
+  "sources": [
+   "https://www.f1technical.net/news/27897",
+   "https://www.grandprix247.com/formula-1-news/which-formula-1-driver-has-won-the-most-usgps",
+   "https://www.lightsoutblog.com/?p=10350",
+   "https://en.wikipedia.org/wiki/United_States_Grand_Prix",
+   "https://www.crash.net/f1/results/1084541/1/2025-f1-united-states-gp-sprint-race-results-max-verstappen-wins-both-mclarens",
+   "https://www.planetf1.com/news/f1-results-united-states-grand-prix-2026-race",
+   "https://www.f1-fansite.com/f1-result/race-report-results-2026-united-states-f1-grand-prix/"
+  ]
+ }
+}

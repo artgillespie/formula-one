@@ -2,3 +2,5 @@ node_modules
 .wrangler
 .DS_Store
 tools/singapore/raw/osm
+tools/austin/raw/osm
+tools/austin/raw/dem
