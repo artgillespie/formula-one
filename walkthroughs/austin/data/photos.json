@@ -161,11 +161,40 @@
     "sourceUrl": "https://commons.wikimedia.org/wiki/File:Austin360_amphitheater_from_tower_2013.jpg"
    }
   ],
-  "15": [],
+  "15": [
+   {
+    "file": "img/corners/t15-b.jpg",
+    "caption": "A car lifting a wheel over the kerb at Turn 15 during the 2016 US Grand Prix.",
+    "landmark": "Turn 15 kerb",
+    "author": "pedrik",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lift_off_at_turn_15_(30529456405).jpg"
+   },
+   {
+    "file": "img/corners/t15-c.jpg",
+    "caption": "Opening lap of the 2016 US Grand Prix: Palmer, Ericsson, Grosjean, Ocon and Nasr still tightly bunched through Turn 15.",
+    "landmark": "Turn 15, first lap",
+    "author": "pedrik",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:First_lap-_still_packed_at_turn_15_(30528897485).jpg"
+   }
+  ],
   "16": [],
   "17": [],
   "18": [],
-  "19": [],
+  "19": [
+   {
+    "file": "img/corners/t19-a.jpg",
+    "caption": "Turn 19, the fast left-hander after the Turn 16-18 multi-apex right, at the 2016 US Grand Prix.",
+    "landmark": "Turn 19",
+    "author": "el_ave",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Turn_19_(31757787455).jpg"
+   }
+  ],
   "20": []
  }
 }
