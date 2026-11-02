@@ -4,8 +4,9 @@ Static Formula 1 side projects served as one Cloudflare Worker (static assets on
 
 ## Deploys
 
-- **Production:** every push to `main` deploys to https://f1.artgillespie.workers.dev through `.github/workflows/deploy.yml` (GitHub Actions + `wrangler deploy`).
-- **Previews:** Cloudflare Workers Builds (the Cloudflare GitHub app, not GitHub Actions) builds every pushed branch that has a PR and posts the preview URL on the PR.
+Cloudflare Workers Builds (the Cloudflare GitHub app) does all deploys. There is no GitHub Actions workflow. Don't add one: it would deploy every merge twice.
+- **Production:** every push to `main` deploys to https://f1.artgillespie.workers.dev. To confirm a production deploy, look for the `Workers Builds: f1` check on the merge commit. Then compare files on the live site with the merge commit (`curl` the file and `sha1sum` it against the repo copy). Fetch pages by their directory URL (`/walkthroughs/austin/`): `/…/index.html` redirects there with an empty body.
+- **Previews:** every pushed branch that has a PR gets a build, and the preview URL is posted on the PR.
   - Preview builds need `"previews": {}` in `wrangler.jsonc`. Without it the build fails within a second (check run conclusion `failure`, started and completed at the same timestamp). Keep the block, and add it to any branch cut from a `main` that lacks it.
   - Nothing to install or run locally: push the branch, open the PR, and Cloudflare does the rest.
 
