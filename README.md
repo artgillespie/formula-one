@@ -73,4 +73,4 @@ The code is MIT (see `LICENSE`). Bundled third-party material keeps its own lice
 
 ## Deploys
 
-Every push to `main` deploys to https://f1.artgillespie.workers.dev through `.github/workflows/deploy.yml`. It needs two repository secrets: `CLOUDFLARE_API_TOKEN` (a token with the "Edit Cloudflare Workers" template) and `CLOUDFLARE_ACCOUNT_ID`.
+Cloudflare Workers Builds (Cloudflare's GitHub integration) deploys the site. Every push to `main` goes to https://f1.artgillespie.workers.dev. Every branch with an open pull request gets a preview at `https://<branch>-f1.artgillespie.workers.dev`, posted on the PR by the Cloudflare bot. There is no GitHub Actions workflow and no repository secret to set. `npm run deploy` still works for a manual deploy from your machine.
